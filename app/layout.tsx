@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title: `${siteConfig.name} | Unblocked Free Game | ${siteConfig.domain}`,
+  title: `${siteConfig.name} | Unblocked Free Game`,
   description: siteConfig.description,
   openGraph: {
     title: `${siteConfig.name} Unblocked | Play Free Game | ${siteConfig.domain}`,
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Crazy Cattle 3D - Free Online Game',
-    description: 'Play free online game without download at Crazy Cattle 3D',
+    title: 'Duck Duck Clicker 3D- Free Online Game',
+    description: 'Play free online game without download at Duck Duck Clicker',
     images: [siteConfig.images.og],  // 添加 Twitter 卡片图片
   },
   robots: {

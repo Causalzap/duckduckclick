@@ -107,8 +107,8 @@ interface GamePageTemplateProps {
 #### 7.1 更新英文README
 编辑 `README_EN.md`：
 - 在 "Supported Games List" 部分（约第38-46行）添加新游戏条目
-- 格式：`X. **[GAME_NAME](https://crazy-cattle.net/GAME_SLUG)** - 游戏简短描述`
-- 例如：`9. **[New Game](https://crazy-cattle.net/new-game)** - Description of the new game`
+- 格式：`X. **[GAME_NAME](https://www.duckduckclick.com/GAME_SLUG)** - 游戏简短描述`
+- 例如：`9. **[New Game](https://www.duckduckclick.com/new-game)** - Description of the new game`
 
 #### 7.2 更新中文README
 编辑 `README.md`：

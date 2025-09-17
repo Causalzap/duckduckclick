@@ -51,6 +51,7 @@ export function Footer() {
               <ul className={theme.footer.spacing.linkList}>
                 {content.footer.games.links.map((link) => (
                   <li key={link.href}>
+
                     <a
                       href={link.href}
                       className={cn(

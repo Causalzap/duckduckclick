@@ -65,7 +65,7 @@ export function GamePageTemplate({ gameConfig }: GamePageTemplateProps) {
             "@context": "http://schema.org",
             "@type": "HowTo",
             "name": gameConfig.content.howToPlay.title,
-            "url": `https://crazy-cattle.net${gameConfig.metadata.url}`,
+            "url": `https://www.duckduckclick.com${gameConfig.metadata.url}`,
             "inLanguage": "en",
             "image": {
               "@type": "ImageObject",

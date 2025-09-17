@@ -1,123 +1,75 @@
-# Crazy Cattle 3D - Comprehensive Game Information
+# Duck Duck Clicker - Comprehensive Game Information
 
-> Crazy Cattle 3D is a free online browser game where you control crazy cattle in a physics-based 3D action environment. Play instantly without download, directly in your web browser.
+> Duck Duck Clicker is the ultimate free online 3D clicker game where you tap endlessly on adorable ducks to build the biggest duck empire! Experience explosive physics-based gameplay with cute, crazy ducks and satisfy your craving for addictive, low-pressure fun. Unlock hilarious customizations and quirky upgrades as you multiply your ducks exponentially. Whether you’re playing on desktop or mobile, Duck Duck Clicker offers a relaxing and entertaining experience with charming visuals and cosmic accessories. Get ready to quack away and become the top Duck Clicker!
 
 ## Game Overview
 
-Crazy Cattle 3D is an independently developed battle royale game featuring explosive physics-based gameplay. Unlike traditional battle royale games that focus on weapon collection, Crazy Cattle 3D creates a unique gaming experience through momentum and collision mechanics.
-
-The game offers three distinct environments: the rolling hills of Ireland, volcanic Iceland, and mountainous New Zealand. Each map provides unique strategic opportunities and terrain challenges. Players control explosive sheep (despite the "cattle" name) and must master momentum-based attacks to eliminate opponents.
-
-While the learning curve may be steep for newcomers, the game's physics system delivers a deeply satisfying experience once mastered. The game requires no downloads and runs directly in modern web browsers, making it accessible from virtually any device with sufficient processing power.
+Duck Duck Clicker is an addictive free-to-play 3D clicker game where players tap on ducks to earn points and unlock a variety of upgrades. With physics-based mechanics, players can enjoy fun and explosive gameplay as they multiply their ducks and build a huge empire. The game features a variety of quirky upgrades and funny customizations that add to the enjoyment. It's designed to be easy to play but difficult to master, offering an endless play loop that keeps you engaged. Perfect for quick, casual play on both desktop and mobile.
 
 ## Game Versions
 
-### Crazy Cattle 3D
-The original version features the complete physics-based battle royale experience. This version includes:
-- Full 3D environments across three distinct maps
-- Complete physics engine with realistic momentum and collision effects
-- Single-player mode with AI opponents
-- High score tracking and achievements
-- Optimized performance for browser-based gameplay
+### Duck Duck Clicker
+The original version offers the complete physics-based clicker experience:
+- Cute and quirky ducks with customizable appearances
+- Tap to multiply your ducks and unlock upgrades
+- Physics-based mechanics for satisfying explosive gameplay
+- Playable on both desktop and mobile, no download required
 
-URL: https://crazy-cattle.net
+URL: https://www.duckduckclick.com
 
-### Crazy Cow 3D
-An alternative version with a focus on hilarious physics-based mayhem rather than competitive gameplay. This version includes:
-- Simplified controls for casual players
-- Emphasis on comedic physics interactions
-- Reduced difficulty curve for beginners
-- More forgiving gameplay mechanics
-- Same browser-based, no-download approach
+### Snow Rider 3D
+Experience thrilling winter action with Snow Rider 3D! Ride through snowy tracks, avoid obstacles, and race to the finish line. No downloads required, and the game is playable directly in your browser.
+URL: https://www.duckduckclick.com/snow-rider-3d
 
-URL: https://crazy-cattle.net/crazy-cow-3d
+### Speed Run 3D
+Play Speed Run 3D, a fast-paced parkour game where you dash, jump, and sprint through challenging 3D obstacle courses. No downloads required.
+URL: https://www.duckduckclick.com/speed-run-3d
 
-### Cheese Chompers 3D
-A rat-themed knockout game that combines physics-based action with cheese collecting mechanics:
-- Control a goofy rat character in chaotic arena battles
-- Knock other players off the platform to be the last rat standing
-- Collect cheese for speed boosts and special abilities
-- Physics-based collisions and momentum mechanics
-- Fast-paced, unblocked gameplay for instant fun
+### Summer Rider 3D
+Race through sunny tracks in this summer-themed 3D racing game. Collect power-ups and avoid obstacles in this thrilling online experience.
+URL: https://www.duckduckclick.com/summer-rider-3d
 
-URL: https://crazy-cattle.net/cheese-chompers-3d
+### Princess Run 3D
+Endless running action with a stylish princess theme. Dodge obstacles, collect outfits, and enjoy the adventure! No download needed.
+URL: https://www.duckduckclick.com/princess-run-3d
 
-### Italian Brainrot Clicker
-Italian Brainrot Clicker is an intense, free online incremental game that hilariously combines the energy of viral memes with addictive clicker gameplay. Play unblocked and dive into the surreal Italian Brainrot trend! This version includes:
-- Simple and intuitive click-based gameplay
-- Multiple themes and stages to unlock
-- Upgrade system to enhance clicking power and automate clicks
-- Power-ups for temporary boosts
-- Endless mode for high score chasing
-- Browser-based, no-download, unblocked fun
+### Traffic Cop 3D
+Become a traffic cop in this fast-paced game! Direct vehicles and prevent accidents in busy city streets. Instant play with no downloads.
+URL: https://www.duckduckclick.com/traffic-cop-3d
 
-URL: https://crazy-cattle.net/brainrot-clicker
+### Mahjong 3D Match
+Play Mahjong 3D Match and solve puzzles in a relaxing 3D environment. A great way to unwind and enjoy Mahjong with modern gameplay.
+URL: https://www.duckduckclick.com/mahjong-3d-match
 
-### Basketball Bros Unblocked
-Basketball Bros Unblocked is an exciting and fun free online basketball game. Play unblocked and enjoy fast-paced matches with unique characters and abilities. It's a great game for quick fun or competitive play against friends. This game offers a unique take on basketball with quirky characters and exaggerated physics. Perfect for anyone looking for a casual sports game experience.
-This version includes:
-- Exciting Basketball Action: Experience thrilling basketball gameplay with unique characters and moves.
-- Play With Friends: Challenge your friends in local multiplayer mode.
-- Unlockable Characters and Content: Discover and unlock a variety of characters, courts, and more.
-- Simple Controls, Deep Gameplay: Easy to learn controls with enough depth to keep you engaged.
-- Instant Fun, No Downloads: Play directly in your browser.
+### Screw Sort 3D: Screw Puzzle
+Create amazing music beats with colorful characters in this fun interactive music game. Drag and drop characters to create music!
+URL: https://www.duckduckclick.com/screw-sort-3d
 
-URL: https://crazy-cattle.net/basketball-bros-unblocked
+### Moscow Metro Driver 3D
+Take control of a metro train in Moscow and navigate through underground tunnels, managing station stops. Play instantly in your browser!
+URL: https://www.duckduckclick.com/moscow-metro-driver-3d
 
-### Pokemon Gamma Emerald
-Pokemon Gamma Emerald is a fan-made Pokemon adventure with enhanced features and new content. This version includes:
-- Expanded Pokedex with new Pokemon variants
-- Updated battle mechanics and abilities
-- New regions and storylines to explore
-- Enhanced graphics and animations
-- Additional post-game content
-- Browser-based gameplay with no downloads required
+### Merge 3D - Match 3 Balloons
+Match and merge 3D balloons in this relaxing puzzle game. Pop balloons and solve puzzles in a colorful and challenging gameplay experience.
+URL: https://www.duckduckclick.com/merge-3d-match-3-balloons
 
-URL: https://crazy-cattle.net/pokemon-gamma-emerald
-
-### Crazy Chicken 3D
-Crazy Chicken 3D is a new addition to our game offerings.
-- It features unique gameplay mechanics.
-- There are special power - ups for an exciting experience.
-URL: https://crazy-cattle.net/crazy-chicken-3d
-
-### Sprunki Incredibox
-Sprunki Incredibox is an innovative, free online music creation game that lets you become a music producer with just a few clicks. This interactive unblocked game combines the joy of music-making with colorful, animated characters. This version includes:
-- Interactive Music Creation: Create amazing beats and melodies by dragging and dropping colorful characters
-- Colorful Character Cast: Each character brings unique sounds, beats, and melodies to your compositions
-- Easy Drag-and-Drop Interface: Intuitive controls perfect for all ages
-- Share Your Musical Creations: Record and share your musical compositions with friends
-- Endless Musical Possibilities: Unlimited creative potential with multiple sound layers and character combinations
-- Browser-based gameplay with no downloads required
-
-URL: https://crazy-cattle.net/sprunki-incredibox
-
-### Futbol Libre
-Futbol Libre is a free online streaming service that provides access to live football matches from various leagues and tournaments worldwide. It offers a simple and direct way to enjoy your favorite sport without subscriptions or downloads. This version includes:
-- Live Football Matches: Watch games as they happen from around the world.
-- Wide Range of Leagues: Access to major leagues and international tournaments.
-- High-Quality Streaming: Enjoy stable and high-quality video streams.
-- User-Friendly Interface: Easily navigate and find the match you want to watch.
-- No Downloads or Subscriptions: Free and instant access to football action.
-
-URL: https://crazy-cattle.net/futbol-libre
+### Jelly Math 3D
+Test your math skills with Jelly Math 3D! Solve fun and challenging puzzles in a jelly-themed 3D environment.
+URL: https://www.duckduckclick.com/jelly-math-3d
 
 ## How To Play
 
 ### Controls
-- WASD Keys: Movement controls for directing your cattle
-- Mouse: Precise steering and aiming
-- Space Bar: Trigger special collision ability (timing is crucial)
-- Shift Key: Speed boost (limited usage)
+- **Mouse**: Click to tap on ducks and earn points
+- **Mouse Scroll**: Scroll to manage upgrades and view your progress
+- **Click Continuously**: The more you click, the more ducks you create and the faster your empire grows
 
 ### Gameplay Tips
-1. Master momentum by building speed before collisions
-2. Use terrain elevation for strategic advantage
-3. Time your special abilities to maximize impact
-4. Learn each environment's unique features
-5. Practice movement control before attempting competitive play
-
-Detailed guide: https://crazy-cattle.net/#how-to-play
+1. **Tap Relentlessly**: Keep tapping to rapidly increase your duck population. The more ducks you have, the more points you can earn!
+2. **Upgrade Regularly**: Spend your points to unlock upgrades. Upgrades will boost your clicking power and help generate more ducks.
+3. **Use Boosts**: Periodically, boosts will appear that can multiply your ducks and points for a limited time. Make the most of them!
+4. **Customize Your Ducks**: Unlock hilarious cosmetic upgrades and accessories for your ducks, making your empire unique.
+5. **Plan Your Strategy**: Think about which upgrades will benefit you the most. It’s a balancing act between getting more ducks and powering up your clicking efficiency.
 
 ## Technical Requirements
 
@@ -137,40 +89,38 @@ Detailed guide: https://crazy-cattle.net/#how-to-play
 
 ## Frequently Asked Questions
 
-### Is Crazy Cattle 3D difficult for beginners?
-The game has a learning curve due to its physics-based mechanics. New players should expect to spend 30-60 minutes mastering the basic controls. The tutorial mode helps ease this process, and the Crazy Cow 3D version offers a more accessible experience for casual players.
+### Is Duck Duck Clicker difficult for beginners?
+Duck Duck Clicker is designed to be easy to start, but it offers plenty of depth with upgrades and strategies. New players can quickly get into the game, and it becomes more engaging as you unlock new features.
 
 ### Does the game require installation?
-No. Crazy Cattle 3D runs entirely in your web browser. There are no downloads, installations, or plugins required. Simply visit the website and start playing immediately.
+No. Duck Duck Clicker runs entirely in your web browser. There are no downloads, installations, or plugins required. Simply visit the website and start playing immediately.
 
-### Is Crazy Cattle 3D free to play?
+### Is Duck Duck Clicker free to play?
 Yes, the game is completely free. There are no paywalls, premium features, or in-game purchases. All game content is accessible to all players.
 
-### What makes Crazy Cattle 3D different from other online games?
-The game's unique physics engine creates gameplay focused on momentum and collision rather than traditional shooting or resource collection. This creates unpredictable and often hilarious gameplay moments that are rare in other browser-based games.
-
-Complete FAQ: https://crazy-cattle.net/#faq
+### What makes Duck Duck Clicker different from other clicker games?
+Unlike typical clicker games, Duck Duck Clicker features explosive physics mechanics that create chaotic and satisfying gameplay. The addition of hilarious duck customizations and cosmic accessories further sets the game apart from others.
 
 ## Related Resources
 
 ### Blue Prince Guide
-A comprehensive gaming guide website with additional tips and strategies for physics-based games including Crazy Cattle 3D.
+A comprehensive guide with tips and strategies for physics-based games.
 URL: https://blue-prince.net
 
 ### AI Image Generator
-A free tool for creating custom game-related images and avatars.
+A free tool for creating custom game-related images.
 URL: https://aiimage.pics
 
 ### Other Free Online Games
 Discover more browser-based games that require no download.
-URL: https://crazy-cattle.net/#other-games
+URL: https://www.duckduckclick.com/#other-games
 
 ## Legal Information
 
 ### Privacy Policy
-Our privacy policy details how we collect, use, and protect user data. The game collects minimal information required for gameplay functionality.
-URL: https://crazy-cattle.net/privacy-policy
+Details on how we collect, use, and protect user data.
+URL: https://www.duckduckclick.com/privacy-policy
 
 ### Terms of Service
-Our terms outline the rules and guidelines for using the Crazy Cattle 3D website and game.
-URL: https://crazy-cattle.net/terms-of-service
+The rules and guidelines for using Duck Duck Clicker.
+URL: https://www.duckduckclick.com/terms-of-service

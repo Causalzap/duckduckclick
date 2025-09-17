@@ -7,40 +7,44 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/crazy-cattle-3d.embed',
-        destination: '/game/crazycattle3d/index.html',
+        source: '/snow-rider-3d',
+        destination: '/game/snowrider3d/index.html',
       },
       {
-        source: '/crazy-cow-3d.embed',
-        destination: '/game/crazycow3d/index.html',
+        source: '/speed-run-3d',
+        destination: '/game/speedrun3d/index.html',
       },
       {
-        source: '/cheese-chompers-3d.embed',
-        destination: '/game/cheesechompers3d/index.html',
+        source: '/summer-rider-3d',
+        destination: '/game/summer-rider-3d/index.html',
       },
       {
-        source: '/brainrot-clicker.embed',
-        destination: '/game/brainrot-clicker/index.html',
+        source: '/princess-run-3d',
+        destination: '/game/princess-run-3d/index.html',
       },
       {
-        source: '/basketball-bros-unblocked.embed',
-        destination: '/game/basketball-bros-unblocked/index.html',
+        source: '/traffic-cop-3d',
+        destination: '/game/traffic-cop-3d/index.html',
       },
       {
-        source: '/pokemon-gamma-emerald.embed',
-        destination: '/game/pokemon-gamma-emerald/index.html',
+        source: '/mahjong-3d-match',
+        destination: '/game/mahjong-3d-match/index.html',
       },
       {
-        source: '/crazy-chicken-3d.embed',
-        destination: '/game/crazy-chicken-3d/index.html',
+        source: '/screw-sort-3d',
+        destination: '/game/screw-sort-3d/index.html',
       },
       {
-        source: '/sprunki-incredibox.embed',
-        destination: '/game/sprunki-incredibox/index.html',
+        source: '/moscow-metro-driver-3d',
+        destination: '/game/moscow-metro-driver-3d/index.html',
       },
       {
-        source: '/futbol-libre.embed',
-        destination: '/game/futbol-libre/index.html',
+        source: '/merge-3d-match-3-balloons',
+        destination: '/game/merge-3d-match-3-balloons/index.html',
+      },
+      {
+        source: '/jelly-math-3d',
+        destination: '/game/jelly-math-3d/index.html',
       },
     ]
   }

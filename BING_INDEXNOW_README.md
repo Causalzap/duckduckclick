@@ -14,15 +14,16 @@ curl -X POST "https://www.bing.com/IndexNow" \
   -d '{
     "host": "crazy-cattle.net",
     "key": "60c1f021f8bf4251a63eace188cfc920",
-    "keyLocation": "https://crazy-cattle.net/60c1f021f8bf4251a63eace188cfc920.txt",
+    
+    "keyLocation": "https://www.duckduckclick.com/60c1f021f8bf4251a63eace188cfc920.txt",
     "urlList": [
-      "https://crazy-cattle.net/",
-      "https://crazy-cattle.net/crazy-chicken-3d",
-      "https://crazy-cattle.net/crazy-cow-3d",
-      "https://crazy-cattle.net/cheese-chompers-3d",
-      "https://crazy-cattle.net/basketball-bros-unblocked",
-      "https://crazy-cattle.net/brainrot-clicker",
-      "https://crazy-cattle.net/pokemon-gamma-emerald"
+      "https://www.duckduckclick.com/",
+      "https://www.duckduckclick.com/crazy-chicken-3d",
+      "https://www.duckduckclick.com/crazy-cow-3d",
+      "https://www.duckduckclick.com/cheese-chompers-3d",
+      "https://www.duckduckclick.com/basketball-bros-unblocked",
+      "https://www.duckduckclick.com/brainrot-clicker",
+      "https://www.duckduckclick.com/pokemon-gamma-emerald"
     ]
   }'
 ```

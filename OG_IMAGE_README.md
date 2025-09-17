@@ -27,7 +27,7 @@
     }}
   >
     <img
-      src="https://crazy-cattle.net/assets/img/android-chrome-512x512.png"
+      src="https://www.duckduckclick.com/assets/img/android-chrome-512x512.png"
       width="200"
       height="200"
     />
@@ -99,7 +99,7 @@
   }}
 >
   <img
-    src="https://crazy-cattle.net/assets/img/android-chrome-512x512.png"
+    src="https://www.duckduckclick.com/assets/img/android-chrome-512x512.png"
     width="800"
     height="800"
     style={{

@@ -7,83 +7,85 @@ export interface Game {
 }
 
 export const games: Record<string, Game> = {
-  "crazy-cattle-3d": {
-    id: "crazy-cattle-3d",
-    title: "Crazy Cattle 3D",
+  "duck-duck-clicker": {
+    id: "duck-duck-clicker",
+    title: "Duck Duck Clicker",
     description: "The original free online 3D action game with explosive physics-based gameplay. Control crazy cattle and battle it out!",
-    image: "/assets/crazycattle3d-howto.jpg",
+    image: "/assets/duck-duck-clicker-howto.png",
     url: "/",
   },
-  "crazy-cow-3d": {
-    id: "crazy-cow-3d",
-    title: "Crazy Cow 3D",
-    description: "Experience unpredictable fun with Crazy Cow 3D's physics engine! Send objects flying and discover comical interactions.",
-    image: "/assets/crazy-cow-3d/crazy-cow-3d.png",
-    url: "/crazy-cow-3d",
+  "snow-rider-3d": {
+  id: "snow-rider-3d",
+  title: "Snow Rider 3D",
+  description: "Experience thrilling winter action with Snow Rider 3D! Ride through snowy tracks, avoid obstacles, and race to the finish line. Enjoy the snow-covered adventure online, no downloads required!",
+  image: "/assets/snow-rider-3d/snow-rider-3d.jpeg",
+  url: "/snow-rider-3d",
   },
-  "cheese-chompers-3d": {
-    id: "cheese-chompers-3d",
-    title: "Cheese Chompers 3D",
-    description: "A hilarious free online knockout game! Control a goofy rat and battle it out in a chaotic arena to be the last rat standing.",
-    image: "/assets/cheese-chompers-3d/cheese-chompers-3d.png",
-    url: "/cheese-chompers-3d",
+  "speed-run-3d": {
+  id: "speed-run-3d",
+  title: "Speed Run 3D",
+  description: "Play Speed Run 3D - a fast-paced free online parkour game! Dash, jump, and sprint through challenging 3D obstacle courses to reach the finish line. No downloads required.",
+  image: "/assets/speed-run-3d/speed-run-3d-logo.jpg",
+  url: "/speed-run-3d",
   },
-  "brainrot-clicker": {
-    id: "brainrot-clicker",
-    title: "Italian Brainrot Clicker",
-    description: "Dive into Italian Brainrot Clicker! Tap through meme madness in this addictive online clicker game. Instant play, no download!",
-    image: "/assets/brainrot-clicker/brainrot-clicker.jpg",
-    url: "/brainrot-clicker",
+  "summer-rider-3d": {
+  id: "summer-rider-3d",
+  title: "Summer Rider 3D",
+  description: "Experience the thrill of summer riding in this fun 3D racing game! Race through sunny tracks, avoid obstacles, and collect power-ups. Play online for free, no download required!",
+  image: "/assets/summer-rider-3d/summer-rider-3d-logo.jpg",
+  url: "/summer-rider-3d",
   },
-  "basketball-bros-unblocked": {
-    id: "basketball-bros-unblocked",
-    title: "Basketball Bros Unblocked",
-    description: "Experience exciting basketball action with unique characters. Play online for free, no download required!",
-    image: "/assets/basketball-bros-unblocked/basketball-bros-unblocked.png",
-    url: "/basketball-bros-unblocked",
+  "princess-run-3d": {
+  id: "princess-run-3d",
+  title: "Princess Run 3D",
+  description: "Experience exciting endless running action with a stylish princess theme. Dodge obstacles, collect outfits, and enjoy the adventure. Play online for free, no download required!",
+  image: "/assets/princess-run-3d/princess-run-3d-logo.jpg",
+  url: "/princess-run-3d",
   },
-  "pokemon-gamma-emerald": {
-    id: "pokemon-gamma-emerald",
-    title: "Pokemon Gamma Emerald",
-    description: "Play this enhanced Pokemon ROM hack with new features, Pokemon, and challenging gameplay.",
-    image: "/assets/pokemon-gamma-emerald/pokemon-gamma-emerald.webp", // 更新为实际的图片
-    url: "/pokemon-gamma-emerald",
+  "traffic-cop-3d": {
+  id: "traffic-cop-3d",
+  title: "Traffic Cop 3D",
+  description: "Step into the shoes of a traffic cop in this fast-paced action game! Manage traffic, direct vehicles, and prevent accidents in busy city streets. No downloads required – play instantly in your browser!",
+  image: "/assets/traffic-cop-3d/traffic-cop-3d-logo.jpg",
+  url: "/traffic-cop-3d",
   },
-  "crazy-chicken-3d": {
-    id: "crazy-chicken-3d",
-    title: "Crazy Chicken 3D",
-    description: "Experience unpredictable fun with Crazy Chicken 3D's physics engine! Control a chaotic chicken in this hilarious action game.",
-    image: "/assets/crazy-chicken-3d/crazy-chicken-3d.webp",
-    url: "/crazy-chicken-3d",
+  "mahjong-3d-match": {
+  id: "mahjong-3d-match",
+  title: "Mahjong 3D Match",
+  description: "Play Mahjong 3D Match, a fun and challenging 3D Mahjong game! Match tiles in a 3D environment, solve puzzles, and enjoy a relaxing yet engaging gameplay experience. Play online for free, no downloads required!",
+  image: "/assets/mahjong-3d-match/mahjong-3d-match-logo.jpg",
+  url: "/mahjong-3d-match",
   },
-  "sprunki-incredibox": {
-    id: "sprunki-incredibox",
-    title: "Sprunki Incredibox",
+  "screw-sort-3d": {
+    id: "screw-sort-3d",
+    title: "Screw Sort 3D: Screw Puzzle",
     description: "Create amazing music beats with colorful characters in this fun interactive music game. Drag and drop to make music!",
-    image: "/assets/sprunki-incredibox/sprunki-incredibox.webp",
-    url: "/sprunki-incredibox",
+    image: "/assets/screw-sort-3d/screw-sort-3d.webp",
+    url: "/screw-sort-3d",
   },
-  "futbol-libre": {
-    id: "futbol-libre",
-    title: "Futbol Libre",
-    description: "Watch live football matches from around the world directly in your browser. Never miss a goal with Futbol Libre.",
-    image: "/assets/futbol-libre/futbol-libre.webp",
-    url: "/futbol-libre",
+  "moscow-metro-driver-3d": {
+    id: "moscow-metro-driver-3d",
+    title: "Moscow Metro Driver 3D",
+    description: "Experience the thrill of driving a metro train in Moscow! Take control of the train, navigate through underground tunnels, and manage the station stops. Play online for free, no downloads required!",
+    image: "/assets/moscow-metro-driver-3d/moscow-metro-driver-3d-logo.jpg",
+    url: "/moscow-metro-driver-3d",
   },
-  "doodle-baseball": {
-    id: "doodle-baseball",
-    title: "Doodle Baseball",
-    description: "Classic Google Doodle baseball game! Control cute food characters as batters and test your timing skills in this fun and addictive baseball experience.",
-    image: "https://doodle-baseball.net/assets/doodle-baseball/doodle-baseball.webp",
-    url: "https://doodle-baseball.net/",
-  },
-  "drift-boss": {
-    id: "drift-boss",
-    title: "Drift Boss",
-    description: "Play Drift Boss unblocked online for free! Test your timing and precision in this fun 3D drifting game. ",
-    image: "https://doodle-baseball.net/assets/drift-boss/drift-boss.webp",
-    url: "https://doodle-baseball.net/drift-boss",
-  }
+  "merge-3d-match-3-balloons": {
+  id: "merge-3d-match-3-balloons",
+  title: "Merge 3D - Match 3 Balloons",
+  description: "Merge and match 3D balloons in this fun and relaxing puzzle game! Pop balloons, solve puzzles, and enjoy the colorful and challenging gameplay. Play online for free, no downloads required!",
+  image: "/assets/merge-3d-match-3-balloons/merge-3d-match-3-balloons-logo.jpg",
+  url: "/merge-3d-match-3-balloons",
+}
+,
+  "jelly-math-3d": {
+  id: "jelly-math-3d",
+  title: "Jelly Math 3D",
+  description: "Test your math skills with Jelly Math 3D! Solve fun and challenging math puzzles in a colorful, jelly-themed 3D environment. Play online for free, no downloads required!",
+  image: "/assets/jelly-math-3d/jelly-math-3d-logo.jpg",
+  url: "/jelly-math-3d",
+}
+
 };
 
 // 获取其他游戏列表
