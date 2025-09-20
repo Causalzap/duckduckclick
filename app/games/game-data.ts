@@ -84,6 +84,13 @@ export const games: Record<string, Game> = {
   description: "Test your math skills with Jelly Math 3D! Solve fun and challenging math puzzles in a colorful, jelly-themed 3D environment. Play online for free, no downloads required!",
   image: "/assets/jelly-math-3d/jelly-math-3d-logo.jpg",
   url: "/jelly-math-3d",
+},
+"drift-hunters": {
+  id: "drift-hunters",
+  title: "Drift Hunters",
+  description: "Master the art of drifting in Drift Hunters! Customize your car, master various tracks, and perform skillful drifts in this exciting 3D racing simulation. Play online for free, no downloads required!",
+  image: "/assets/drift-hunters/drift-hunters-logo.jpeg",
+  url: "/drift-hunters",
 }
 
 };
