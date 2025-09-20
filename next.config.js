@@ -46,6 +46,10 @@ const nextConfig = {
         source: '/jelly-math-3d',
         destination: '/game/jelly-math-3d/index.html',
       },
+      {
+        source: '/drift-hunters',
+        destination: '/game/drift-hunters/index.html',
+      },
     ]
   }
 };
