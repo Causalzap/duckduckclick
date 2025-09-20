@@ -22,6 +22,8 @@ Duck Duck Clicker is a fun and addictive clicker game that challenges players to
 - [Moscow Metro Driver 3D](https://www.duckduckclick.com/moscow-metro-driver-3d) - Navigate through underground tunnels and manage station stops while driving a metro train in Moscow.
 - [Merge 3D - Match 3 Balloons](https://www.duckduckclick.com/merge-3d-match-3-balloons) - Merge and match 3D balloons in this fun and relaxing puzzle game.
 - [Jelly Math 3D](https://www.duckduckclick.com/jelly-math-3d) - Test your math skills by solving fun puzzles in a colorful, jelly-themed 3D environment.
+- [Drift Hunters](https://www.duckduckclick.com/drift-hunters) - Master the art of drifting by customizing your car and mastering various tracks in a thrilling 3D racing environment.
+
 
 ## Gameplay Features
 
