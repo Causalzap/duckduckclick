@@ -57,6 +57,10 @@ URL: https://www.duckduckclick.com/merge-3d-match-3-balloons
 Test your math skills with Jelly Math 3D! Solve fun and challenging puzzles in a jelly-themed 3D environment.
 URL: https://www.duckduckclick.com/jelly-math-3d
 
+### Drift Hunters
+Master the art of drifting with Drift Hunters! Customize your car, master various tracks, and perform skillful drifts in a thrilling 3D racing environment.
+URL: https://www.duckduckclick.com/drift-hunters
+
 ## How To Play
 
 ### Controls
