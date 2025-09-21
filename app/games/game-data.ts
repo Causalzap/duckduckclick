@@ -91,7 +91,15 @@ export const games: Record<string, Game> = {
   description: "Master the art of drifting in Drift Hunters! Customize your car, master various tracks, and perform skillful drifts in this exciting 3D racing simulation. Play online for free, no downloads required!",
   image: "/assets/drift-hunters/drift-hunters-logo.jpeg",
   url: "/drift-hunters",
+},
+"rolling-ball-3d": {
+  id: "rolling-ball-3d",
+  title: "Rolling Ball 3D",
+  description: "Keep the ball rolling in Rolling Ball 3D! Steer across ramps, dodge obstacles, and collect diamonds in this addictive 3D endless runner. Unlock new balls and power-ups as you progress. Play free online, no downloads required!",
+  image: "/assets/rolling-ball-3d/rolling-ball-3d-logo.jpeg",
+  url: "/rolling-ball-3d"
 }
+
 
 };
 

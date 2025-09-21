@@ -39,12 +39,13 @@ export const content = {
         { text: "Summer Rider 3D", href: "/summer-rider-3d" },
         { text: "Princess Run 3D", href: "/princess-run-3d" },
         { text: "Traffic Cop 3D", href: "/traffic-cop-3d" },
-        { text: "Mahjong 3D Match", href: "/traffic-cop-3d" },
+        { text: "Mahjong 3D Match", href: "/mahjong-3d-match" },
         { text: "Moscow Metro Driver 3D", href: "/moscow-metro-driver-3d" },
         { text: "Screw Sort 3D: Screw Puzzle", href: "/screw-sort-3d" },
         { text: "Merge 3D - Match 3 Balloons", href: "/merge-3d-match-3-balloons" },
         { text: "Jelly Math 3D", href: "/jelly-math-3d" },
         { text: "Drift Hunters", href: "/drift-hunters" },
+        { text: "Rolling Ball 3D", href: "/rolling-ball-3d" },
       ]
     },
     social: {
@@ -206,5 +207,8 @@ export const content = {
     ]
   }
 } as const;
+
+
+
 
 

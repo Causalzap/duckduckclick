@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="/game/crazy-chicken-3d/">
+    <base href="/game/jelly-math-3d/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <title>Crazy Chicken 3D</title>
+    <title>Jelly Math 3D</title>
     <meta name="robots" content="noindex">
     <style>
         html, body {
@@ -15,7 +15,7 @@
             height: 100%;
             overflow: hidden;
             font-family: Arial, sans-serif;
-            position: relative; /* For positioning splash screen */
+            position: relative;
         }
 
         #game-iframe {
@@ -40,7 +40,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #000; /* Default background */
+            background-color: #000;
         }
         .gamePlayerBg {
             position: absolute;
@@ -53,17 +53,16 @@
         .gamePlayerBgImage {
             width: 100%;
             height: 100%;
-            background-image: url('/assets/crazy-chicken-3d/crazy-chicken-3d.webp'); /* 修正图片扩展名为webp */
+            background-image: url('/assets/drift-hunters/drift-hunters-bg.webp');
             background-size: cover;
             background-position: center;
             filter: blur(3px) brightness(0.7);
         }
         .gamePlayerSplashContent {
-            position: relative; /* To be above the blurred background */
+            position: relative;
             text-align: center;
             color: white;
         }
-        /* .gamePlayerThumb CSS removed as the element is no longer used */
 
         @keyframes breathingEffect {
             0% {
@@ -82,35 +81,33 @@
 
         .gamePlayerPrerollCTA {
             cursor: pointer;
-            background: linear-gradient(to right, #EE7752, #E73C7E, #23A6D5, #23D5AB); /* Example gradient, adjust to match image */
-            /* A gradient closer to the image: Orange -> Pink -> Purple */
             background: linear-gradient(to right, #F57F17, #D81B60, #8E24AA);
             color: white;
-            padding: 15px 30px; /* Slightly larger padding */
-            border-radius: 50px; /* Fully rounded for pill shape */
-            font-size: 20px;   /* Slightly larger font */
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 20px;
             font-weight: bold;
             display: inline-flex;
             align-items: center;
             text-decoration: none;
             border: none;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Initial shadow */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
             animation: breathingEffect 2.5s ease-in-out infinite;
             z-index: 1000;
         }
         .gamePlayerPrerollCTA:hover {
-            transform: scale(1.03); /* Slight scale up on hover, no longer changing bg color */
+            transform: scale(1.03);
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
         }
-        .gamePlayerPrerollCTA span { /* Ensure span also behaves with flex for icon alignment */
+        .gamePlayerPrerollCTA span {
             display: inline-flex;
             align-items: center;
         }
         .gamePlayerPrerollCTA svg {
-            width: 24px; /* SVG size */
+            width: 24px;
             height: 24px;
-            margin-left: 12px; /* Space between text and icon */
+            margin-left: 12px;
         }
 
     </style>
@@ -145,10 +142,10 @@
     <iframe
         id="game-iframe"
         class="gamePlayerHidden"
-        src="https://html-classic.itch.zone/html/13448030/crazychicken%20web%20port/index.html"
+        src="https://html5.gamedistribution.com/2e93e177c83841fa985f2c11078bd0af/?gd_sdk_referrer_url=https://gamedistribution.com/games/jelly-math-3d/"
         allowfullscreen="true"
         allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking"
-        title="Crazy Chicken 3D">
+        title="Jelly Math 3D">
     </iframe>
 
     <script>
@@ -163,15 +160,8 @@
             var gameIframe = document.getElementById('game-iframe');
             if (gameIframe) {
                 gameIframe.classList.remove('gamePlayerHidden');
-                // Optional: Focus the iframe if needed, though this can be tricky
-                // gameIframe.focus();
             }
-
-            // Here you would typically trigger ad display if 'showAFG' was for ads.
-            // For this example, we are just showing the game.
         }
     </script>
 </body>
 </html>
-
-

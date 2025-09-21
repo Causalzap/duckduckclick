@@ -50,6 +50,10 @@ const nextConfig = {
         source: '/drift-hunters',
         destination: '/game/drift-hunters/index.html',
       },
+      {
+        source: '/rolling-ball-3d',
+        destination: '/game/rolling-ball-3d/index.html',
+      },
     ]
   }
 };
