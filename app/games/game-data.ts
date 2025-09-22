@@ -99,6 +99,15 @@ export const games: Record<string, Game> = {
   image: "/assets/rolling-ball-3d/rolling-ball-3d-logo.jpeg",
   url: "/rolling-ball-3d"
 }
+,
+"stickman-hook": {
+  "id": "stickman-hook",
+  "title": "Stickman Hook",
+  "description": "Swing through levels and overcome obstacles in Stickman Hook! Control a stickman using a hook to swing across various challenging levels. Master the art of timing and physics in this fun and addictive game. Play free online, no downloads required!",
+  "image": "/assets/stickman-hook/stickman-hook-logo.webp",
+  "url": "/stickman-hook"
+}
+
 
 
 };

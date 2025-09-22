@@ -54,6 +54,10 @@ const nextConfig = {
         source: '/rolling-ball-3d',
         destination: '/game/rolling-ball-3d/index.html',
       },
+      {
+        source: '/stickman-hook',
+        destination: '/game/stickman-hook/index.html',
+      },
     ]
   }
 };

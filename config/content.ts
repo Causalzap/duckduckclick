@@ -46,6 +46,7 @@ export const content = {
         { text: "Jelly Math 3D", href: "/jelly-math-3d" },
         { text: "Drift Hunters", href: "/drift-hunters" },
         { text: "Rolling Ball 3D", href: "/rolling-ball-3d" },
+        { text: "Stickman Hook", href: "/stickman-hook" },
       ]
     },
     social: {
