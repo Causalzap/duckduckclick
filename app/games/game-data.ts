@@ -107,8 +107,22 @@ export const games: Record<string, Game> = {
   "image": "/assets/stickman-hook/stickman-hook-logo.webp",
   "url": "/stickman-hook"
 }
-
-
+,
+"hexa-sort-3d": {
+  "id": "hexa-sort-3d",
+  "title": "Hexa Sort 3D",
+  "description": "Experience the ultimate color-matching puzzle game in Hexa Sort 3D! Sort and stack colorful hexagonal blocks to complete challenging levels. Use strategic thinking, power-ups, and smooth 3D visuals to clear the board. Play free online, no downloads required!",
+  "image": "/assets/hexa-sort-3d/hexa-sort-3d-logo.webp",
+  "url": "/hexa-sort-3d"
+}
+,
+"extreme-run-3d": {
+  "id": "extreme-run-3d",
+  "title": "Extreme Run 3D",
+  "description": "Experience the thrill of parkour in Extreme Run 3D! Navigate neon-lit tracks, dodge obstacles, and master the art of speed and precision. Face challenging levels and test your reflexes. Play free online, no downloads required!",
+  "image": "/assets/extreme-run-3d/extreme-run-3d-logo.webp",
+  "url": "/extreme-run-3d"
+}
 
 };
 

@@ -69,6 +69,14 @@ URL: https://www.duckduckclick.com/rolling-ball-3d
 Swing through tricky levels using your hook, avoid obstacles, and master the art of timing in this fast-paced, action-packed game. Challenge yourself with new levels as you progress. Play free online with no downloads required!  
 URL: https://www.duckduckclick.com/stickman-hook
 
+### Hexa Sort 3D
+Sort and stack colorful hexagonal blocks in this fun and challenging 3D puzzle game. Use strategic thinking and power-ups to complete levels and clear the board. Play free online with no downloads required!
+URL: https://www.duckduckclick.com/hexa-sort-3d
+
+### Extreme Run 3D
+Navigate through thrilling neon-lit tracks, dodge obstacles, and master parkour skills in this fast-paced 3D game. Challenge yourself with complex levels as you progress. Play free online with no downloads required!
+URL: https://www.duckduckclick.com/extreme-run-3d
+
 ## How To Play
 
 ### Controls
@@ -114,14 +122,6 @@ Yes, the game is completely free. There are no paywalls, premium features, or in
 Unlike typical clicker games, Duck Duck Clicker features explosive physics mechanics that create chaotic and satisfying gameplay. The addition of hilarious duck customizations and cosmic accessories further sets the game apart from others.
 
 ## Related Resources
-
-### Blue Prince Guide
-A comprehensive guide with tips and strategies for physics-based games.
-URL: https://blue-prince.net
-
-### AI Image Generator
-A free tool for creating custom game-related images.
-URL: https://aiimage.pics
 
 ### Other Free Online Games
 Discover more browser-based games that require no download.

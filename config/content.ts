@@ -47,6 +47,8 @@ export const content = {
         { text: "Drift Hunters", href: "/drift-hunters" },
         { text: "Rolling Ball 3D", href: "/rolling-ball-3d" },
         { text: "Stickman Hook", href: "/stickman-hook" },
+        { text: "Hexa Sort 3D", href: "/hexa-sort-3d" },
+        { text: "Extreme Run 3D", href: "/extreme-run-3d" },
       ]
     },
     social: {

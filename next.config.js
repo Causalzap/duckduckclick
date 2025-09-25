@@ -58,6 +58,14 @@ const nextConfig = {
         source: '/stickman-hook',
         destination: '/game/stickman-hook/index.html',
       },
+      {
+        source: '/hexa-sort-3d',
+        destination: '/game/hexa-sort-3d/index.html',
+      },
+      {
+        source: '/extreme-run-3d',
+        destination: '/game/extreme-run-3d/index.html',
+      },
     ]
   }
 };
