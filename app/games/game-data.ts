@@ -123,6 +123,14 @@ export const games: Record<string, Game> = {
   "image": "/assets/extreme-run-3d/extreme-run-3d-logo.webp",
   "url": "/extreme-run-3d"
 }
+,
+"capybara-clicker": {
+  "id": "capybara-clicker",
+  "title": "Capybara Clicker",
+  "description": "Play Capybara Clicker – an addictive idle clicker game where you generate capybaras, upgrade your click power, and unlock unique skins. Enjoy relaxing gameplay and no downloads required! Play free online.",
+  "image": "/assets/capybara-clicker/capybara-clicker-logo.jpeg",
+  "url": "/capybara-clicker"
+}
 
 };
 

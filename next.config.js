@@ -66,6 +66,10 @@ const nextConfig = {
         source: '/extreme-run-3d',
         destination: '/game/extreme-run-3d/index.html',
       },
+      {
+        source: '/capybara-clicker',
+        destination: '/game/capybara-clicker/index.html',
+      },
     ]
   }
 };
