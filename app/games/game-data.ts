@@ -112,7 +112,7 @@ export const games: Record<string, Game> = {
   "id": "hexa-sort-3d",
   "title": "Hexa Sort 3D",
   "description": "Experience the ultimate color-matching puzzle game in Hexa Sort 3D! Sort and stack colorful hexagonal blocks to complete challenging levels. Use strategic thinking, power-ups, and smooth 3D visuals to clear the board. Play free online, no downloads required!",
-  "image": "/assets/hexa-sort-3d/hexa-sort-3d-logo.webp",
+  "image": "/assets/hexa-sort-3d/hexa-sort-3d-log.webp",
   "url": "/hexa-sort-3d"
 }
 ,
@@ -122,15 +122,21 @@ export const games: Record<string, Game> = {
   "description": "Experience the thrill of parkour in Extreme Run 3D! Navigate neon-lit tracks, dodge obstacles, and master the art of speed and precision. Face challenging levels and test your reflexes. Play free online, no downloads required!",
   "image": "/assets/extreme-run-3d/extreme-run-3d-logo.webp",
   "url": "/extreme-run-3d"
-}
-,
+},
 "capybara-clicker": {
   "id": "capybara-clicker",
   "title": "Capybara Clicker",
   "description": "Play Capybara Clicker – an addictive idle clicker game where you generate capybaras, upgrade your click power, and unlock unique skins. Enjoy relaxing gameplay and no downloads required! Play free online.",
   "image": "/assets/capybara-clicker/capybara-clicker-logo.jpeg",
   "url": "/capybara-clicker"
-}
+},
+"planet-clicker": {
+  "id": "planet-clicker",
+  "title": "Planet Clicker",
+  "description": "Play Planet Clicker – an engaging idle clicker game where you generate energy by clicking on planets, unlock upgrades, and automate energy production. Explore new planets like Earth, Mars, and Venus, and enjoy relaxing gameplay. No downloads required! Play free online.",
+  "image": "/assets/planet-clicker/planet-clicker-logo.jpeg",
+  "url": "/planet-clicker"
+},
 
 };
 

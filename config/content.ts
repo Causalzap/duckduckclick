@@ -50,6 +50,7 @@ export const content = {
         { text: "Hexa Sort 3D", href: "/hexa-sort-3d" },
         { text: "Extreme Run 3D", href: "/extreme-run-3d" },
         { text: "Capybara Clicker", href: "/capybara-clicker" },
+        { text: "Planet Clicker", href: "/planet-clicker" },
       ]
     },
     social: {
