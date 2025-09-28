@@ -137,6 +137,13 @@ export const games: Record<string, Game> = {
   "image": "/assets/planet-clicker/planet-clicker-logo.jpeg",
   "url": "/planet-clicker"
 },
+"blood-money": {
+  "id": "blood-money",
+  "title": "BLOODMONEY!: Dark Clicker Descent",
+  "description": "Play BLOODMONEY! Dark Clicker Descent – a chilling horror-clicker game with multiple endings. Follow the ultimate strategy guide to unlock the Good, Bad, and Normal Endings, make optimal moral choices, and maximize your profits. No downloads required! Play free online.",
+  "image": "/assets/blood-money/blood-money-logo.jpeg", // 请替换为 BLOODMONEY! 游戏的 Logo 或封面图路径
+  "url": "/blood-money" // 匹配之前设置的 URL 路径
+},
 
 };
 

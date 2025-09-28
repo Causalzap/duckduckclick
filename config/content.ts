@@ -51,6 +51,7 @@ export const content = {
         { text: "Extreme Run 3D", href: "/extreme-run-3d" },
         { text: "Capybara Clicker", href: "/capybara-clicker" },
         { text: "Planet Clicker", href: "/planet-clicker" },
+        { text: "BLOODMONEY!: Dark Clicker Descent", href: "/blood-money" },
       ]
     },
     social: {

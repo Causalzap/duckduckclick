@@ -70,6 +70,10 @@ const nextConfig = {
         source: '/capybara-clicker',
         destination: '/game/capybara-clicker/index.html',
       },
+      {
+        source: '/blood-money',
+        destination: '/game/blood-money/index.html',
+      },
     ]
   }
 };

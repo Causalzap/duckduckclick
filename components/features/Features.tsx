@@ -57,7 +57,6 @@ export function Features({ content = defaultContent }: FeaturesProps) {
             {content.features.title}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Experience the thrilling features that make Snow Rider 3D an exciting downhill racing game
           </p>
         </div>
         
