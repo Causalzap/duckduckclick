@@ -1,3 +1,4 @@
+// components/game-section/GameSection.tsx
 'use client';
 
 import { useState, useRef } from 'react';
@@ -7,11 +8,64 @@ import { layout } from "@/config/layout";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-interface GameSectionProps {
-  content?: typeof defaultContent;
+/** 把字面量类型（"About"）宽化为 string/number/boolean；对象与数组递归处理 */
+type WidenLiterals<T> =
+  T extends string ? string
+  : T extends number ? number
+  : T extends boolean ? boolean
+  : T extends (infer U)[] ? WidenLiterals<U>[]
+  : T extends object ? { [K in keyof T]: WidenLiterals<T[K]> }
+  : T;
+
+/** 深度可选 */
+type DeepPartial<T> = {
+  [K in keyof T]?: T[K] extends (infer U)[]
+    ? DeepPartial<U>[]
+    : T[K] extends object
+      ? DeepPartial<T[K]>
+      : T[K];
+};
+
+/** 将 defaultContent 的“窄类型”宽化为可扩展的形状 */
+type ContentShape = WidenLiterals<typeof defaultContent>;
+
+/** 运行时深合并：对象递归，数组整段替换，原子值覆盖 */
+function deepMerge<T>(base: T, patch?: DeepPartial<T>): T {
+  if (!patch) return base;
+  const result: any = Array.isArray(base) ? [...(base as any)] : { ...(base as any) };
+
+  for (const key in patch) {
+    if (!Object.prototype.hasOwnProperty.call(patch, key)) continue;
+    const pVal = (patch as any)[key];
+    const bVal = (base as any)[key];
+
+    if (pVal === undefined) {
+      result[key] = bVal;
+      continue;
+    }
+
+    if (Array.isArray(bVal)) {
+      result[key] = Array.isArray(pVal) ? pVal : bVal;
+    } else if (bVal && typeof bVal === 'object') {
+      result[key] = deepMerge(bVal, pVal);
+    } else {
+      result[key] = pVal;
+    }
+  }
+
+  return result as T;
 }
 
-export function GameSection({ content = defaultContent }: GameSectionProps) {
+interface GameSectionProps {
+  /** 允许传入“部分结构”，缺失部分用 defaultContent 兜底 */
+  content?: DeepPartial<ContentShape>;
+}
+
+export function GameSection({ content }: GameSectionProps) {
+  // 把窄类型的 defaultContent 断言为宽化后的形状，再做深合并
+  const baseContent = defaultContent as unknown as ContentShape;
+  const mergedContent = deepMerge(baseContent, content);
+
   const [isFullscreen, setIsFullscreen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -34,36 +88,34 @@ export function GameSection({ content = defaultContent }: GameSectionProps) {
       )}
     >
       {layout.gameSection.isVisible.title && (
-        <h2 className={cn(
-          theme.gameSection.typography.title,
-          theme.gameSection.spacing.title
-        )}>
-          {content.gameSection.title}
+        <h2
+          className={cn(
+            theme.gameSection.typography.title,
+            theme.gameSection.spacing.title
+          )}
+        >
+          {mergedContent.gameSection.title}
         </h2>
       )}
 
-      {/* 游戏容器 - 移除圆角 */}
       <div
         ref={containerRef}
         className={cn(
           "w-full max-w-4xl mx-auto overflow-hidden shadow-xl relative",
           theme.gameSection.colors.container,
-          "mb-0 rounded-none" // 移除底部边距，移除圆角
+          "mb-0 rounded-none"
         )}
       >
         <iframe
-          src={content.gameSection.game.url}
+          src={mergedContent.gameSection.game.url}
           className="w-full h-full aspect-video border-0"
-          allow="fullscreen"
-          title={content.gameSection.game.title}
+          title={mergedContent.gameSection.game.title}
+          /** React 正确写法：允许全屏 */
+          allowFullScreen
         />
       </div>
 
-      {/* 按钮行 - 在游戏区域下方，带暗色背景，移除上部圆角 */}
       <div className="flex justify-end items-center w-full max-w-4xl mx-auto mb-16 bg-gray-700/70 dark:bg-gray-800/70 text-white rounded-none p-2 shadow-md">
-        {/* 这里可以添加其他按钮 */}
-
-        {/* 全屏按钮 */}
         <Button
           onClick={toggleFullscreen}
           size="icon"
@@ -71,7 +123,17 @@ export function GameSection({ content = defaultContent }: GameSectionProps) {
           className="hover:bg-white/20 text-white rounded-full p-1.5 transition-colors"
           aria-label={isFullscreen ? "Exit fullscreen" : "Enter fullscreen"}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             <path d="M9 9L4 4m0 0l5 0M4 4l0 5" />
             <path d="M15 9l5-5m0 0h-5m5 0v5" />
             <path d="M9 15l-5 5m0 0h5m-5 0v-5" />

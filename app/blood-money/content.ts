@@ -51,7 +51,7 @@ export const bloodMoneyContent: GameContent = {
   metadata: {
     title: "BLOODMONEY! Ultimate Guide: Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
     description: "Complete guide to unlock all three endings, maximize ROI with strategic upgrades, and navigate moral choices in BLOODMONEY! dark clicker game",
-    url: "/games/blood-money"
+    url: "/blood-money"
   },
 
   introduction: {

@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Duck Duck Click",
-  description: "Play Duck Duck Click unblocked online for free. Control crazy cattle in this 3D action game. No download required, start playing instantly in your browser!",
+  description: "Play Duck Duck Click unblocked online for free. Control crazy duck in this 3D action game. No download required, start playing instantly in your browser!",
   domain: "https://www.duckduckclick.com",
   url: "https://www.duckduckclick.com",
   email: "support@causalzap.com",
