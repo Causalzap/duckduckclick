@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   title: "BLOODMONEY! Ultimate Guide: Unlock All Endings, Maximize Upgrades",
   description: "Complete guide to unlock all three endings, maximize ROI with strategic upgrades, and navigate moral choices in BLOODMONEY! dark clicker game",
   keywords: "bloodmoney, clicker game, game guide, unlock endings, maximize upgrades, moral choices",
-  alternates: { canonical: 'https://www.duckduckclick.com/games/blood-money' },
+  alternates: { canonical: 'https://www.duckduckclick.com/blood-money' },
   openGraph: {
     title: "BLOODMONEY! Ultimate Guide",
     description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    url: 'https://www.duckduckclick.com/games/blood-money',
+    url: 'https://www.duckduckclick.com/blood-money',
     siteName: 'Duck Duck Click',
     images: [{ url: '/images/blood-money-og.jpg', width: 1200, height: 630, alt: 'BLOODMONEY! Game Guide' }],
     locale: 'en_US',
@@ -47,7 +47,7 @@ const gameConfig = {
   metadata: {
     title: "BLOODMONEY! Ultimate Guide",
     description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    url: "/games/blood-money"
+    url: "/blood-money"
   },
   content: {
     header: {
@@ -78,7 +78,7 @@ const gameConfig = {
       game: {
         url: "https://lovemoneygame.io/lovemoney.embed",
         title: "BLOODMONEY!: DARK CLICKER DESCENT!",
-        externalUrl: "/game/blood-money/index.html",
+        externalUrl: "/blood-money/index.html",
       },
     },
     otherGames: {
