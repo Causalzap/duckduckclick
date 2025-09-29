@@ -1,32 +1,32 @@
-// app/blood-money/page.tsx
+// app/bubble-woods/page.tsx
 import { Metadata } from 'next';
 import { Header } from "@/components/layout/Header";
 import { GameSection } from "@/components/game-section/GameSection";
 import { OtherGames } from "@/components/other-games/OtherGames";
-import { BloodMoneyContent } from '@/components/content/BloodMoneyContent';
+import { BubbleWoodsContent } from '@/components/content/BubbleWoodsContent';
 import { Footer } from "@/components/layout/Footer";
 import { getOtherGames } from "@/app/games/game-data";
 import { generateGameSchema } from "@/app/schema";
 
 // SEO配置
 export const metadata: Metadata = {
-  title: "BLOODMONEY! Ultimate Guide: Unlock All Endings, Maximize Upgrades",
-  description: "Complete guide to unlock all three endings, maximize ROI with strategic upgrades, and navigate moral choices in BLOODMONEY! dark clicker game",
-  alternates: { canonical: 'https://www.duckduckclick.com/blood-money' },
+  title: "Bubble Woods Strategy Guide: Maximize Score & Boosts",
+  description: "Bubble Woods Strategy Guide: Maximize your high score in the 60-second challenge. Master bouncing shots and use boosts to clear big clusters fast!",
+  alternates: { canonical: 'https://www.duckduckclick.com/bubble-woods' },
   openGraph: {
-    title: "BLOODMONEY! Ultimate Guide",
-    description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    url: 'https://www.duckduckclick.com/blood-money',
+    title: "Bubble Woods Ultimate Strategy Guide",
+    description: "Maximize Your Score and Master the Game with Pro Tips and Boosts",
+    url: 'https://www.duckduckclick.com/bubble-woods',
     siteName: 'Duck Duck Click',
-    images: [{ url: '/images/blood-money-og.jpg', width: 1200, height: 630, alt: 'BLOODMONEY! Game Guide' }],
+    images: [{ url: '/images/bubble-woods-og.jpg', width: 1200, height: 630, alt: 'Bubble Woods Game Guide' }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "BLOODMONEY! Ultimate Guide",
-    description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    images: ['/images/blood-money-twitter.jpg'],
+    title: "Bubble Woods Ultimate Strategy Guide",
+    description: "Maximize Your Score and Master the Game with Pro Tips and Boosts",
+    images: ['/images/bubble-woods-twitter.jpg'],
   },
   robots: {
     index: true,
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
 // 游戏配置（保持与 defaultContent 结构一致，允许为空值覆盖）
 const gameConfig = {
   metadata: {
-    title: "BLOODMONEY! Ultimate Guide",
-    description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    url: "/blood-money"
+    title: "Bubble Woods Ultimate Strategy Guide",
+    description: "Maximize Your Score and Master the Game with Pro Tips and Boosts",
+    url: "/bubble-woods"
   },
   content: {
     header: {
-      title: "BLOODMONEY!",
+      title: "Bubble Woods",
       search: {
         placeholder: "Find your next favorite game...",
         ariaLabel: "Search games",
@@ -67,17 +67,17 @@ const gameConfig = {
       copyright: { text: "", subText: "" },
     },
     rating: {
-      title: "Rate BLOODMONEY!",
+      title: "Rate Bubble Woods",
       votes: "votes",
       initialRating: 0,
       initialVotes: 0,
     },
     gameSection: {
-      title: "BLOODMONEY!: DARK CLICKER DESCENT!",
+      title: "Bubble Woods: 60-Second Challenge!",
       game: {
-        url: "https://lovemoneygame.io/lovemoney.embed",
-        title: "BLOODMONEY!: DARK CLICKER DESCENT!",
-        externalUrl: "/blood-money/index.html",
+        url: "https://www.bubbleshooter.net/embed.php?id=35",
+        title: "Bubble Woods: 60-Second Challenge!",
+        externalUrl: "/bubble-woods/index.html",
       },
     },
     otherGames: {
@@ -91,7 +91,7 @@ const gameConfig = {
   },
 } as const;
 
-export default function BloodMoneyPage() {
+export default function BubbleWoodsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       {/* Header */}
@@ -107,9 +107,9 @@ export default function BloodMoneyPage() {
         <OtherGames games={getOtherGames()} onGameSelect={() => {}} />
       </div>
 
-      {/* 内容组件 */}
+      {/* Content from BubbleWoodsContent */}
       <div className="max-w-6xl mx-auto px-4 pb-8">
-        <BloodMoneyContent />
+        <BubbleWoodsContent /> {/* Render the BubbleWoodsContent component here */}
       </div>
 
       {/* Footer */}

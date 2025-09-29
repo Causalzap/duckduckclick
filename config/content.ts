@@ -52,6 +52,7 @@ export const content = {
         { text: "Capybara Clicker", href: "/capybara-clicker" },
         { text: "Planet Clicker", href: "/planet-clicker" },
         { text: "BLOODMONEY!: Dark Clicker Descent", href: "/blood-money" },
+        { text: "Bubble Woods: 60-Second High Score Shooter", href: "/bubble-woods" },
       ]
     },
     social: {
