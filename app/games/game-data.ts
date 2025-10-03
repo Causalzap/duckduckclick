@@ -144,13 +144,14 @@ export const games: Record<string, Game> = {
   "image": "/assets/blood-money/blood-money-logo.jpeg", // 请替换为 BLOODMONEY! 游戏的 Logo 或封面图路径
   "url": "/blood-money" // 匹配之前设置的 URL 路径
 },
-"bubble-woods": {
-  "id": "bubble-woods",
-  "title": "Bubble Woods: 60-Second High Score Shooter",
-  "description": "Play Bubble Woods – a fast-paced, 60-second bubble shooter game where you aim for the top score. Learn the best strategy for Bouncing Shots and using Fire Bubble boosts to clear big clusters! Play free online with no downloads required.",
-  "image": "/assets/bubble-woods/bubble-woods-logo.jpg", // 保持 Bubble Woods 的 logo 路径
-  "url": "/bubble-woods" 
-}
+"traffic-jam-3d": {
+  "id": "traffic-jam-3d",
+  "title": "Traffic Jam 3D: High-Speed Race & Traffic Avoidance",
+  "description": "Traffic Jam 3D is a fast-paced car racing game where precision matters. Master **Perfect Overtakes** at high speed to earn coins, unlock **20 unique cars**, and conquer all **80 Career Mode levels**. Avoid collisions instantly or risk restarting the run!",
+  "image": "/assets/traffic-jam-3d/traffic-jam-3d-logo.png", 
+  "url": "/traffic-jam-3d" 
+},
+
 
 };
 

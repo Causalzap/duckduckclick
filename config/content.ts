@@ -28,6 +28,7 @@ export const content = {
       title: "Quick Links",
       links: [
              { text: "Linktr", href: "https://linktr.ee/KnitOut" },
+             { text: "Traffic Jam 3D", href: "/traffic-jam-3d" },
        ]
     },
     games: {  // 添加 games section

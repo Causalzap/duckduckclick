@@ -74,6 +74,10 @@ const nextConfig = {
         source: '/blood-money',
         destination: '/game/blood-money/index.html',
       },
+      {
+        source: '/traffic-jam-3d',
+        destination: '/game/traffic-jam-3d/index.html',
+      },
     ]
   }
 };
