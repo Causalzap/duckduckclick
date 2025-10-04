@@ -78,6 +78,10 @@ const nextConfig = {
         source: '/traffic-jam-3d',
         destination: '/game/traffic-jam-3d/index.html',
       },
+      {
+        source: '/death-run-3d',
+        destination: '/game/death-run-3d/index.html',
+      },
     ]
   }
 };

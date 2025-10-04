@@ -28,7 +28,9 @@ export const content = {
       title: "Quick Links",
       links: [
              { text: "Linktr", href: "https://linktr.ee/KnitOut" },
+             { text: "Bubble Woods", href: "/bubble-woods" },
              { text: "Traffic Jam 3D", href: "/traffic-jam-3d" },
+             { text: "Death Run 3D", href: "/death-run-3d" },
        ]
     },
     games: {  // 添加 games section
@@ -52,8 +54,8 @@ export const content = {
         { text: "Extreme Run 3D", href: "/extreme-run-3d" },
         { text: "Capybara Clicker", href: "/capybara-clicker" },
         { text: "Planet Clicker", href: "/planet-clicker" },
-        { text: "BLOODMONEY!: Dark Clicker Descent", href: "/blood-money" },
-        { text: "Bubble Woods: 60-Second High Score Shooter", href: "/bubble-woods" },
+        { text: "BLOODMONEY!", href: "/blood-money" },
+        
       ]
     },
     social: {

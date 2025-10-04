@@ -151,8 +151,13 @@ export const games: Record<string, Game> = {
   "image": "/assets/traffic-jam-3d/traffic-jam-3d-logo.png", 
   "url": "/traffic-jam-3d" 
 },
-
-
+"death-run-3d": {
+    "id": "death-run-3d",
+    "title": "Death Run 3D: Ultimate Hardcore Speed Challenge",
+    "description": "Death Run 3D is a **hyper-speed hardcore game** where only **King-level players** survive. Fly through a pipe filled with **moving obstacles**, demanding **super-fast reaction speed** and **calm operation**. Compete for the top spot on the **Global Leaderboard**!",
+    "image": "/assets/death-run-3d/death-run-3d-logo.jpeg",
+    "url": "/death-run-3d"
+  }
 };
 
 // 获取其他游戏列表
