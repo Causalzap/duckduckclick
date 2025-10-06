@@ -4,7 +4,7 @@ const { siteConfig } = require('./config/site');
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl:  siteConfig.url,
-  generateRobotsTxt: true,
+  generateRobotsTxt: false,
   changefreq: 'daily',
   priority: 0.9,
   outDir: './public',

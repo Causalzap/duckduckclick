@@ -31,6 +31,7 @@ export const content = {
              { text: "Bubble Woods", href: "/bubble-woods" },
              { text: "Traffic Jam 3D", href: "/traffic-jam-3d" },
              { text: "Death Run 3D", href: "/death-run-3d" },
+             { text: "Geometry Rash", href: "/geometry-rash" },
        ]
     },
     games: {  // 添加 games section

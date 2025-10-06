@@ -157,7 +157,14 @@ export const games: Record<string, Game> = {
     "description": "Death Run 3D is a **hyper-speed hardcore game** where only **King-level players** survive. Fly through a pipe filled with **moving obstacles**, demanding **super-fast reaction speed** and **calm operation**. Compete for the top spot on the **Global Leaderboard**!",
     "image": "/assets/death-run-3d/death-run-3d-logo.jpeg",
     "url": "/death-run-3d"
-  }
+  },
+"geometry-rash": {
+    "id": "geometry-rash",
+    "title": "Geometry Rash",
+    "description": "Master Geometry Rash! Learn core game mechanics, jump/dodge tips, and high-score strategies. Discover how Stars unlock new stages and beat the speed challenge.",
+    "image": "/assets/geometry-rash/geometry-rash-logo.jpeg",
+    "url": "/geometry-rash"
+  },
 };
 
 // 获取其他游戏列表
