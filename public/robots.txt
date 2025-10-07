@@ -1,0 +1,110 @@
+# Global default
+User-agent: *
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: OAI-SearchBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ChatGPT-User
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Anthropic-AI
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# DeepSeek
+User-agent: DeepSeekBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# You.com
+User-agent: YouBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+User-agent: youbot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Google GenAI / Research
+User-agent: Google-Extended
+Disallow: /
+User-agent: GoogleOther
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# DuckDuckGo
+User-agent: DuckAssistBot
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Apple
+User-agent: Applebot-Extended
+Disallow: /
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+
+# Other data scrapers (optional)
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.duckduckclick.com/sitemap.xml
