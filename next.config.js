@@ -86,6 +86,10 @@ const nextConfig = {
         source: '/candy-clicker-2',
         destination: '/game/candy-clicker-2/index.html',
       },
+      {
+        source: '/bubble-woods',
+        destination: '/game/bubble-woods/index.html',
+      },
     ]
   }
 };
