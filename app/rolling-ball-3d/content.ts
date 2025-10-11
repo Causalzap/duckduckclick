@@ -16,54 +16,20 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title optimized with SEO keywords for the game
-    title: "Rolling Ball 3D Features - Play Free Online Ball Game!",
-    items: [
+  "features": {
+    "title": "Rolling Ball 3D: Core Speed Mechanics & Dynamic Challenge",
+    "items": [
       {
-        // Core gameplay highlight
-        title: "Simple One-Finger Swipe Controls",
-        description: "Enjoy Rolling Ball 3D with intuitive swipe controls! Just one finger is all it takes to roll your ball through challenging 3D courses. Perfect for players of all ages in this fun, free online ball game."
+        "title": "Precision Impact of Boosters and Ramps",
+        "description": "Boosters precisely increase ball speed, while ramps dynamically alter inertia and trajectory. Players can risk **high-speed drifts** on ramps for massive scores, making **precise control of rhythm and trajectory** essential for high rewards."
       },
       {
-        // Unlockable elements for replayability
-        title: "Unlock Colorful 3D Balls",
-        description: "Collect diamonds and unlock a wide variety of vibrant 3D balls. Customize your rolling experience and show off your favorite styles as you progress through this addictive unblocked game."
+        "title": "Stair-Step Progressive Difficulty Design",
+        "description": "Difficulty scales with level progression (incrementing every 1000 meters). As levels advance, the **variety of obstacles, speed, and density** simultaneously increase, creating a **well-defined, stair-step challenge curve** that continually pushes player limits."
       },
       {
-        // Immersive environment hook
-        title: "Beautiful & Relaxing Backgrounds",
-        description: "Immerse yourself in stunning 3D worlds. Rolling Ball 3D features calming backgrounds and smooth animations, making every level both challenging and relaxing to play online."
-      },
-      {
-        // Realistic physics mechanic
-        title: "Realistic Ball Physics",
-        description: "Feel the thrill of true-to-life rolling! Rolling Ball 3D uses realistic physics to ensure every movement, bounce, and collision feels natural and immersive in this free ball rolling game."
-      },
-      {
-        // Variety of maps & difficulty scaling
-        title: "Challenging Maps & Levels",
-        description: "Test your skills across multiple maps filled with unique obstacles. With levels that increase in difficulty, Rolling Ball 3D keeps you hooked as you push for higher scores and smoother runs."
-      },
-      {
-        // Accessibility for offline
-        title: "Play Anytime - Even Offline",
-        description: "No internet? No problem! Rolling Ball 3D supports offline play, so you can enjoy this exciting ball game anywhere, anytime—free and unblocked fun at your fingertips."
-      },
-      {
-        // Graphics appeal
-        title: "Smooth & Immersive 3D Graphics",
-        description: "Experience high-quality 3D visuals with fluid animations. Rolling Ball 3D’s graphics make every roll, jump, and obstacle visually exciting for players seeking engaging online gameplay."
-      },
-      {
-        // Power-ups for excitement
-        title: "Exciting Power-Ups",
-        description: "Boost your gameplay with powerful upgrades! Collect shields, magnets, and speed boosts to conquer obstacles and level up your Rolling Ball 3D adventure online."
-      },
-      {
-        // Collectible mechanic for engagement
-        title: "Collect Diamonds & Unlock More",
-        description: "Gather diamonds during your runs to unlock extra balls, power-ups, and customization. Rolling Ball 3D keeps the rewards flowing for endless free-to-play fun online."
+        "title": "Diverse Ball Customization & Strategic Choice",
+        "description": "New balls of different sizes and speeds offer distinct handling experiences: **Larger balls** are more stable but turn slowly, while **smaller balls** are agile but prone to losing control. This system compels players to select the right **tactical ball** based on the specific track layout and obstacles."
       }
     ]
   }
@@ -71,12 +37,10 @@ export const futbolLibreContent = {
   
   whatIs: {
     // Title clearly defines the game type with SEO keywords
-    title: "What is Rolling Ball 3D? The Ultimate Free Online Ball Runner Game",
-    // Description optimized with natural keyword usage
-    description: "Rolling Ball 3D is an addictive free online 3D ball runner and platformer game where players guide a rolling ball across ramps, slopes, and tricky obstacles. The challenge is to keep your ball from falling while collecting shiny diamonds and mastering increasingly difficult tracks.\n\n" +
-      "Inspired by classic endless runner games like Slope, Rolling Ball 3D tests your reflexes, balance, and precision control. With realistic physics, smooth 3D graphics, and progressive difficulty, this unblocked game is perfect for casual play and competitive high-score chases.\n\n" +
-      "Unlock colorful balls, grab power-ups, and enjoy offline play anytime. No downloads required – just pure, fun, free online rolling action right in your browser. Ready to roll? Jump into Rolling Ball 3D today and see how far you can go!",
-    logo: {
+    "title": "Rolling Ball 3D — Ultimate Parkour Challenge of Speed and Balance",
+    "description": "Conquer the continuously accelerating, tilting tracks and challenge the limits of your reaction speed!\n\n**Rolling Ball 3D** blends dynamic speed changes with gradually increasing difficulty, creating an immersive 3D rolling parkour experience. **Master balls of variable size and speed**, break through your limits, and start your extreme speed adventure.\n\n Click \"**Play Game**\" now to experience an unprecedented challenge of speed and balance!\n\n**Competitive Advantage Analysis:**\n\n**1. Immersive Physics Challenge (Rolling & Tilting Platforms)**\n\nOur **'Rolling and Tilting Platform'** design provides a more physically demanding and immersive operational experience compared to traditional flat parkour games. It requires players to **constantly adjust the center of gravity and speed in real-time**, significantly increasing control difficulty and the sense of achievement.\n\n**2. Variable Ball System for Strategic Play**\n\nThe **variable speed and size ball system** surpasses fixed-character gameplay, giving players greater strategic freedom. Choosing the right ball for different level difficulties and obstacles enriches the game's **strategy and replayability**.",
+ 
+      logo: {
       // Image path placeholder (same as your format)
       src: "/assets/rolling-ball-3d/rolling-ball-3d-logo.jpeg",
       // Alt text optimized for SEO
@@ -99,52 +63,78 @@ export const futbolLibreContent = {
   }
   ,
   
-  faq: {
-    // Title updated for SEO and clarity
-    title: "Rolling Ball 3D: Frequently Asked Questions (Free Online Ball Game FAQ)",
-    items: [
-      {
-        value: "free-to-play",
-        question: "Is Rolling Ball 3D free to play?",
-        answer: "Yes! Rolling Ball 3D is completely free to play online. While the game is free, it also offers optional in-app purchases for unlocking extra balls, power-ups, or customization. No downloads required—just pure, unblocked ball rolling fun in your browser or mobile device."
-      },
-      {
-        value: "platforms",
-        question: "What platforms support Rolling Ball 3D?",
-        answer: "Rolling Ball 3D is available across multiple platforms including Android, iOS, Windows, and modern web browsers like Chrome, Firefox, or Edge. Whether on mobile or desktop, you can enjoy smooth 3D rolling gameplay anytime."
-      },
-      {
-        value: "offline-mode",
-        question: "Can I play Rolling Ball 3D offline?",
-        answer: "Yes! Rolling Ball 3D supports offline mode on mobile devices. This means you can continue rolling and collecting diamonds even without an internet connection, making it a perfect on-the-go free ball game."
-      },
-      {
-        value: "controls",
-        question: "How do I control the ball in Rolling Ball 3D?",
-        answer: "Controlling the ball is simple and intuitive. Use the left and right arrow keys (or swipe on mobile) to steer the ball, and tap or hold the screen to adjust speed and balance. Mastering controls is key to surviving tricky tracks."
-      },
-      {
-        value: "unlockables",
-        question: "How do I get new balls in Rolling Ball 3D?",
-        answer: "Collect diamonds while playing! These diamonds can be spent in the in-game shop to unlock colorful 3D balls and exciting power-ups. The more you play, the more rewards you can unlock."
-      },
-      {
-        value: "power-ups",
-        question: "Are there power-ups in Rolling Ball 3D?",
-        answer: "Yes! Rolling Ball 3D includes powerful upgrades such as shields, magnets, and speed boosters. These power-ups help you survive longer, collect more diamonds, and achieve higher scores in this unblocked 3D ball runner."
-      },
-      {
-        value: "levels",
-        question: "Does Rolling Ball 3D have levels?",
-        answer: "Absolutely. Rolling Ball 3D features many progressively challenging levels and obstacle-filled maps. Each level increases in difficulty, keeping the gameplay exciting for both casual and experienced players."
-      },
-      {
-        value: "goal",
-        question: "What is the main goal in Rolling Ball 3D?",
-        answer: "The objective is to keep your ball rolling as far as possible without falling or hitting dangerous obstacles. Along the way, collect diamonds, use power-ups, and aim for higher scores and rankings in this addictive 3D ball runner game."
-      }
-    ]
-  },
+  
+    "faq": {
+      "title": "Rolling Ball 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+      "items": [
+        {
+          "value": "long-term-strategy-efficiency",
+          "question": "[Long-Term Strategy] How to maximize survival and diamond collection?",
+          "answer": "**Expert Strategy**: Prioritize investing in **stability and forgiveness upgrades** first to ensure longer survival. Only after establishing a base should you invest in **speed attributes**. The optimal path is stability-first, speed-second."
+        },
+        {
+          "value": "high-level-risk-reward",
+          "question": "[Risk Management] At what level (or speed) should players boldly take risks on platform edges for diamond rewards?",
+          "answer": "**Advanced Tip**: Once you reach approximately **Level 10** or achieve **extremely high speeds** where mistakes are instant death, you should intentionally leverage the **platform edges** to collect high-risk, high-reward diamonds. The high speed makes the risk worthwhile for greater gains."
+        },
+        {
+          "value": "resource-allocation-midgame",
+          "question": "[Resource Allocation] How should diamonds be allocated in the mid-game (e.g., special balls vs. Power-ups)?",
+          "answer": "**Official Guidance**: We recommend allocating $\\mathbf{70\\%}$ of diamonds to purchasing **special attribute balls** (which offer permanent strategic advantages) and $\\mathbf{30\\%}$ to **Power-ups** to enhance flexible combat capabilities during difficult runs."
+        },
+        {
+          "value": "speed-control-strategy",
+          "question": "[Speed Control] When should the player use precise, reduced speed control, and when should they sprint at full speed?",
+          "answer": "**Pacing Guide**: Use **reduced speed and fine control** immediately before **complex or unknown obstacles**. Use **full-speed sprinting** on **straight sections** and across **simple, stable obstacle patterns** to maximize distance and efficiency."
+        },
+        {
+          "value": "advanced-turning-techniques",
+          "question": "[Advanced Techniques] What turning techniques do top players use to maintain speed and avoid over-correction?",
+          "answer": "**Elite Secret**: Top players master **'Quick-Tap Steering'**. Instead of holding the directional button, they use rapid, light taps to adjust the ball's direction. This avoids over-correction and allows for quick recovery of balance."
+        },
+        {
+          "value": "speed-inertia-trick",
+          "question": "[Inertia Trick] How to use inertia to 'lock' speed and maintain acceleration through flat areas?",
+          "answer": "**Expert Move**: Utilize **'Inertia Banking'**: After exiting a booster or a downward ramp, quickly switch to a **slight turning motion** to leverage the stored kinetic energy. This helps **maintain the accelerated state** through otherwise flat or neutral sections where speed would normally decay."
+        },
+        {
+          "value": "platform-edging-technique",
+          "question": "[Risk Strategy] What is the 'platform edging' technique used to maximize speed and score?",
+          "answer": "**High-Risk Strategy**: The 'Edging' technique involves steering the ball **just along the very edge of the tilting platform**. This maximizes the speed benefit gained from the platform's inclination while simultaneously increasing the multiplier score, but demands absolute precision to avoid falling."
+        },
+        {
+          "value": "beginner-common-mistakes",
+          "question": "[Beginner Mistakes] What are the common errors that lead to early failure for new players?",
+          "answer": "Common errors include: **Over-steering** leading to immediate loss of control, **ignoring far-off obstacles** (lack of forward vision), and **blindly accelerating** without regard for the platform's stability."
+        },
+        {
+          "value": "training-methodology",
+          "question": "[Training Method] What is the best way to train prediction of dynamic obstacle movement?",
+          "answer": "**Training Tip**: **Focus on Dynamic Change**. Repeatedly practice runs where you **only focus on the movement pattern of distant obstacles**. This trains your brain to anticipate and predict their movement trajectory well in advance, allowing for smoother path adjustments."
+        },
+        {
+          "value": "visual-safety-cues",
+          "question": "[Visual Cues] Are there visual cues to help distinguish platform safety?",
+          "answer": "**Game Cues**: Generally, **stable, flat, and darker-colored platforms** are safer. **Steeply inclined platforms and those with noticeable breaks or rapid movement** are high-risk zones that require immediate speed reduction and fine control."
+        },
+        {
+          "value": "technical-lag-solutions",
+          "question": "[Technical Fix] What causes lag and physics delay, and what is the solution?",
+          "answer": "**Official Solution**: Lag and delay are typically caused by **intensive physics calculation**. We advise **closing all unnecessary programs** and **optimizing the graphics settings** (lowering quality) to reduce the computational load on your device."
+        },
+        {
+          "value": "progress-save-failure",
+          "question": "[Technical Fix] How to resolve progress saving anomalies?",
+          "answer": "**Official Guidance**: To prevent progress loss, users must **regularly back up their game data** using the official in-game backup tools. Check your network connection before and after each long run to ensure proper synchronization."
+        },
+        {
+          "value": "input-sensitivity-fix",
+          "question": "[Control Optimization] How to adjust sensitivity for gear and button responsiveness to reduce mis-input?",
+          "answer": "**Optimization Tip**: Adjust the **Sensitivity settings** for both controller/keyboard input and gear responsiveness to a **medium level**. This setting balances the need for precise input (reducing mis-taps) with the rapid response required for high-speed parkour."
+        }
+      ]
+    }
+  
 
 };
 

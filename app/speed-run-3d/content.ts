@@ -16,53 +16,36 @@ export const cheeseChompersContent = {
   },
 
   // 特性部分配置
+
   features: {
-    title: "Speed Run 3D: Neon Tunnel Racing Features - Play Free Online!",
-    items: [
+    "title": "Core Features of Speed Run 3D: Precision, Challenges, and Ultimate Racing",
+    "items": [
       {
-        title: "Fast-Paced, Reflex-Driven Gameplay",
-        description: "Speed Run 3D challenges your reflexes with rapid gameplay! Test your quick reactions as you navigate through neon-lit tunnels and race against time."
+        "title": "Core Mechanic of Extreme Precision: Airborne Steering Accuracy",
+        "description": "Master the art of airborne steering and distance judgment, where every jump demands pinpoint precision. High-difficulty challenges push your skill limits, with rewards coming in the form of incredibly fast completion times. Achieving perfect control will unlock the thrill of shaving seconds off your race!"
       },
       {
-        title: "Smooth 3D Neon Tunnel Racing",
-        description: "Experience a visually stunning neon tunnel racing adventure. The smooth 3D graphics offer a high-speed thrill as you race through vibrant, futuristic landscapes."
+        "title": "Level Unlocks & Progressive Achievement Experience",
+        "description": "Speed Run 3D introduces a ‘score X unlock’ system, ensuring players feel a steady sense of accomplishment. The advanced CELESTIAL/QUANTUM levels combine intricate physics and multi-jump challenges, pushing precision limits and offering a substantial difficulty leap compared to basic levels. Prepare for a rewarding experience as you advance through progressively challenging stages."
       },
       {
-        title: "Simple & Intuitive Controls",
-        description: "Control your race with ease using the arrow keys or drag the mouse. Speed Run 3D’s straightforward controls allow you to dive straight into the action without the hassle."
-      },
-      {
-        title: "Increasing Speed & Difficulty",
-        description: "As you progress, the speed intensifies, pushing your reflexes to the limit. The growing challenge keeps the adrenaline high, making every race a new test of skill."
-      },
-      {
-        title: "Endless Mode – Race Until You Fail",
-        description: "The game features an endless mode where the action never stops. Keep racing as long as you can until you hit an obstacle – every race is a new chance to beat your previous record."
-      },
-      {
-        title: "Modern Visuals & Sound Effects",
-        description: "Enjoy a modern visual style with neon lighting effects and dynamic sound design, adding to the immersive, fast-paced racing experience in Speed Run 3D."
-      },
-      {
-        title: "Play Instantly, No Downloads Required",
-        description: "Speed Run 3D is a browser-based game, so you can start racing immediately without needing to download anything. Play anywhere, anytime for instant fun!"
-      },
-      {
-        title: "Perfect for Reflex & Hand-Eye Coordination",
-        description: "Speed Run 3D is ideal for testing your reflexes and hand-eye coordination. Enjoy fast-paced racing action with simple yet challenging mechanics."
+        "title": "Diverse Maps & Differentiated Physical Challenges",
+        "description": "The FRENZY theme focuses on speed and continuous jumps, while the VORTEX theme emphasizes sharp turns and rhythm control. These diverse physical challenges guarantee fresh and exciting gameplay with each session, ensuring a high replay value."
       }
     ]
-  },
+  } ,
   
   
   whatIs: {
-    title: "What Exactly is Speed Run 3D: The Ultimate Neon Tunnel Racing Game?",
-    description: "Speed Run 3D is an exciting, fast-paced 3D parkour racing game where you race through dynamic neon-colored tunnels at lightning speed! Your mission is to dodge obstacles while navigating increasingly difficult and fast-paced tracks.\n\n" +
-      "As the game progresses, the speed increases, adding a thrilling challenge that tests your reflexes and quick thinking. The core focus is on recognizing the path patterns and reacting quickly to avoid collisions. With each race, the tension and difficulty rise, creating an exhilarating experience.\n\n" +
-      "Speed Run 3D is a browser-based, free-to-play game – no downloads required! Just jump into the neon tunnel and start racing for the ultimate reflex challenge. Play unblocked anytime and enjoy the fast-paced action.",
-    logo: {
-      src: "/assets/speed-run-3d/speed-run-3d-logo.jpg",
-      alt: "Speed Run 3D - Free Online Neon Tunnel Racing Game Logo"
+    "title": "What Exactly is Speed Run 3D: The Ultimate 3D Platform Racing Game?",
+    "description": "Speed Run 3D is a high-speed, precision platform racing game where you race through extreme 3D obstacle courses and skillful shortcuts. \n\nThe goal is to shatter global records and experience an unparalleled rush of racing precision!\n\n" +
+      "Join Speed Run 3D now and challenge yourself with the most extreme 3D obstacle racing and tricky shortcuts ever. Master precise controls, push the time limits, and race your way to the top of the leaderboard! Click '**Play Game**' to start your thrilling, high-speed adventure today!\n\n" +
+      "**What makes Speed Run 3D stand out from other mainstream 3D platform racing games?**\n\n" +
+      "Speed Run 3D uses an ultra-precise physics engine, allowing players to feel the subtle nuances of hovering, inertia, and dash turning, achieving industry-leading control accuracy and skill limits. The game features a unique high-risk shortcut mechanic, enabling players to skip up to 50% of the standard course with high-difficulty maneuvers. This drastically shortens completion times, giving players an exponential speed advantage far beyond traditional platform racing games.\n\n" +
+      "Speed Run 3D is a browser-based, free-to-play game – no downloads required! Jump into the action and race for the ultimate thrill. Play unblocked anytime and enjoy the fast-paced racing experience.",
+    "logo": {
+      "src": "/assets/speed-run-3d/speed-run-3d-logo.jpg",
+      "alt": "Speed Run 3D - Free Online 3D Platform Racing Game Logo"
     }
   }
   ,
@@ -74,53 +57,90 @@ export const cheeseChompersContent = {
       "Unlike other games, Speed Run 3D doesn't have jumping. Instead, focus on your ability to read the path and move at the right moment to avoid collisions. Each run starts fresh, offering a challenge to your quick reaction time and ability to stay alert throughout the entire run.",
     image: "/assets/speed-run-3d/speed-run-3d.jpeg",
     imageAlt: "Speed Run 3D Gameplay Guide - Neon Tunnel Racing with Quick Reflexes"
-  }
-  ,
+  },
+
+
   faq: {
-    title: "Speed Run 3D: Your Questions Answered (Free Online Neon Tunnel Game FAQ)",
-    items: [
+    "title": "Elite Speedrunning Tactics & Precision Platforming FAQ",
+    "items": [
       {
-        value: "platform",
-        question: "Where can I play Speed Run 3D?",
-        answer: "Speed Run 3D is available to play directly in your browser with no downloads required. It's compatible with multiple platforms and devices, offering instant access for non-stop fun."
+        "value": "Long-Term Strategy",
+        "question": "What is the Best Permanent Attribute Investment Path for Maximum Speed?",
+        "answer": "**Deep Player Insight**: Focus on the attributes that directly reduce air time and improve recovery. Prioritize increasing **Air Control Force (ACF)** first, as it allows for mid-air course correction and setting up complex angles. Secondly, invest in **Sprint Recovery Rate (SRR)** to minimize the cooldown between sprints. Pure speed (e.g., base sprint speed) is less critical than high-precision control."
       },
       {
-        value: "game-mode",
-        question: "Does Speed Run 3D have an ending or levels?",
-        answer: "Speed Run 3D is an endless mode game with increasing speed and difficulty. The game continues until you crash, making it a test of your reflexes and endurance."
+        "value": "Threshold Mastery",
+        "question": "At what difficulty threshold must players abandon safe routes for high-risk shortcuts?",
+        "answer": "**Official Strategy**: The pivot point is typically after mastering the **Level 5 or 6 time target**. Before this, safe platforms are efficient. To achieve Top 1% times, players must **fully commit to pathfinding** that requires exploiting corner boosts, triple-jumping off minimal ledges, and using **known wall-climb spots** that bypass $50\%$ of the stage."
       },
       {
-        value: "controls",
-        question: "What controls are available in Speed Run 3D?",
-        answer: "You can control your character using the arrow keys or by dragging the mouse to move left and right. The game is simple to play but challenging to master."
+        "value": "Training Value",
+        "question": "What is the true value of 'Ghost Replay' or 'Practice Mode' for long-term improvement?",
+        "answer": "**Expert Insight**: These tools are invaluable for **Rhythm Timing**. Use Ghost Replay not just to see the route, but to *hear* the exact rhythm of jumps and sprints. Practice Mode should be used for **single-section grinding** to build muscle memory for the most complex 1-second maneuvers, separating them from the pressure of a full run."
       },
       {
-        value: "highscore",
-        question: "Does Speed Run 3D track high scores?",
-        answer: "Yes, Speed Run 3D records the highest survival time or distance, allowing you to compete against your personal best or challenge others."
+        "value": "Economic Balance",
+        "question": "What is the most cost-effective upgrade strategy between 'Air Jumps' and 'Base Sprint Speed'?",
+        "answer": "**Official Tip**: Upgrade **Air Jump Capacity** only until you reach the **second jump** ($+1$ jump). Then, invest fully in **Base Sprint Speed** until the next major jump threshold. Maximum air jumps are rarely necessary, but sustained ground speed is the core time-saver. This ratio offers the greatest Time-to-Cost advantage."
       },
       {
-        value: "target-audience",
-        question: "Who is Speed Run 3D suitable for?",
-        answer: "Speed Run 3D is perfect for players who enjoy fast-paced, reaction-based games. It's ideal for those looking for quick challenges with simple yet engaging controls."
+        "value": "Training Efficiency",
+        "question": "Should I prioritize general 'Precision Skills' or 'Single Level Shortcuts' first?",
+        "answer": "**Deep Player Insight**: **General Precision** first. Master the **Universal Precise Operations** (e.g., jump-dash-jump combo) until they are automatic. Once that foundation is solid, then dedicate time to learning and executing **Level-Specific Hidden Shortcuts**. Shortcuts are useless without fundamental precision."
       },
       {
-        value: "sound-visuals",
-        question: "Does Speed Run 3D have sound and visual effects?",
-        answer: "Yes, Speed Run 3D features dynamic neon lighting and immersive sound effects that enhance the game's fast-paced atmosphere and make each moment more thrilling."
+        "value": "Cosmetic Physics",
+        "question": "Do cosmetic items (skins/props) offer any subtle advantage (e.g., smaller hitbox)?",
+        "answer": "**Official Guide**: **No.** All character models and cosmetic items are strictly **aesthetic**. The core hitbox and physics parameters (acceleration, top speed, turning radius) are uniform across all cosmetic choices to ensure fair competitive integrity."
       },
       {
-        value: "difficulty",
-        question: "Does the difficulty increase in Speed Run 3D?",
-        answer: "The speed and density of obstacles gradually increase as you progress, making the game more challenging the longer you play."
+        "value": "Inertia Trick",
+        "question": "What operation on the platform edge preserves the maximum forward momentum?",
+        "answer": "**Elite Secret**: The technique is called **'Edge Clipping.'** Sprint toward the edge, initiate a **micro-crouch (tap)** just before leaving the platform, and immediately perform a **boost-jump**. This brief crouch resets the game's internal momentum decay, providing a fractional, yet critical, speed boost into the jump. Requires millisecond timing."
       },
       {
-        value: "progress-save",
-        question: "Can I save my progress or continue later in Speed Run 3D?",
-        answer: "Speed Run 3D does not typically support saving progress. It’s designed for quick, short bursts of gameplay, making it perfect for fast, continuous runs."
+        "value": "Advanced Physics",
+        "question": "Is there a technique to 'store' or 'card-clip' momentum for maximum jump distance?",
+        "answer": "**Deep Player Insight**: Yes, exploit the **'Wall-Stall Boost.'** By briefly brushing (stalling) against a non-lethal vertical wall surface just before an uphill jump, you can transfer vertical momentum into horizontal speed, effectively increasing the reach of your final leap. This is a high-risk, frame-perfect technique."
+      },
+      {
+        "value": "Run Management",
+        "question": "What is the Optimal 'Quick Reset' timing after a mistake, and when is a run worth salvaging?",
+        "answer": "**Official Strategy**: The ideal **'Quick Reset'** threshold is **$\mathbf{0.7 \text{ seconds}}$** of lost time after a mistake. If the mistake costs you more than $0.7$ seconds (e.g., missed a platform and falling), immediately hit the Reset button. Salvaging a run is only worthwhile if the error cost is under $\mathbf{0.3 \text{ seconds}}$, or if you have a perfect run up to that point."
+      },
+      {
+        "value": "Beginner Mistake",
+        "question": "What are the Top 3 Mistakes New Players Make and How to Stop Wasting Time?",
+        "answer": "1. **Over-Jumping on Flat Ground**: **Official Tip**: New players jump too much. On flat platforms, **pure sprinting** is always faster. Jump only when necessary to clear a gap. 2. **Not Using Air Control**: **Deep Player Insight**: Failing to use **mid-air steering** (Air Control) after a jump to adjust for distance. This leads to missing platforms and wasting time on poor landings. 3. **Focusing on Character, Not the Horizon**: **Official Guide**: Practice shifting your vision to the **third platform ahead** (Horizon Prediction) instead of the immediate environment. This allows for pre-emptive turns and speed maintenance."
+      },
+      {
+        "value": "Error Correction",
+        "question": "How can a new player decide whether to 'Quick Reset' vs. 'Salvage' a failed jump?",
+        "answer": "**Simple Rule of Thumb**: If your character has **stopped moving forward** (i.e., stalled or started falling), **always Quick Reset**. If you are still moving but merely took a sub-optimal route, attempt to salvage it. The core rule is: **Momentum loss is irreparable time loss.**"
+      },
+      {
+        "value": "Vision Training",
+        "question": "How to effectively train yourself to see the 'far horizon' instead of just the immediate platform?",
+        "answer": "**Expert Practice Method**: Dedicate $15$ minutes of practice to **'No-Look Running.'** Blindfold or cover the screen just around your character, forcing your eyes to focus only on the **top third** of the screen. This trains the brain for **long-range visual prediction**, which is essential for high-speed runs."
+      },
+      {
+        "value": "Troubleshooting",
+        "question": "What are the most common lag or input delay issues, and the one-click solution?",
+        "answer": "**Official Solution**: The most common issue is **Input Throttling**. The one-click fix is to **Enable 'Low Graphics Mode'** (or disable motion blur/V-Sync) in the settings, and ensure your browser **Hardware Acceleration** is ON. Forcing a higher frame rate (FPS) directly reduces input delay."
+      },
+      {
+        "value": "Integrity Check",
+        "question": "How to quickly check and fix leaderboard synchronization or recording integrity issues?",
+        "answer": "**Official Tip**: Ensure a stable, **wired** internet connection if possible. If a score fails to sync, take a **full-screen screenshot (with in-game timer visible)** immediately. Then, **refresh the page and attempt the run again** to force a server synchronization of your profile data."
+      },
+      {
+        "value": "Controller Fixes",
+        "question": "What are the 3 most common controller/key mapping pain points?",
+        "answer": "1. **Inconsistent Air Steering**: **Fix**: Increase **Mouse/Controller Sensitivity** by small increments to achieve the necessary speed for mid-air corrections. 2. **Delayed Sprint Trigger**: **Fix**: Ensure your **Sprint Key (often Shift)** is remapped to a **single, easy-to-press key** (e.g., Ctrl or a side button) with minimal travel. 3. **Jump Height Inconsistency**: **Fix**: Adjust the **Long-Press Duration** setting in the options to ensure all your double-jumps reach maximum height reliably."
       }
     ]
   }
+
   
 };
 

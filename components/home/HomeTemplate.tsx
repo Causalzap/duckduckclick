@@ -36,17 +36,23 @@ export function HomeTemplate() {
 
       <main className="container mx-auto px-4 py-8">
         <GameSection />
+        
+        <Features />
+        <WhatIs />
+
+        <div className="my-8"></div> 
+
+        {/*<HowToPlay />*/}
+        <FAQ />
+
         <OtherGames
           games={getOtherGames()}
           onGameSelect={setActiveGame}
         />
-        <Features />
-        <WhatIs />
-        <HowToPlay />
-        <FAQ />
+        {/*
         <section className="mb-16" id="rating">
           <Rating />
-        </section>
+        </section>*/}
       </main>
 
       <Footer />

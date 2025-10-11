@@ -34,18 +34,12 @@ export function GamePageTemplate({ gameConfig }: GamePageTemplateProps) {
 
       <main className="container mx-auto px-4 py-8">
         {/* 页面标题 */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 lg:mb-12">
+        {/*<h2 className="text-3xl md:text-4xl font-bold text-center mb-8 lg:mb-12">
           {gameConfig.content.gameSection?.title || gameConfig.metadata.title}
-        </h2>
+        </h2>*/}
         
         {/* 游戏展示区域 */}
         <GameSection content={gameConfig.content} />
-        
-        {/* 其他游戏推荐 */}
-        <OtherGames
-          games={getOtherGames()}
-          onGameSelect={() => {}}
-        />
         
         {/* 条件渲染：新结构或旧结构 */}
         {useNewArticleStructure ? (
@@ -60,10 +54,17 @@ export function GamePageTemplate({ gameConfig }: GamePageTemplateProps) {
           <>
             <Features content={gameConfig.content} />
             <WhatIs content={gameConfig.content} />
-            <HowToPlay content={gameConfig.content} />
+            <div className="my-8"></div> 
+            {/* <HowToPlay content={gameConfig.content} />*/}
             <FAQ content={gameConfig.content} />
           </>
         )}
+
+        {/* 其他游戏推荐 */}
+        <OtherGames
+          games={getOtherGames()}
+          onGameSelect={() => {}}
+        />
       </main>
 
       <Footer />

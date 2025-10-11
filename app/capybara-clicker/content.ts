@@ -16,52 +16,30 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    title: "Capybara Clicker: Fun and Addictive Clicker Game - Play Now!",
-    items: [
+  "features": {
+    "title": "Capybara Clicker: Core Growth Mechanisms and Exponential Progression",
+    "items": [
       {
-        title: "Diverse Upgrade System",
-        description: "Boost your click production with a variety of upgrades including Cursor, Mr. Clicker, President Clicker, and King Clicker. Each upgrade increases your water capybara output, ensuring continuous progress!"
+        "title": "Core Growth: Automated Acceleration and Investment Thresholds",
+        "description": "Auto-click and upgrades drastically accelerate Capybara growth in the mid-to-late game. Manual clicking becomes marginally less profitable after reaching a critical investment threshold, compelling players to strategically prioritize **automation development** for maximum efficiency."
       },
       {
-        title: "Auto Click Tools for Effortless Progress",
-        description: "Keep earning capybaras with Auto Click, Capybara Farm, and Power Plant. These tools ensure a steady, passive production of capybaras, so you can focus on your strategy while they do the work!"
+        "title": "Ascend Prestige: The Exponential Reset Mechanism",
+        "description": "The **Ascend reset** grants permanent, exponential bonuses (such as global production multipliers and click add-ons). This ensures that each reset progresses significantly faster than the last, achieving true **exponential growth** and maintaining long-term player motivation."
       },
       {
-        title: "Unlock Unique Capybara Skins",
-        description: "Customize your capybaras with 16 different skins, including Galaxy Capybara, Robin Hood Capybara, and Magic Capybara. Collect them all and show off your unique capybara collection!"
-      },
-      {
-        title: "Dynamic Weather System",
-        description: "Experience changing weather backgrounds like sunny, rainy, meteor shower, and snowstorm. Each weather change adds a refreshing twist to the gameplay, making every click more exciting!"
-      },
-      {
-        title: "Double Your Energy Output",
-        description: "Activate the Energy Multiplier bar to double your capybara production by maintaining consistent clicks. Maximize your rewards and speed up your progress in Capybara Clicker!"
-      },
-      {
-        title: "Offline Progress Saving",
-        description: "Even when you're away, Capybara Clicker keeps track of your progress. Play at your own pace and return to see the rewards of your offline achievements with the game’s automatic progress saving feature!"
-      },
-      {
-        title: "Easy to Play for All Ages",
-        description: "Capybara Clicker is designed for players of all ages, offering simple gameplay mechanics that anyone can pick up. No complex controls, just fun and rewarding gameplay!"
-      },
-      {
-        title: "Global Leaderboard & Social Features",
-        description: "Compete with other players globally by climbing the leaderboard. Share your progress and interact with other capybara fans through integrated social features, making it even more engaging!"
+        "title": "Personalized Incentives with Strategic Impact",
+        "description": "Population milestones and weather scene unlocks provide more than visual enjoyment; **specific weather effects subtly enhance click revenue or overall production**, adding a crucial **strategic layer** to the game's aesthetic and customization system."
       }
     ]
-}
+  }
 ,
   
-whatIs: {
-  title: "Discover Capybara Clicker: The Ultimate Idle Clicker Game",
-  description: "Capybara Clicker is an engaging idle clicker game where players accumulate capybaras by either manual clicking or using automated tools. The gameplay revolves around generating capybaras with each click, upgrading your click power, and unlocking automatic clickers to boost production.\n\n" +
-    "As you progress, you can unlock a variety of skins and weather effects, allowing you to customize the appearance of your capybaras and the game environment. The dynamic weather system adds unique atmosphere changes, while the skin unlocks give you an extra layer of fun customization.\n\n" +
-    "Perfect for busy players, Capybara Clicker allows you to earn capybaras even when you’re offline. Return to the game to receive rewards based on your offline progress. Whether you’re playing actively or passively, Capybara Clicker offers a rewarding experience for all types of players.\n\n" +
-    "Ready to start? Dive into Capybara Clicker and enjoy hours of fun with idle gameplay, endless upgrades, and exciting customization options!",
-  logo: {
+"whatIs": {
+    "title": "Capybara Clicker — Effortlessly Build a Billion-Capybara Empire",
+    "description": "Experience exponential growth and passive income—enjoy the ultimate fun of idle gaming!\n\n**Capybara Clicker** is more than just tapping; it's the satisfaction of building your personal empire. Click to upgrade, boost your auto-income, and feel the thrill of surging numbers.\n\n Click \"**Play Game**\" now to start your journey to Capybara wealth!\n\n**Competitive Advantage Analysis:**\n\n**1. Exponential Growth via the Ascend Mechanism**\n\nOur **Ascend Prestige Reset Mechanism** goes beyond simple resets by granting players **permanent, exponential boosts**, fostering powerful long-term engagement. This system ensures satisfying growth that keeps players motivated for months.\n\n**2. Unique Customization & Dual Fulfillment**\n\nThe unique system of **Capybara appearance and weather scene unlocks** offers more than just visual changes; it enriches the personalization experience. This dual fulfillment of **collection and numerical growth** clearly differentiates us from competitors focused purely on numerical increases.",
+  
+    logo: {
     src: "/assets/capybara-clicker/capybara-clicker-logo.jpeg",
     alt: "Capybara Clicker - Fun Idle Clicker Game Logo"
   }
@@ -78,51 +56,77 @@ howToPlay: {
   imageAlt: "Capybara Clicker - How to Play and Controls Guide"
 },
   
-faq: {
-  title: "Capybara Clicker: Your Questions Answered (Free Idle Clicker Game FAQ)",
-  items: [
-    {
-      value: "free-to-play",
-      question: "Is Capybara Clicker free to play?",
-      answer: "Yes, Capybara Clicker is completely free to play! It is supported by in-app purchases and advertisements that help with the game's operation."
-    },
-    {
-      value: "device-support",
-      question: "Which devices can I play Capybara Clicker on?",
-      answer: "Capybara Clicker is available on multiple platforms, including web browsers, iOS, Android, and Windows PC. Play it wherever you are!"
-    },
-    {
-      value: "gameplay-complexity",
-      question: "Is the gameplay of Capybara Clicker difficult?",
-      answer: "No, Capybara Clicker is easy to pick up and play. With simple tap or click mechanics, it's perfect for casual, stress-free entertainment."
-    },
-    {
-      value: "offline-earnings",
-      question: "Does Capybara Clicker support offline earnings?",
-      answer: "Yes! Capybara Clicker allows you to earn capybaras even while you're offline. When you return, you can collect rewards for your offline progress."
-    },
-    {
-      value: "unlockable-skins-weather",
-      question: "How many skins and weather effects can I unlock in Capybara Clicker?",
-      answer: "There are 16 unique capybara skins and a variety of weather effects that you can unlock to customize the game’s look and feel."
-    },
-    {
-      value: "progress-saving",
-      question: "Does Capybara Clicker save my progress?",
-      answer: "Yes, Capybara Clicker saves your game data to the cloud, allowing you to continue your progress across different devices."
-    },
-    {
-      value: "age-appropriateness",
-      question: "Is Capybara Clicker suitable for all ages?",
-      answer: "Absolutely! The game features cute graphics with no violence, making it perfect for players of all ages."
-    },
-    {
-      value: "developer",
-      question: "Who developed Capybara Clicker?",
-      answer: "Capybara Clicker was developed by Euclides, a company known for creating fun and addictive idle games."
-    }
-  ]
-}
+  "faq": {
+    "title": "Capybara Clicker: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] What is the best long-term strategy for sustained growth?",
+        "answer": "**Expert Strategy**: Prioritize increasing **Capybaras Per Second (CPS)** first, then balance this with improvements to **Capybaras Per Click (CPC)**. Balancing both ensures steady passive income while making manual input impactful, leading to balanced exponential growth."
+      },
+      {
+        "value": "ascend-timing-efficiency",
+        "question": "[Ascend Timing] When is the most efficient time to execute an Ascend reset?",
+        "answer": "**Efficiency Threshold**: Ascend is most effective when your Capybara population or accumulated income reaches a **specific threshold** that is significantly higher than your previous Ascend (factoring in current prestige bonuses). This ensures the permanent boost drastically accelerates the next run."
+      },
+      {
+        "value": "resource-allocation-midgame",
+        "question": "[Resource Allocation] How should resources be allocated during the mid-game phase?",
+        "answer": "**Mid-Game Tip**: Prioritize upgrading **high-tier production tools** for maximum output first. Then, invest in unlocking new **low-tier production methods** to expand your overall production capacity and diversification."
+      },
+      {
+        "value": "cosmetic-vs-bonus",
+        "question": "[Visuals vs. Mechanics] How to determine which appearances and weather scenes grant actual bonuses?",
+        "answer": "**Clue Identification**: **Decorative items** will state they are purely visual. **Bonus-granting items** will explicitly mention an added benefit, such as 'extra income' or 'production multiplier,' in their description. Always check the item's detailed description."
+      },
+      {
+        "value": "advanced-clicking-techniques",
+        "question": "[Advanced Techniques] Do quick-clicking or macro command techniques exist?",
+        "answer": "**Elite Skill**: Yes, top players utilize **high physical click speed** and, where allowed by platform terms, **external tools (macros)** to maximize early-game advantages by instantly achieving high CPC rates and reaching automation thresholds faster."
+      },
+      {
+        "value": "multiplier-stacking",
+        "question": "[Multiplier Stacking] How to utilize multiplier stacking techniques?",
+        "answer": "**Strategy**: Employ **synchronized activation**—time your highest-impact upgrades (e.g., permanent prestige buffs, timed boosters) to activate simultaneously. This combination creates a temporary, massive production spike (burst of output)."
+      },
+      {
+        "value": "weather-rare-events",
+        "question": "[Weather Impact] Does the weather feature influence rare events?",
+        "answer": "**Game Mechanics**: Yes, certain weather patterns **increase the probability of rare events** appearing. High-level players should track and utilize these specific weather conditions to maximize opportunities for rare bonuses."
+      },
+      {
+        "value": "newbie-common-errors",
+        "question": "[Newbie Pain Points] What are the typical errors made by new players?",
+        "answer": "Typical errors include: **Ascending too early** (before achieving sufficient permanent gain), **over-relying on manual clicking** late in the run, and **neglecting the balance** of auto-upgrade investments."
+      },
+      {
+        "value": "automation-transition",
+        "question": "[Pacing] When should the player transition focus entirely to auto-upgrades?",
+        "answer": "**Transition Rule**: Transition focus when your **Capybaras Per Second (CPS) significantly outpaces your Capybaras Per Click (CPC)**. A good rule of thumb is to use the **income ratio** (CPC divided by the highest CPS upgrade cost) as a benchmark for investment priorities."
+      },
+      {
+        "value": "upgrade-bottleneck-avoidance",
+        "question": "[Bottleneck Avoidance] How to avoid upgrade bottlenecks?",
+        "answer": "**Planning Tip**: Plan your purchase order carefully. Prioritize **core production capacity upgrades** that yield the highest CPS for the investment, ensuring the income stream always supports the next major upgrade tier."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] How to solve common lag and efficiency degradation issues?",
+        "answer": "**Official Solution**: **Close all background programs** to free up system resources, and ensure you are using the **latest version of your device's operating system and browser** to maintain optimal performance."
+      },
+      {
+        "value": "ascend-data-loss",
+        "question": "[Data Integrity] What to do if save data is lost during an Ascend?",
+        "answer": "**Data Recovery**: **Regularly back up your game data** using the official export/import save function (if available). If loss occurs, check your cloud or browser synchronization settings, and attempt to use the official manual synchronization tool."
+      },
+      {
+        "value": "click-response-limit",
+        "question": "[Input Optimization] Is there a limit to click responsiveness?",
+        "answer": "**Input Mechanics**: Yes, most systems have a limit where excessively high click frequencies might be ignored. Maintain a **moderate, consistent click rate** to ensure every input is registered by the game system, maximizing recorded CPC."
+      }
+    ]
+  }
+
 };
 
 

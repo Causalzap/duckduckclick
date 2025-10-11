@@ -16,69 +16,31 @@ export const crazyChickenContent = {
   },
 
   // 特性部分配置
-  features: {
-    title: "Mahjong 3D Match: Unlimited Fun and Challenging Levels",
-    items: [
+  "features": {
+    "title": "Mahjong 3D: Core Puzzle Features & Creative Freedom",
+    "items": [
       {
-        title: "Endless Gameplay with Challenging Levels",
-        description: "Experience unlimited play with a variety of challenging levels that keep you engaged and entertained as you progress through Mahjong 3D Match."
+        "title": "360° Free 3D Perspective Control",
+        "description": "Gain the ultimate strategic advantage: Players can **freely rotate and zoom** the tile pile in three dimensions, allowing for precise identification of hard-to-reach or hidden tiles. This flexible operation directly improves puzzle efficiency and aids in formulating superior elimination strategies."
       },
       {
-        title: "Stunning 3D Visual Effects",
-        description: "Enjoy polished 3D graphics and beautifully crafted tiles, creating an immersive Mahjong experience that is visually appealing and captivating."
+        "title": "Powerful & Shareable Custom Editor Mode",
+        "description": "Unlock unprecedented creativity: The **robust Editor Mode** supports custom adjustments to the number, height, and complexity of the tile pile. Players can **create and save their own unique layouts** and easily share them with friends, dramatically enhancing replay value and community engagement."
       },
       {
-        title: "Simple & Addictive Gameplay",
-        description: "Easy to learn and hard to put down, Mahjong 3D Match is suitable for players of all ages, providing a fun and addictive experience."
-      },
-      {
-        title: "Auto-Save Feature for Convenience",
-        description: "Never lose your progress! The auto-save feature ensures you can continue from where you left off, anytime you want to play."
-      },
-      {
-        title: "Varied Tile Layouts & Backgrounds",
-        description: "Explore different tile layouts and backgrounds that add variety and freshness to each game, keeping the gameplay exciting."
-      },
-      {
-        title: "Helpful Tips, Hints, & Boosters",
-        description: "Need some help? Use the tips, hints, and powerful boosters to navigate through tricky levels and improve your Mahjong skills."
-      },
-      {
-        title: "Pause Gameplay Anytime",
-        description: "Life gets busy! With the pause feature, you can easily pause the game and resume it whenever you’re ready to continue."
-      },
-      {
-        title: "Collect Stars & Unlock Rewards",
-        description: "Earn stars by completing levels and unlock exciting rewards that enhance your gameplay experience."
-      },
-      {
-        title: "Casual Brain Trainer",
-        description: "Challenge your brain with Mahjong 3D Match! Improve problem-solving skills while enjoying a fun and relaxing game experience."
-      },
-      {
-        title: "Available on Multiple Platforms",
-        description: "Play Mahjong 3D Match anytime, anywhere! Available on iPhone, iPad, Android, and PC for a cross-platform experience."
-      },
-      {
-        title: "Offline Play Supported",
-        description: "No internet? No problem! Mahjong 3D Match supports offline play, allowing you to enjoy the game anytime, even without a connection."
-      },
-      {
-        title: "Timer for Extra Challenge",
-        description: "Compete against the clock with a timer for each level, earning bonuses for faster play and adding an extra layer of excitement to the game."
+        "title": "Rich Customization Options & Aesthetic Appeal",
+        "description": "Personalize your experience with extensive customization options. This includes diverse **Tile Sets** (with the classic **Oriental Style** being the most popular), selectable backgrounds, tile color schemes, and UI styles, creating a truly immersive Mahjong environment."
       }
     ]
   }
   ,
 
-  whatIs: {
-    title: "Unraveling Mahjong 3D Match: The Ultimate Tile-Matching Puzzle Game",
-    description: "Mahjong 3D Match is a unique, free online puzzle game where players match three identical tiles in a relaxing yet mentally stimulating experience. Unlike traditional Mahjong, this game challenges players with a 3D layout and combines traditional Mahjong patterns with modern match-3 mechanics.\n\n" +
-      "Play unblocked anytime in this fun and engaging brain teaser, designed for both casual and advanced players. Match three tiles at a time, explore intricate 3D tile sets, and enjoy the calming gameplay with a modern twist on a classic puzzle game.\n\n" +
-      "Ready to play? No downloads required – just pure, addictive, and free tile-matching fun that you can enjoy anytime, anywhere.",
-    logo: {
-      src: "/assets/moscow-metro-driver-3d/moscow-metro-driver-3d-logo.jpg", 
-      alt: "Mahjong 3D Match - Free Online Tile Matching Puzzle Game Logo"
+  "whatIs": {
+    "title": "Mahjong 3D — Full-View Classic Mahjong Tile Matching Reimagined",
+    "description": "Experience **360-degree free operation** and **creatively infinite custom level design**!\n\nLeaping beyond traditional 2D Mahjong, Mahjong 3D allows you to freely rotate and zoom the tile pile in a three-dimensional space, planning unique puzzle strategies. Simultaneously, **design and share personalized layouts** to enjoy endless challenge and creative fun! Click \"**Play Game**\" now to start your new Mahjong world.\n\n**Why Choose Mahjong 3D?**\n\n**1. 3D Perspective Superiority**\n\nOur **3D perspective** surpasses traditional 2D Mahjong by revealing **hidden information and complex layers** within the tile pile, making strategy deeper and the challenge greater.\n\n**2. Unprecedented Creative Freedom (Editor Mode)**\n\n**Editor Mode** grants players unprecedented freedom, supporting custom layout number, height, and complexity. The ability to **save and share** these creations greatly enriches the game's **long-term replay value and community engagement**.",
+    "logo": {
+      "src": "/assets/mahjong-3d-match/mahjong-3d-match-logo.jpg",
+      "alt": "Mahjong 3D Free Online Unblocked Tile Matching Puzzle Game Logo"
     }
   }
   ,
@@ -93,51 +55,78 @@ export const crazyChickenContent = {
   }
   ,
 
-  faq: {
-    title: "Mahjong 3D Match: Your Questions Answered (Free Online Puzzle Game FAQ)",
-    items: [
-      {
-        value: "free-play",
-        question: "Is Mahjong 3D Match free to play?",
-        answer: "Yes, Mahjong 3D Match is free to play with ads and optional in-app purchases. Enjoy endless fun without spending a dime!"
-      },
-      {
-        value: "platforms",
-        question: "What platforms is Mahjong 3D Match available on?",
-        answer: "You can play Mahjong 3D Match on iOS, Android, and PC platforms. Whether you're on mobile or desktop, the game is ready to play!"
-      },
-      {
-        value: "boosters",
-        question: "Are there boosters to help complete levels?",
-        answer: "Yes! Mahjong 3D Match offers boosters like hints, super hints, and shuffle to help you solve the most challenging puzzles."
-      },
-      {
-        value: "time-limit",
-        question: "Does Mahjong 3D Match have a time limit?",
-        answer: "Each level in Mahjong 3D Match has a timer to increase the challenge. Race against time to clear the board and score big!"
-      },
-      {
-        value: "pause",
-        question: "Can I pause the game?",
-        answer: "Yes, you can pause Mahjong 3D Match at any time. Take a break and continue solving puzzles when you're ready."
-      },
-      {
-        value: "failure-condition",
-        question: "How do I lose the game in Mahjong 3D Match?",
-        answer: "You fail the level if the box exceeds 7 tiles or if time runs out. Keep an eye on the timer and tile limit to succeed!"
-      },
-      {
-        value: "auto-save",
-        question: "Does Mahjong 3D Match have auto-save?",
-        answer: "Yes, Mahjong 3D Match has an auto-save feature, allowing you to continue from where you left off without losing progress."
-      },
-      {
-        value: "brain-skills",
-        question: "Does Mahjong 3D Match help improve brain skills?",
-        answer: "Absolutely! Mahjong 3D Match is designed to boost problem-solving and memory, offering a fun and engaging way to exercise your brain."
-      }
-    ]
-  }
+  
+    "faq": {
+      "title": "Mahjong 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+      "items": [
+        {
+          "value": "long-term-strategy-efficiency",
+          "question": "[Long-Term Strategy] How to Maximize Success Rate and Puzzle Efficiency?",
+          "answer": "**Official Strategy**: The key is **fluidity and flow**. Prioritize eliminating **top-layer tiles** and strategically opening **middle channels** to ensure a smooth, continuous flow of available tiles."
+        },
+        {
+          "value": "custom-vs-classic-challenge",
+          "question": "[Challenge Difference] How does player-created complex layouts differ from classic preset layouts?",
+          "answer": "**Deep Player Insight**: Player-created layouts are often **more random and variable in difficulty**, making them ideal for developing **strategic adaptability** and handling unexpected tile arrangements."
+        },
+        {
+          "value": "resource-allocation-midgame",
+          "question": "[Resource Allocation] Should I prioritize unlocking new Tile Sets or Background/UI customization in the mid-game?",
+          "answer": "**Official Tip**: New **Tile Sets** provide better visual distinction, aiding puzzle-solving efficiency. **Background/UI** enhances the aesthetic experience. We recommend balancing your choice based on **personal preference** for efficiency versus visual immersion."
+        },
+        {
+          "value": "optimal-viewing-angle",
+          "question": "[Advanced View] Is there an optimal viewing angle for tile identification?",
+          "answer": "**Expert Standard**: The easiest angle for identifying obstructed tiles and reducing blind spots is a **slightly overhead, 45-degree rotated perspective**. This viewpoint is crucial for maintaining flow."
+        },
+        {
+          "value": "top-player-3d-techniques",
+          "question": "[Advanced Techniques] What hidden 3D operation techniques are used by top players?",
+          "answer": "**Elite Secret**: Top players utilize **'Rapid Zoom-Spin'**—a quick, continuous rotation combined with synchronized zooming—to instantly locate all available tile pairs and maintain visual awareness across the entire pile."
+        },
+        {
+          "value": "custom-layout-design-principles",
+          "question": "[Editor Mode] Are there 'Winning' or 'Most Difficult' principles for custom layout design?",
+          "answer": "**Design Insight**: **'Winning' layouts** focus on **clear channel flow** and **no deadlocks**. **'Most Difficult' layouts** utilize **tight vertical pressure** and **maximal tile suppression** to create high-complexity decision points with minimal tile exposure."
+        },
+        {
+          "value": "hint-undo-usage-limits",
+          "question": "[Gameplay Tools] Are there restrictions on using the Hint or Undo features?",
+          "answer": "**Official Guide**: While unrestricted, **advanced players** judiciously use **Hints** to save time during competitive runs. **Undo** should be used sparingly to avoid developing an over-reliance on backtracking, which stunts core problem-solving skills."
+        },
+        {
+          "value": "beginner-common-mistakes",
+          "question": "[Beginner Mistakes] What are the most common mistakes new players make?",
+          "answer": "Common errors include: **Focusing only on surface-level visible tiles**, **over-relying on single-layer matches**, and **failing to observe the entire tile structure** (Global Awareness)."
+        },
+        {
+          "value": "complexity-assessment",
+          "question": "[Puzzle Strategy] How do I judge the complexity of a layout?",
+          "answer": "**Training Tip**: Easily solvable layouts have **clear, predictable tile stacking rules**. Complex layouts are characterized by **multiple tight-pressed layers** and **narrow channels**, demanding early strategic planning."
+        },
+        {
+          "value": "training-techniques",
+          "question": "[Training Method] What is an effective training technique to improve spatial memory and vision?",
+          "answer": "**Expert Practice**: Repeatedly practice the **'3D Quick-Scan'**: Perform a full 3D rotation, then immediately pause and try to **mentally recall all currently exposed, matchable tiles** before making a move. This enhances spatial memory and rapid global awareness."
+        },
+        {
+          "value": "technical-lag-solutions",
+          "question": "[Troubleshooting] What causes common lag issues, and what are the solutions?",
+          "answer": "**Official Solution**: Lag is often due to high **3D rendering consumption**. We recommend **disabling high graphics effects** (if available) or **updating your browser** to the latest version for optimized rendering performance."
+        },
+        {
+          "value": "custom-save-failure",
+          "question": "[Technical Fix] Why do custom layout saves often fail?",
+          "answer": "**Official Tip**: Save failures usually stem from **browser cache limitations**. Ensure you **regularly back up your layout files** and utilize the **official in-game sharing features** which rely on server synchronization, circumventing local cache issues."
+        },
+        {
+          "value": "misclick-avoidance",
+          "question": "[Control Fix] How can I avoid mouse misclicks due to perspective occlusion?",
+          "answer": "**Control Optimization**: Get in the habit of clicking tiles from the **upper or lower visible edges** of the tile face, and always **adjust the 3D perspective** slightly before clicking any tile that appears to be partially occluded to ensure accurate selection."
+        }
+      ]
+    }
+  
   
 };
 

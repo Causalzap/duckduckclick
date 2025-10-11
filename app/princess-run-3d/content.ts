@@ -16,53 +16,31 @@ export const basketballBrosUnblockedContent = {
   },
 
   // 特性部分配置 (占位符内容)
-  features: {
-    title: "Princess Run 3D: Princess-Themed Endless Runner Features - Play Free Online!",
-    items: [
+  "features": {
+    "title": "Princess Run 3D: Core Gameplay Features & Long-Term Goals",
+    "items": [
       {
-        title: "Princess-Themed Endless Runner",
-        description: "Join the fun in Princess Run 3D, an exciting endless runner game with a princess theme! Dash through dynamic environments and avoid obstacles like buses, trains, and mud to escape the chaos."
+        "title": "Strategic Dual-Currency Collection (Gems & Fashion)",
+        "description": "The core collection mechanism balances **Diamonds (General Currency)** and **Fashion Accessories (Charm Value)**. Fashion items are crucial, as they directly boost the **Charm Score**, significantly impacting final rankings and progression. Players must make strategic trade-offs between rapid Diamond collection and high-value Fashion items during high-speed runs."
       },
       {
-        title: "Collect Coins, Diamonds, and Fashionable Accessories",
-        description: "As you run, collect valuable coins, diamonds, and trendy outfits. Unlock fashionable clothes and accessories to personalize your princess's look and make her the most stylish on the run."
+        "title": "Companion-Powered Defense & Progression",
+        "description": "Accumulating **Charm Value** accelerates the acquisition and upgrade of your companion, boosting its defensive efficiency. The companion offers sustained protection, capable of deploying strategic defense against major obstacles and environmental threats (like dynamic traps and chain attacks), drastically increasing long-term survivability."
       },
       {
-        title: "Unlock New Characters and Helpers",
-        description: "Unlock a variety of new princess characters and helpful companions like a maid of honor. Each character has unique abilities to assist in your adventure, keeping the game fresh and exciting."
-      },
-      {
-        title: "Power-Ups for the Ultimate Run",
-        description: "Use special props like hoverboards, magnets, jumpers, and boosters to help your princess conquer even the toughest obstacles. Upgrade your gear and make every run more exciting and rewarding."
-      },
-      {
-        title: "Colorful and Dynamic Environments",
-        description: "Princess Run 3D takes you through a variety of vibrant environments, including snowy landscapes, subways, bustling cities, and magical forests. Each environment brings its own set of challenges and beauty."
-      },
-      {
-        title: "Realistic 3D Graphics & Smooth Controls",
-        description: "Enjoy immersive 3D graphics and intuitive controls. Tap, slide, and double-tap to skateboard and perform amazing moves. The controls are designed to be easy to master, making it enjoyable for players of all ages."
-      },
-      {
-        title: "Challenge Your Friends for High Scores",
-        description: "Princess Run 3D allows you to challenge your friends for the highest scores. Compete with others to see who can run the farthest and collect the most treasures!"
-      },
-      {
-        title: "Free to Play with Ads",
-        description: "Princess Run 3D is free to play with ads. Enjoy endless fun without any downloads, directly in your browser or on your mobile device."
+        "title": "Exclusive Fashion Customization & Long-Term Rewards",
+        "description": "The rarest dresses and dream locations feature unique visual effects and powerful **Charm Attributes**. Unlocking these top-tier items requires accumulating substantial rare resources and completing advanced challenges, providing powerful incentives for long-term player engagement and aspirational goals."
       }
     ]
   }
   ,
   
-  whatIs: {
-    title: "Unraveling Princess Run 3D: The Ultimate Dress-Up Endless Runner Game",
-    description: "Princess Run 3D is an exciting, fast-paced endless runner game with a dress-up twist! Start as a shabby girl and transform into a glamorous princess by collecting stylish outfits on your run. Avoid obstacles, gather fashionable items, and boost your charisma to become the ultimate princess!\n\n" +
-      "The game features fun and dynamic gameplay, where you’ll need to dodge obstacles like buses and trains while picking up trendy outfits to increase your charm. Unlock various helpers who assist you in overcoming enemies and environmental challenges.\n\n" +
-      "Ready to run, jump, and style your way through an endless adventure? Play Princess Run 3D now and enjoy a fashionable and fast-paced experience with no downloads required. Compete with friends and become the most stylish princess in this thrilling free browser game!",
-    logo: {
-      src: "/assets/princess-run-3d/princess-run-3d-logo.jpg",
-      alt: "Princess Run 3D - Free Online Unblocked Dress-Up Endless Runner Game Logo"
+  "whatIs": {
+    "title": "Princess Run 3D — Dream Come True Princess Runner Adventure",
+    "description": "Unlock your inner princess, collect **dreamy fashion accessories**, and run alongside your exclusive companion who guards your every stride! \n\nPrincess Run 3D invites you to embark on a casual runner journey filled with love and charm.\n\nClick \"**Play Game**\" now and step into your fairy-tale world!\n\n**Beyond Gold Coins: The Charm Collection System**\n\nOur **Charm Value Collection Mechanism** surpasses the monotony of traditional runner games (like Subway Surfers) simple coin collection. It offers **rich visual feedback** and **emotional rewards**, making every collection feel like an achievement with visible growth and progression.\n\n**Strategic Companion Defense System**\n\nUnlike competitors' simple invincible shields or magnets, Princess Run 3D's **Companion Support/Defense Mechanism** not only provides lasting protection but also deploys strategic defensive skills tailored for different obstacles. This dynamic approach adds **game depth and strategic flexibility**.\n\nExperience the true essence of a princess's dream run, where style meets strategy!",
+    "logo": {
+      "src": "/assets/princess-run-3d/princess-run-3d-logo.jpg",
+      "alt": "Princess Run 3D - Free Online Unblocked Dress-Up Endless Runner Game Logo"
     }
   }
   
@@ -79,48 +57,73 @@ export const basketballBrosUnblockedContent = {
   }
   ,
   
-  faq: {
-    title: "Princess Run 3D: Your Questions Answered (Free Online Dress-Up Endless Run FAQ)",
-    items: [
+  "faq": {
+    "title": "Princess Run 3D: Ultimate Charm Runner Strategy & FAQ",
+    "items": [
       {
-        value: "free-play",
-        question: "Is Princess Run 3D free to play?",
-        answer: "Yes, Princess Run 3D is completely free to play on mobile devices and web browsers. While it is free, the game contains ads to support its development."
+        "value": "long-term-upgrade-path",
+        "question": "[Long-Term Strategy] What is the Optimal Upgrade Path for Score Maximization?",
+        "answer": "**Official Strategy**: Prioritize investing in **Charm Value Enhancement** first to quickly boost overall character capabilities and score potential. Then, gradually upgrade the **Companion's Defense Power** to maximize run longevity and survivability in later stages. This ensures an optimal balance between offense (scoring) and defense (persistence)."
       },
       {
-        value: "multi-device",
-        question: "Can I play Princess Run 3D on multiple devices?",
-        answer: "Absolutely! Princess Run 3D supports gameplay on Android, iOS devices, and in-browser, making it easy to play on various platforms without downloads."
+        "value": "high-score-risk-pivot",
+        "question": "[Score Maximization] At what score threshold should I pivot from safe routes to high-risk collection areas?",
+        "answer": "**Deep Player Insight**: Once your score reaches the **mid-to-high threshold (e.g., 3000+ points)**, you must switch from safe routes to high-risk collection zones. This is necessary to maximize **Charm Accumulation** and multiplier potential, as the higher rewards significantly outweigh the risks for experienced players."
       },
       {
-        value: "enemies",
-        question: "Are there enemies in the game?",
-        answer: "Yes, Princess Run 3D features enemies along with environmental obstacles like mud, rain, and barriers that players must avoid to keep running."
+        "value": "mid-game-resource-split",
+        "question": "[Resource Allocation] What is the recommended resource split between new fashion items and companion defense upgrades in the mid-game?",
+        "answer": "**Official Tip**: We recommend a **70/30 split**: Invest $\\mathbf{70\\%}$ of resources into acquiring new **Dresses/Accessories** (to boost Charm) and $\\mathbf{30\\%}$ into **Companion Defense Upgrades**. This balance ensures you maintain offensive scoring capability while retaining enough defensive power for persistent runs."
       },
       {
-        value: "collecting-clothes",
-        question: "What happens when I collect clothes?",
-        answer: "Collecting clothes in Princess Run 3D helps increase your charisma, unlock new outfits, and even earn maid of honor helpers who assist in overcoming challenges."
+        "value": "diamond-risk-assessment",
+        "question": "[Risk Management] When should I choose to skip Diamonds to ensure survival?",
+        "answer": "**Expert Standard**: If collecting Diamonds requires you to enter an area that forces the **immediate use or depletion of your companion's protection**, it is always better to **forgo the Diamonds**. Prioritize life and the longevity of your companion's shield over small currency gains to guarantee a higher final score."
       },
       {
-        value: "character-upgrades",
-        question: "Can the character be upgraded?",
-        answer: "Yes! You can upgrade your character by collecting coins and completing challenges, unlocking new characters, outfits, and powerful items like hoverboards."
+        "value": "advanced-sliding-trick",
+        "question": "[Advanced Skills] Do any hidden sliding techniques exist, like 'quick-turn slides,' to rapidly evade traps?",
+        "answer": "**Elite Secret**: Yes, top players utilize a **'Momentum Slide Turn'** (a hidden slide technique). By executing a **micro-slide** followed by an immediate **quick-swipe left/right**, you can achieve a rapid, precision turn that avoids traps while maintaining forward momentum, far superior to simple lane changes."
       },
       {
-        value: "avoiding-obstacles",
-        question: "How do I avoid obstacles?",
-        answer: "Avoid obstacles in Princess Run 3D by swiping left or right to dodge, and sliding under barriers to keep running smoothly. Timing and reflexes are crucial for success."
+        "value": "charm-combo-multiplier",
+        "question": "[Charm Optimization] Are there any outfit combination techniques that activate hidden score multipliers?",
+        "answer": "**Deep Player Insight**: Absolutely. Specific combinations of **Rare Dress, Headwear, and Shoe Sets** create a **'Synergy Set'** that temporarily activates a **hidden Charm Score Multiplier** (e.g., $\\mathbf{1.5X}$ bonus). Players should research these optimal pairings to maximize scoring potential."
       },
       {
-        value: "multiplayer",
-        question: "Is there multiplayer or score competition?",
-        answer: "While Princess Run 3D doesn’t have a direct multiplayer mode, players can challenge their friends by sharing high scores and competing for the top spot."
+        "value": "companion-defense-timing",
+        "question": "[Companion Usage] What is the defense timing window for the companion's protective ability?",
+        "answer": "**Official Tip**: The companion's defensive reaction window is approximately **$\mathbf{1 \text{ second}}$**. Mastering this timing allows players to trigger the defense optimally, enabling the companion to **consecutively block multiple, linked obstacles** (e.g., a rapid series of traps), significantly boosting survival rate."
       },
       {
-        value: "game-tips",
-        question: "Are there any tips for success?",
-        answer: "To succeed in Princess Run 3D, focus on collecting the right outfits and power-ups while avoiding obstacles. Upgrading your character and props will also give you an edge in longer runs."
+        "value": "beginner-common-mistakes",
+        "question": "[Beginner Mistakes] What are the Top 3 typical mistakes that lead to loss of speed or failure for new players?",
+        "answer": "1. **Ignoring Charm Collection**: Focusing only on diamonds and missing essential fashion items. 2. **Over-Reliance on Companion**: Assuming the companion can solve every problem, leading to poor positioning. 3. **Poor Environmental Prediction**: Failing to scan the run for upcoming complex hazards."
+      },
+      {
+        "value": "slide-vs-swipe-utility",
+        "question": "[Movement Correction] When is sliding more effective than simply swiping left/right?",
+        "answer": "**Official Guide**: Sliding is the preferred movement for evading **low-lying or continuous, short-gap obstacles**. Using a timely slide is much more effective than simple lateral movement because it preserves forward momentum while creating a small window of invulnerability, especially useful for continuous hazards."
+      },
+      {
+        "value": "vision-training-method",
+        "question": "[Training Method] What is an effective training method to improve environmental prediction?",
+        "answer": "**Expert Practice**: Implement **'Peripheral Sweep Training.'** Focus on consistently practicing your **visual sweep**, ensuring you catch collectible items on the **edges of the runway** while simultaneously keeping your main focus on the **next two upcoming major obstacles**. This trains effective environmental prediction."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] What are the common lag/stuttering issues, and the one-click solution?",
+        "answer": "**Official Solution**: Common issues are caused by high graphic demands. The solution is to **Enable 'Low Graphics Mode'** in settings, **update your browser to the latest version**, and **close all unnecessary background programs** to free up system resources."
+      },
+      {
+        "value": "progress-sync-issues",
+        "question": "[Technical Fix] What are the main reasons for unsynced progress, and how to fix it?",
+        "answer": "**Official Tip**: The primary causes for unsynced progress are **unstable network connection** or **corrupted browser cache**. Users should **check their network stability** and **relaunch the game**. If the issue persists, clear the browser's cache and cookies to force a fresh data sync."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Fix] What causes unresponsive sliding/swiping, and what are the best settings for responsiveness?",
+        "answer": "**Optimization Tip**: Unresponsive sliding/swiping is usually due to **improper sensitivity settings**. Users should access the control options and **adjust the 'Swipe/Slide Control Sensitivity'** based on their specific device (Mobile vs. PC trackpad/mouse) until the movement response feels instant and precise."
       }
     ]
   }

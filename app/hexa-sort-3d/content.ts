@@ -16,65 +16,28 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title reflecting the new game concept
-    title: "Hexa Sort 3D Features - Play Free Puzzle Game with Colorful Hexagons!",
-    items: [
+ "features": {
+    "title": "Hexa Sort: Core Mechanics of Layered Strategy and Precision",
+    "items": [
       {
-        // Highlights the core gameplay mechanics
-        title: "Stunning 3D Colorful Hexagons",
-        description: "Immerse yourself in the vibrant world of Hexa Sort 3D with beautifully designed, multi-colored hexagon blocks and smooth animations. Experience an eye-catching puzzle adventure that combines both strategy and visual appeal."
+        "title": "The Rule of Precision: 'Aligned and Unobstructed' Stacking",
+        "description": "The precise condition for the hexagonal auto-stacking is **'Aligned and Unobstructed.'** Elimination only occurs when a tile is placed next to three or more same-colored tiles that are **fully cleared on their top layer**. Players must utilize this rule by precisely clearing top layers to create **uninterrupted vertical pathways**, enabling continuous, multi-layer elimination chains."
       },
       {
-        // Focuses on ease of play and depth of strategy
-        title: "Easy to Play, Rich in Strategy",
-        description: "Hexa Sort 3D offers intuitive gameplay where players can quickly get started. However, the levels are strategically challenging, offering plenty of room for thought and tactics, making every move count."
+        "title": "Power-up Strategy for Critical Blockages",
+        "description": "Among all Power-ups and Boosters, the **'Swap' or 'Undo'** function is the most strategically valuable when dealing with a **'critical layer blockage'** (where the required color is trapped underneath a different color). The best time to use it is the moment you realize a move will lock up the board **within the next two turns**, rather than waiting for an actual deadlock."
       },
       {
-        // Emphasizes the variety of challenges
-        title: "Diverse Levels and Exciting Challenges",
-        description: "With a wide range of levels and unique challenges, Hexa Sort 3D keeps players engaged with constantly evolving puzzles. Conquer each stage to unlock new difficulties and exciting game mechanics."
-      },
-      {
-        // Focuses on the relaxing audio experience
-        title: "Relaxing ASMR Sounds for Immersion",
-        description: "Enhance your gameplay experience with soothing ASMR sound effects. These calming sounds elevate your immersion, helping you relax while solving puzzles in the Hexa Sort 3D world."
-      },
-      {
-        // Highlights intuitive controls for a seamless experience
-        title: "Intuitive Drag-and-Drop Gameplay",
-        description: "Enjoy easy-to-use, drag-and-drop controls in Hexa Sort 3D. The intuitive interface allows for smooth interactions, making it accessible to players of all ages."
-      },
-      {
-        // Focuses on in-game support tools
-        title: "Power-ups to Help You Overcome Challenges",
-        description: "Hexa Sort 3D features a variety of helpful power-ups, such as hammers and block replacement tools, designed to aid you in overcoming tough levels and progressing faster in the game."
-      },
-      {
-        // Emphasizes offline play and accessibility
-        title: "Play Anytime, Even Without an Internet Connection",
-        description: "Enjoy Hexa Sort 3D even when offline! The game is fully playable without an internet connection, allowing you to dive into the action whenever you want, anywhere."
-      },
-      {
-        // Highlights the competitive and social features
-        title: "Leaderboards and Social Sharing",
-        description: "Compete with friends and players worldwide! Hexa Sort 3D includes a leaderboard system and social sharing features, allowing you to compare your scores and share your achievements with others."
+        "title": "Controlling the Cascade: Planning Chain Matches",
+        "description": "To effectively control and predict the arrangement of underlying colors after the top layer is cleared, players must engage in **Chain Match Planning**. Strategically place tiles so that when the top layer is eliminated, the newly exposed tiles form an immediate match with neighboring tiles, triggering a **cascade of eliminations** and maximizing scoring."
       }
     ]
-  }
+  },
   
-  
-,
-  
-whatIs: {
-  // Title clearly defines the game type
-  title: "Hexa Sort 3D: The Ultimate Color Matching Puzzle Game",
-  
-  // Description based on the Hexa Sort 3D gameplay info
-  description: "Hexa Sort 3D is an engaging strategy puzzle game that combines color sorting, stack elimination, and stunning 3D visuals. In this game, players must place hexagonal blocks of the same color next to each other, triggering an automatic merging and elimination mechanism. Your goal is to complete specific elimination tasks within the game.\n\n" +
-    "Strategically use the limited space on the board and carefully sort and stack the blocks to reach the game’s objectives. Hexa Sort 3D blends brain training, color matching, and visual enjoyment, offering both relaxing and challenging gameplay elements.\n\n" +
-    "With its intuitive drag-and-drop mechanics and increasing levels of difficulty, Hexa Sort 3D provides a fun and satisfying puzzle experience that players of all ages can enjoy. Whether you’re looking to relax or challenge your mind, this game offers something for everyone.",
-  
+"whatIs": {
+    "title": "Hexa Sort — Ultimate Multi-Layer Strategy and ASMR Matching",
+    "description": "Beyond a simple sorting puzzle, Hexa Sort is the supreme challenge of **multi-dimensional strategic layout**!\n\nExperience the **ASMR-like satisfaction** of perfect tile elimination while mastering complex color stacks. The challenge is not just sorting, but **planning every move across multiple color depths**.\n\n Click \"**Play Game**\" now to test your foresight and strategic mastery!\n\n**Competitive Advantage Analysis:**\n\n**1. The Core Hook: Multi-Dimensional Strategic Depth**\n\nThe most compelling benefit is the satisfaction of engaging in **multi-dimensional strategic layout**. Our **multi-layer color challenge** demands complex, forward-thinking strategy, as players must plan for colors that are currently obscured, creating a depth far beyond traditional single-layer sorting games.\n\n**2. Deep Strategy from Layered Constraints**\n\nOur **multi-layer color challenge** surpasses traditional single-color sorting games by forcing players to strategize across different depths. This creates a much more complex and **forward-thinking strategic depth** as players must plan for colors that are currently obscured.\n\n**3. High-Stakes 19-Slot Board Limitation**\n\nThe **19-slot board limitation** creates a far more intense and precise challenge compared to competitors. This constraint forces players to engage in rigorous **space and bottleneck management**, making every move a critical decision to prevent board lock-up.",
+ 
   logo: {
     // Image path for the logo
     src: "/assets/hexa-sort-3d/hexa-sort-3d-log.webp",
@@ -105,52 +68,78 @@ howToPlay: {
 
 ,
   
-faq: {
-  // Title updated for Hexa Sort 3D FAQ
-  title: "Hexa Sort 3D: Your Questions Answered (Puzzle Game FAQ)",
-  items: [
-    {
-      value: "pricing",
-      question: "Is Hexa Sort 3D free to play?",
-      answer: "Yes, Hexa Sort 3D is free to download and play! The game includes ads and in-app purchases, but you can enjoy the core gameplay without spending money."
-    },
-    {
-      value: "platforms",
-      question: "Which platforms is Hexa Sort 3D available on?",
-      answer: "Hexa Sort 3D is available on iOS, Android, and web browsers. The game is fully compatible with mobile devices, tablets, and desktop platforms."
-    },
-    {
-      value: "difficulty",
-      question: "How difficult is Hexa Sort 3D?",
-      answer: "Hexa Sort 3D is designed to be easy to pick up, with levels that gradually increase in difficulty. It’s perfect for puzzle players of all ages, offering both relaxing gameplay and challenging puzzles as you progress."
-    },
-    {
-      value: "offline-play",
-      question: "Do I need an internet connection to play Hexa Sort 3D?",
-      answer: "No, Hexa Sort 3D supports offline play, so you can enjoy the game without needing a constant internet connection."
-    },
-    {
-      value: "power-ups",
-      question: "Are there power-ups in Hexa Sort 3D?",
-      answer: "Yes, Hexa Sort 3D includes helpful power-ups, such as the hammer to break unsuitable stacks and the swap function to adjust block positions. These features help you overcome tough levels."
-    },
-    {
-      value: "progress-saving",
-      question: "How does Hexa Sort 3D save my progress?",
-      answer: "Hexa Sort 3D supports cloud saving across multiple platforms, allowing you to sync your progress and play across different devices (platform-specific)."
-    },
-    {
-      value: "leaderboards-social",
-      question: "Does Hexa Sort 3D have leaderboards or social features?",
-      answer: "Yes, Hexa Sort 3D features leaderboards where you can compare your scores and progress with friends or other players. It also has social sharing options so you can show off your achievements."
-    },
-    {
-      value: "age-appropriateness",
-      question: "Is Hexa Sort 3D suitable for all ages?",
-      answer: "Hexa Sort 3D is rated 18+, but it is suitable for players of all ages, with a focus on puzzle-solving and relaxation. It offers both fun and mental stimulation for everyone."
-    }
-  ]
-}
+
+  "faq": {
+    "title": "Hexa Sort: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] What is the best long-term strategy to maximize 'Elimination Efficiency' and 'Level Completion Rate'?",
+        "answer": "**Expert Strategy**: The best strategy is to prioritize clearing the **deep-layer colors that are most likely to cause blockages**. While clearing the most numerous color gives temporary relief, long-term success requires foresight to manage the colors at the bottom of the stacks, which hold the ultimate veto over the board's solvability."
+      },
+      {
+        "value": "multi-impact-training",
+        "question": "[Cognitive Training] How to effectively train yourself to simultaneously predict the impact of placing one hexagon on its six surrounding neighbors?",
+        "answer": "**Training Method**: Practice **'Peripheral Vision Planning.'** When focusing on the target placement spot, consciously use your peripheral vision to track the **potential matches for the surrounding five neighbors**. This trains the brain to execute the central move while anticipating the subsequent chain reactions."
+      },
+      {
+        "value": "power-up-allocation",
+        "question": "[Resource Allocation] Should players prioritize using Power-ups mid-game to prevent failure, or save them for high levels to pursue perfect clears/high scores?",
+        "answer": "**Strategic Guidance**: In the mid-game, Power-ups should be used **strategically to prevent critical failure**. However, once consistency is achieved, **reserve Power-ups for advanced levels** to target the high-score multiplier, as the scoring potential in later stages outweighs the cost of a mid-game restart."
+      },
+      {
+        "value": "safe-vs-risky-zones",
+        "question": "[Space Management] How to determine which areas on the 19-slot board are 'Safe Zones' (for temporary stacking) and which are 'Blockage Risk Zones'?",
+        "answer": "**Zone Identification**: **'Safe Zones'** are the central slots that are easily accessible from multiple angles. **'Blockage Risk Zones'** are the slots in the **outermost ring and corners**. Avoid stacking unmatched colors in the corners, as they become difficult to clear without blocking the entire board."
+      },
+      {
+        "value": "hidden-multi-layer-clear",
+        "question": "[Advanced Technique] Is there a hidden placement technique known only by top players that can instantly trigger a 'Full Board Multi-Layer Clear'?",
+        "answer": "**Elite Secret**: This is the **'Calculated Gap Fill.'** It involves strategically leaving a specific single-slot gap open for the final tile. Placing the final piece not only completes the top layer match but also simultaneously exposes and completes the match for the color in the layer directly underneath it, triggering an immediate, cascading multi-layer elimination."
+      },
+      {
+        "value": "fixed-color-sequence",
+        "question": "[Prediction Mechanics] Is there a fixed color sequence for the 'multi-layer color' mechanism? How does this affect foresight?",
+        "answer": "**Mechanism Insight**: There is **no globally fixed color sequence** (e.g., Red is always followed by Blue). However, **within a single level**, the colors are often pre-determined based on the level's design. Top players use **repeated play** and memory to learn the sequence of colors for high-value stacks, giving them a predictive advantage."
+      },
+      {
+        "value": "3d-visual-advantage",
+        "question": "[3D Visualization] How to leverage the 3D perspective to quickly identify which underlying hexagons are covered by 'soon-to-be-cleared' top-layer hexagons?",
+        "answer": "**Visual Trick**: Use **'Quick-Shift Perspective.'** Instead of waiting, quickly rotate the 3D view to see the **side walls** of the stacks before clicking the final tile. This confirms the color of the underlying piece before it drops, ensuring your planned chain match is successful."
+      },
+      {
+        "value": "newbie-common-errors",
+        "question": "[Newbie Pain Points] What are the three common errors that cause the 19-slot board to fully block or prevent the clearing of critical colors?",
+        "answer": "The three major errors are: 1) **Focusing only on the top layer** and ignoring the growing complexity below. 2) **Mindlessly stacking unmatched colors in corners**, which are impossible to clear later. 3) **Breaking up potential deep-layer matches** with temporary, misplaced colors."
+      },
+      {
+        "value": "must-clear-vs-can-keep",
+        "question": "[Strategic Assessment] How should new players judge which hexagon is 'Must Be Cleared Immediately' versus 'Can Be Temporarily Reserved'?",
+        "answer": "**Assessment Guide**: A tile is **'Must Be Cleared Immediately'** if it is an unmatched color placed on top of a key color needed for an existing match. A tile is **'Can Be Temporarily Reserved'** if it is an unmatched color placed on top of another unmatched color, or if it is on a low-risk, easily accessible area (not a corner)."
+      },
+      {
+        "value": "dual-layer-training",
+        "question": "[Dual-Layer Focus] How to effectively train yourself to consider both the current color and the color of the layer underneath when placing a hexagon?",
+        "answer": "**Training Method**: Practice **'Two-Turn Planning.'** Before placing any tile, mentally confirm: **1) What color will this match? 2) What color will be exposed underneath?** Only proceed if the placement either clears a match immediately or reveals a color that can be matched on the very next move."
+      },
+      {
+        "value": "technical-lag-solution",
+        "question": "[Technical Troubleshooting] What are the most common lag or 3D rendering delay issues? What is the one-click solution for 3D puzzle games?",
+        "answer": "**One-Click Solution**: The most common issue is **high 3D rendering pressure**. The immediate solution is to **disable visual effects (lower graphics quality)** and ensure your browser/device is running the **latest software update** to optimize the rendering pipeline."
+      },
+      {
+        "value": "asmr-sync-fix",
+        "question": "[UX Fix] Does the ASMR elimination sound effect have a delay? How to ensure the optimal visual/auditory synchronization experience?",
+        "answer": "**Synchronization Tip**: The ASMR sound is designed for minimal delay. To ensure the optimal experience, if you notice any lag, immediately follow the **technical lag solution** (lowering graphics quality). A clean elimination with minimal visual lag should ensure perfect audio synchronization."
+      },
+      {
+        "value": "input-optimization",
+        "question": "[Input Optimization] What is the most common placement judgment error when dragging and rotating hexagons to the specified position? How to optimize the operation?",
+        "answer": "**Optimization Advice**: The most common error is **misjudged alignment due to drag distance**. Optimize by ensuring you **fully center the hexagon** over the target slot before releasing the mouse/touch. Adjust the **control sensitivity** in the settings to allow for finer, more controlled movements rather than fast, sweeping drags."
+      }
+    ]
+  }
+
 
 };
 

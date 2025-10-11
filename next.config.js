@@ -82,6 +82,10 @@ const nextConfig = {
         source: '/death-run-3d',
         destination: '/game/death-run-3d/index.html',
       },
+      {
+        source: '/candy-clicker-2',
+        destination: '/game/candy-clicker-2/index.html',
+      },
     ]
   }
 };

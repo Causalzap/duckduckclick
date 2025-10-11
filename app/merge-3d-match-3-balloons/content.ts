@@ -16,74 +16,30 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title reflecting the new game concept
-    title: "Merge 3D - Match 3 Balloons Features - Play Free Online!",
-    items: [
+  "features": {
+    "title": "Balloon Match 3D: Core Challenge & Strategic Features",
+    "items": [
       {
-        // Highlights the core balloon matching gameplay
-        title: "Exciting Match-3 Puzzle Gameplay",
-        description: "Dive into Merge 3D - Match 3 Balloons, a fun and engaging match-3 puzzle game! Match colorful balloons to light up your floating house and help it descend safely while solving brain-teasing puzzles."
+        "title": "High-Stakes 7-Slot Risk Management",
+        "description": "The central challenge lies in **Risk Management**: When the 7-slot storage nears its limit, players must accurately calculate the remaining space risk. Success often hinges on strategically taking a risk by adding an unmatched balloon, blending **strategy and chance** to push the puzzle forward."
       },
       {
-        // Focuses on the unique gameplay mechanic
-        title: "Unique Balloon Matching Mechanic",
-        description: "In Merge 3D, every balloon you match lightens the load of a floating house, ensuring it descends safely. A fresh and exciting twist on traditional match-3 gameplay, combining strategy with fun mechanics."
+        "title": "Strategic Power-up Arsenal & Timed Usage",
+        "description": "Master five unique Power-ups. **'Explosion'** is key for breaking deadlocks when stuck. **'Undo Last Move'** is best for correcting minor errors. **'Shuffle'** should be reserved for breaking up inefficient, low-match arrangements. Successful deployment relies entirely on **precise timing and strategic need**."
       },
       {
-        // Highlights the 3D visual aspect of the game
-        title: "Rotatable 3D View",
-        description: "Explore every angle in the game with a 3D rotational view. Find hidden balloons and solve puzzles from different perspectives for an immersive gaming experience."
-      },
-      {
-        // Describes the variety of levels
-        title: "Hundreds of Challenging Levels",
-        description: "With hundreds of levels, Merge 3D - Match 3 Balloons continuously increases in difficulty, offering endless hours of fun as you progress through more complex and engaging puzzles."
-      },
-      {
-        // Focuses on the game's visual appeal
-        title: "Vivid Colors & Smooth Popping Effects",
-        description: "Enjoy vibrant visuals and satisfying popping effects as you match colorful balloons. The game features smooth animations that make each level feel even more enjoyable and rewarding."
-      },
-      {
-        // Emphasizes the relaxing yet challenging gameplay
-        title: "Relaxing Yet Brain-Teasing Gameplay",
-        description: "Merge 3D is designed to be relaxing but also offers a challenge with each level. Perfect for casual players of all ages who enjoy solving puzzles while unwinding."
-      },
-      {
-        // Mentions the time-limited challenges
-        title: "Time-Limited Levels",
-        description: "Each level in Merge 3D has a time limit, increasing the challenge and adding excitement as you race against the clock to match and merge balloons."
-      },
-      {
-        // Highlights offline play option
-        title: "Offline Play Available",
-        description: "No internet? No problem! You can play Merge 3D - Match 3 Balloons offline, making it perfect for gaming on the go or in areas with limited connectivity."
-      },
-      {
-        // Mentions the game's update frequency
-        title: "Regular Updates & New Levels",
-        description: "Merge 3D is regularly updated with new levels and special events to keep the gameplay fresh and exciting. Enjoy new challenges and surprises with every update!"
-      },
-      {
-        // Explains the intuitive controls
-        title: "Intuitive Touch Controls",
-        description: "The game features easy-to-learn touch controls. Tap to merge balloons and swipe to rotate the view, offering a seamless experience for players of all ages."
+        "title": "Long-Term Reward System & Customization",
+        "description": "Incentives are driven by **Treasure Chests and Coin Rewards**, encouraging players to achieve high-star ratings. Coins can be redeemed for **rare balloon patterns and exclusive visual effects**, enhancing the puzzle experience and providing a personalized sense of long-term progression."
       }
     ]
-}
+  }
 
 ,
   
-whatIs: {
-  // Title clearly defines the game type
-  title: "Unraveling Merge 3D - Match 3 Balloons: The Ultimate Balloon Puzzle Game",
-  
-  // Description based on the "balloon match 3" game info
-  description: "Merge 3D - Match 3 Balloons is a fun and relaxing 3D puzzle game where players match three or more same-colored balloons to pop them. The main goal? Help a whimsical floating house descend safely by popping the right balloons. With a unique 3D perspective, this game combines classic match-3 mechanics with a fresh and engaging visual experience.\n\n" +
-    "Enjoy hundreds of challenging levels where the goal is to strategically pop balloons and safely guide the floating house down. Each level increases in difficulty, keeping the gameplay exciting and mentally stimulating. It's perfect for casual players seeking a relaxing yet engaging puzzle experience.\n\n" +
-    "Ready to pop some balloons? No downloads needed – just an enjoyable, free puzzle game that you can jump right into anytime, anywhere.",
-  
+"whatIs": {
+    "title": "Balloon Match 3D — Ultimate Spatial & Time-Limited Matching Challenge",
+    "description": "Experience the strategic limit of **7-slot space management** while navigating a three-dimensional matching field under time pressure!\n\n**Balloon Match 3D** breaks free from traditional Match 3 gameplay by integrating a unique **7-slot space limitation** with **nested balloon obstacles**, pushing your mental limits. \n\nClick \"**Play Game**\" now and start your journey of extreme-speed puzzling!\n\n**Competitive Advantage Analysis:**\n\n**1. 7-Slot Spatial Strategy Mechanism**\n\nOur **7-slot space limitation mechanism** creates a more intense and risk-laden strategic depth, forcing players to constantly balance real-time storage versus elimination, significantly surpassing the simple stacking gameplay of general matching games.\n\n**2. Unique Nested Obstacle Design**\n\nObstacles designed as **'balloons trapped within other balloons'** compel players to re-evaluate elimination priorities. This prevents the mechanical gameplay caused by simple stacking and guides players toward more **forward-thinking strategic decisions**.",
+    
   logo: {
     // Image path unchanged
     src: "/assets/merge-3d-match-3-balloons/merge-3d-match-3-balloons-logo.jpg",
@@ -113,46 +69,78 @@ howToPlay: {
 
 ,
   
-faq: {
-  title: "Merge 3D - Match 3 Balloons: Your Questions Answered (Free Online Puzzle Game FAQ)",
-  items: [
-    {
-      value: "free-to-play",
-      question: "Is Merge 3D - Match 3 Balloons free?",
-      answer: "Yes, Merge 3D - Match 3 Balloons is free to play with optional in-app purchases for extra boosts and features."
-    },
-    {
-      value: "platforms",
-      question: "What platforms is the game available on?",
-      answer: "Merge 3D - Match 3 Balloons is available on mobile platforms (iOS, Android) and is also playable directly in web browsers."
-    },
-    {
-      value: "offline-play",
-      question: "Can I play offline?",
-      answer: "Yes, Merge 3D - Match 3 Balloons supports offline play, allowing you to enjoy the game anytime, anywhere."
-    },
-    {
-      value: "time-limits",
-      question: "Are there time limits on levels?",
-      answer: "Yes, each level in Merge 3D - Match 3 Balloons has a countdown timer, which adds an exciting challenge as you race against time to pop the balloons."
-    },
-    {
-      value: "3d-rotation",
-      question: "Can I rotate the 3D scene?",
-      answer: "Yes, the game allows you to rotate the 3D view, helping you spot hidden balloons and plan your moves strategically."
-    },
-    {
-      value: "difficulty",
-      question: "Does the game get harder?",
-      answer: "Yes, the difficulty of Merge 3D - Match 3 Balloons increases with each level. You'll face more balloon colors, complex layouts, and faster-paced gameplay."
-    },
-    {
-      value: "goal",
-      question: "What is the unique goal in Merge 3D - Match 3 Balloons?",
-      answer: "The goal is to pop the balloons in matching groups and safely guide the floating house back to the ground. Plan your matches strategically to clear the board and complete each level!"
-    }
-  ]
-}
+
+  "faq": {
+    "title": "Balloon Match 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] What is the best strategy to maximize star ratings and efficiency?",
+        "answer": "**Expert Strategy**: Prioritize **rapid top-layer clearance** while maintaining constant vigilance over the **7-slot bottom bar**. The key is balancing speed with efficient space management, ensuring the bottom bar never becomes a bottleneck."
+      },
+      {
+        "value": "difficulty-assessment",
+        "question": "[Difficulty Assessment] How should players assess level difficulty and allocate Power-ups?",
+        "answer": "**Official Tip**: On **difficult, complex levels**, strategically combine multiple Power-ups to guarantee a 3-star rating. On **easier, straightforward levels**, conserve Power-ups and focus purely on matching to maximize resource savings for later challenges."
+      },
+      {
+        "value": "resource-allocation-midgame",
+        "question": "[Resource Allocation] Should I prioritize powerful Power-ups or new balloons in the mid-game?",
+        "answer": "**Official Tip**: Mid-game investment should lean towards **strong Power-ups** to significantly boost puzzle-solving capability on harder levels. Complement this by gradually unlocking **new balloon sets** for visual variety and slight strategic differentiation."
+      },
+      {
+        "value": "priority-management",
+        "question": "[Priority Management] How to judge which balloon to release to avoid cluttering the bar with unmatched colors?",
+        "answer": "**Advanced Strategy**: Prioritize releasing balloons that **immediately complete a match** or those that **reveal a critical underlying balloon**. Avoid releasing unmatched colors that will fill a slot unless that move is absolutely necessary to prevent a deadlock, as the space pressure is not worth the risk."
+      },
+      {
+        "value": "advanced-color-management",
+        "question": "[Advanced Technique] How do top players utilize color management to avoid complex deadlocks?",
+        "answer": "**Elite Secret**: Top players employ **'Color Reservation'**. They actively choose to leave one or two slots open for specific **key colors** that they predict will be needed to unlock future clusters. This prevents complex deadlocks by ensuring the right key is always available."
+      },
+      {
+        "value": "consecutive-match-bonus",
+        "question": "[Timer Control] Can consecutive, fast eliminations activate a time freeze or bonus?",
+        "answer": "**Game Mechanics**: Yes, **Consecutive Quick Matches** activate a **brief 'Time Freeze' window** (bonus time). Mastering the speed and sequence of matches is vital for extending the solving time and achieving high scores under pressure."
+      },
+      {
+        "value": "3d-view-trick",
+        "question": "[3D View Trick] How to use the 3D perspective to quickly locate hidden critical balloons?",
+        "answer": "**Visual Trick**: Use **'Micro-Angle Shift'**. Instead of wide rotations, use small, fast angle adjustments (less than 10 degrees) to exploit the way the shadows and overlaps shift. This technique helps quickly reveal the color and position of crucial balloons hidden deep within the stack."
+      },
+      {
+        "value": "beginner-common-mistakes",
+        "question": "[Beginner Mistakes] What are the common errors that lead to frustration for new players?",
+        "answer": "Common errors include: **Randomly picking visible balloons**, **failing to constantly monitor the bottom bar space**, and **neglecting to predict the next 3 moves** (lack of forward planning)."
+      },
+      {
+        "value": "prediction-training",
+        "question": "[Cognitive Training] How to train multi-step color prediction effectively?",
+        "answer": "**Training Method**: Practice **'Multi-Step Color Association'**. Before tapping a balloon, mentally identify the next three balloons that will be revealed and which color they will need. This trains the player to allocate time calmly and make future-proof decisions."
+      },
+      {
+        "value": "power-up-usage-risk",
+        "question": "[Risk Management] When is it risky to use a Power-up if the bottom bar has few empty slots?",
+        "answer": "**Official Guidance**: If the bottom bar has only **one or two empty slots left**, using the 'Shuffle' or 'Explosion' Power-ups is extremely risky. These actions may reveal a high volume of unmatchable colors, immediately causing a **deadlock**. Use them with maximum space available."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] What causes common lag issues, and what are the solutions?",
+        "answer": "**Official Solution**: Lag is mainly due to **high-load 3D rendering**. The solution is to **lower the graphics quality** in settings, update to the latest browser version, and **close any unnecessary applications** running in the background."
+      },
+      {
+        "value": "progress-save-failure",
+        "question": "[Technical Fix] What causes save/progress anomalies, and how to check/fix the status?",
+        "answer": "**Official Guidance**: Save anomalies are often linked to **network instability or corrupted local cache**. We recommend using the **official backup/save export feature** (if available) and **periodically refreshing the game** to force a server status synchronization."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Fix] What causes touch/mouse input misjudgment (e.g., accidental double-tap)? How to optimize controls?",
+        "answer": "**Optimization Tip**: Misjudgment is often due to high input sensitivity. **Adjust the 'Tap/Click Sensitivity'** in the settings to a level that prevents accidental double-tap. Also, consistently use **multi-angle rotation** to ensure the click target is fully visible, minimizing selection error."
+      }
+    ]
+  }
+
 
 
 };

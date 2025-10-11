@@ -16,36 +16,20 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    title: "Jelly Math 3D Features - Fun and Engaging Math Puzzle Game for All Ages!",
-    items: [
+  "features": {
+    "title": "Jelly Math 3D: Core Gameplay Features & Educational Depth",
+    "items": [
       {
-        title: "Colorful Math Puzzle Game",
-        description: "Dive into Jelly Math 3D, a fun and colorful math puzzle game designed for all ages. Match vibrant jelly blobs to solve arithmetic problems and sharpen your math skills."
+        "title": "Core Mechanism: Forming Correct Arithmetic Equations",
+        "description": "The gameplay supports a wide range of math expressions, from simple **A + B = C** to complex formats like **A × (B − C) = D**. Players must cleverly sort the jellies to complete valid equations for elimination. This strong strategic element elevates the puzzle depth while rigorously enhancing arithmetic skills."
       },
       {
-        title: "Educational Fun",
-        description: "Jelly Math 3D blends educational content with entertaining gameplay, making learning arithmetic enjoyable. It's perfect for kids, students, and adults who want to challenge their brain while having fun."
+        "title": "Dual Challenge Modes: Timed vs. Casual",
+        "description": "The **Timed Mode** tests quick reaction speed and accuracy, rewarding extra stars and bonuses. The **Casual Mode** offers a stress-free environment for fundamental concept practice. These two modes present substantial differences in difficulty and incentives, catering to a wide range of player needs and learning paces."
       },
       {
-        title: "Progressive Difficulty",
-        description: "As you progress, the difficulty levels increase, helping you improve your math proficiency. Each level introduces more challenging problems to keep you engaged and learning."
-      },
-      {
-        title: "Instant Feedback & Rewards",
-        description: "Jelly Math 3D offers instant feedback after each puzzle, rewarding players with satisfying animation effects as they solve problems correctly. It’s a fun, addictive way to enhance your math skills."
-      },
-      {
-        title: "Vibrant 3D Graphics",
-        description: "Enjoy the visually engaging 3D graphics and satisfying animation effects as you solve math puzzles. The vibrant jelly blobs and interactive elements make the learning experience more immersive."
-      },
-      {
-        title: "Accessible on Multiple Platforms",
-        description: "Jelly Math 3D is accessible on both web and mobile platforms, allowing you to enjoy the game anytime, anywhere. Play on your desktop, tablet, or smartphone!"
-      },
-      {
-        title: "Brain-Boosting Challenges",
-        description: "Jelly Math 3D is the perfect brain trainer! Whether you’re a beginner or a seasoned pro, this game offers math challenges suitable for everyone, helping you develop arithmetic skills in a fun, addictive way."
+        "title": "Personalized Progression & Skill-Based Incentives",
+        "description": "Unlock new jelly characters and themes based on your mathematical proficiency. Completing specific difficulty tiers grants **exclusive rewards**, which strongly motivates players toward continuous advancement and enhances immersion in the educational journey."
       }
     ]
   }
@@ -53,11 +37,12 @@ export const futbolLibreContent = {
 ,
   
 whatIs: {
-  title: "Discover Jelly Math 3D: The Fun and Educational Math Puzzle Game",
-  description: "Jelly Math 3D is an engaging, educational puzzle game designed to make learning math enjoyable. Players solve math problems by matching colorful jelly blobs, making it a fun way to practice arithmetic skills. Combining challenging puzzles and math, it provides an exciting brain-training experience for all ages. Whether you're a student looking to improve your math skills or just love solving puzzles, Jelly Math 3D offers an interactive and enjoyable way to learn.",
+    "title": "Jelly Math 3D — Ultimate Brain Training & Fun Arithmetic Matching",
+    "description": "Make math learning addictive and challenge your arithmetic skills!\n\n**Jelly Math 3D** brings an unprecedented interactive math experience for parents, students, and adult puzzle enthusiasts. **Exercise your brain and enhance arithmetic ability** through 3D jelly matching. \n\n Click \"**Play Game**\" now and start your journey of fun learning!\n\n**Competitive Advantage Analysis:**\n\n**1. Engaging 3D Jelly Matching Mechanism**\n\nOur **3D jelly matching mechanism** offers greater **visual appeal and interactive fun** compared to traditional 2D math practice games. Coupled with the dynamic 3D perspective, learning and practicing arithmetic transforms into an **immersive experience**.\n\n**2. Diverse Mode for Tiered Progression**\n\n**'Timed Mode'** and **'Casual Mode'** cater to different ages and skill levels, providing a **customized and progressive challenge path**. This truly achieves the goal of integrating education with entertainment and advancing skills systematically.",
+   
   logo: {
     src: "/assets/jelly-math-3d/jelly-math-3d-logo.jpg",
-    alt: "Jelly Math 3D - Free Online Educational Math Puzzle Game"
+    alt: "Jelly Math 3D Free Online Unblocked Educational Math Puzzle Game Logo"
   }
 }
 ,
@@ -68,44 +53,78 @@ howToPlay: {
   image: "/assets/jelly-math-3d/jelly-math-3d.png",
   imageAlt: "Jelly Math 3D Gameplay - Fun and Educational Math Puzzle Game"
 }
-
 ,
-  
-faq: {
-  title: "Jelly Math 3D: Your Questions Answered (Free Educational Math Puzzle FAQ)",
-  items: [
-    {
-      value: "free-to-play",
-      question: "Is Jelly Math 3D free to play?",
-      answer: "Yes, Jelly Math 3D is completely free to play on web and mobile platforms, offering accessible educational fun for everyone!"
-    },
-    {
-      value: "math-skills",
-      question: "Can Jelly Math 3D help improve math skills?",
-      answer: "Absolutely! Jelly Math 3D is designed to sharpen your arithmetic and problem-solving abilities, making learning math fun and interactive."
-    },
-    {
-      value: "platforms",
-      question: "What platforms support Jelly Math 3D?",
-      answer: "Jelly Math 3D is available on browsers for online play and can be accessed on mobile devices, providing a seamless gaming experience on various platforms."
-    },
-    {
-      value: "suitable-for-kids",
-      question: "Is this game suitable for children?",
-      answer: "Yes, Jelly Math 3D is family-friendly and educational, making it perfect for learners of all ages, including children."
-    },
-    {
-      value: "difficulty-levels",
-      question: "Are there different levels of difficulty?",
-      answer: "Yes, Jelly Math 3D features progressive difficulty levels that increase as you advance, ensuring a rewarding challenge for all players."
-    },
-    {
-      value: "how-to-play",
-      question: "How do I play the game?",
-      answer: "To play Jelly Math 3D, match jelly blobs to solve math problems and progress through levels. Use logic and quick thinking to maximize your score!"
-    }
-  ]
-}
+  "faq": {
+    "title": "Jelly Math 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] What is the best long-term strategy to maximize stars and bonuses?",
+        "answer": "**Expert Strategy**: The key is prioritizing **mastery of multiplication and division**, and immediately combining this with **consecutive match combo techniques** to significantly boost efficiency and score multipliers."
+      },
+      {
+        "value": "mode-utilization",
+        "question": "[Mode Utilization] How to utilize Timed Mode and Casual Mode to improve math skills?",
+        "answer": "**Official Tip**: Use **Timed Mode** to rapidly enhance your **arithmetic speed and reaction time**. Use **Casual Mode** for a deeper understanding of mathematical principles and to practice complex, long-chain elimination strategies without time pressure."
+      },
+      {
+        "value": "resource-allocation-midgame",
+        "question": "[Resource Allocation] Should I prioritize unlocking new arithmetic challenges or jelly characters in the mid-game?",
+        "answer": "**Official Tip**: Mid-game success is built on skill. Prioritize unlocking **new arithmetic challenges** first to elevate difficulty and skill ceiling. Then, focus on **jelly characters** to enhance visual motivation and personalized progression."
+      },
+      {
+        "value": "critical-jelly-identification",
+        "question": "[Priority Management] How to judge critical number jellies? Which ones should be reserved?",
+        "answer": "**Advanced Strategy**: Always reserve numbers involved in **complex operations (Multiplication, Division, or Parentheses)**. Decision-making should be based on **number size and operator priority**; high-value numbers are often the cornerstone of high-score equations."
+      },
+      {
+        "value": "hidden-match-techniques",
+        "question": "[Advanced Techniques] Do top players master hidden matching techniques to boost score?",
+        "answer": "**Elite Secret**: Yes, top players prioritize seeking out **long elimination chains** and **high-value perfect combinations** that involve complex operators, which lead to significant score bursts."
+      },
+      {
+        "value": "chain-reaction-mechanics",
+        "question": "[Combo Strategy] How does the chain reaction mechanism work, and why is strategy crucial for it?",
+        "answer": "**Mechanism Analysis**: A successful match can trigger secondary or even tertiary chain eliminations as new jellies fall into place. **Strategic placement** is crucial; plan the initial match to expose numbers that will immediately form a second equation upon falling, maximizing the chain effect."
+      },
+      {
+        "value": "multiplication-training",
+        "question": "[Speed Skill] How to train the skill of rapid calculation for multiplication and division in Timed Mode?",
+        "answer": "**Training Method**: Achieve this through **rhythm control and repetitive drilling**. Focus on establishing a constant, quick rhythm for solving known equations and immediately moving to the next set. This integrates speed and accuracy."
+      },
+      {
+        "value": "beginner-common-mistakes",
+        "question": "[Beginner Mistakes] What are the common errors that new players easily make?",
+        "answer": "Typical errors include: **Focusing exclusively on simple addition/subtraction**, **blindly clicking available jellies**, and **ignoring the overall layout** which leads to missing crucial long-chain opportunities."
+      },
+      {
+        "value": "3d-visual-training",
+        "question": "[Visual Training] How to train simultaneous observation of numbers and operators on the 3D board?",
+        "answer": "**Training Method**: Practice **'Regional Focus and Review'**. Concentrate on a specific quadrant of the board to plan a move, then quickly review the entire board (all four quadrants) before clicking. This trains multi-area focus and prevents tunnel vision."
+      },
+      {
+        "value": "equation-planning-balance",
+        "question": "[Pacing] How to balance quickly clearing simple equations with carefully planning complex ones?",
+        "answer": "**Pacing Tip**: **Quickly clear simple equations** when they are readily available to free up space. Dedicate time to **carefully plan complex equations** when the board is stable, ensuring you don't enter a deadlock by wasting necessary numbers on simple matches."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] What causes common lag issues, and what are the solutions?",
+        "answer": "**Official Solution**: Lag is mainly due to **high 3D rendering pressure**. We recommend **disabling high-quality graphics** and **updating your browser** to the latest version to optimize performance."
+      },
+      {
+        "value": "progress-sync-issues",
+        "question": "[Technical Fix] What causes unlock progress anomalies, and how to check/fix the status?",
+        "answer": "**Official Guidance**: Anomalies are typically due to **network instability or cache issues**. Players should **check their network status** and **refresh the game**. If the issue persists, clear the browser cache to force a fresh synchronization of game progress."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Fix] What causes click/drag misjudgment in obscured areas? How to optimize controls?",
+        "answer": "**Optimization Tip**: Misjudgment often occurs in visually obscured areas. Optimize by **adjusting the 3D viewing angle** before making a selection, **lowering the mouse/touch sensitivity**, and making **reasonable use of the zoom function** to ensure accurate clicking/dragging."
+      }
+    ]
+  }
+
 
 
 };

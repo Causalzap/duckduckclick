@@ -139,22 +139,22 @@ export const games: Record<string, Game> = {
 },
 "blood-money": {
   "id": "blood-money",
-  "title": "BLOODMONEY!: Dark Clicker Descent",
+  "title": "BLOODMONEY!",
   "description": "Play BLOODMONEY! Dark Clicker Descent – a chilling horror-clicker game with multiple endings. Follow the ultimate strategy guide to unlock the Good, Bad, and Normal Endings, make optimal moral choices, and maximize your profits. No downloads required! Play free online.",
   "image": "/assets/blood-money/blood-money-logo.jpeg", // 请替换为 BLOODMONEY! 游戏的 Logo 或封面图路径
   "url": "/blood-money" // 匹配之前设置的 URL 路径
 },
 "traffic-jam-3d": {
   "id": "traffic-jam-3d",
-  "title": "Traffic Jam 3D: High-Speed Race & Traffic Avoidance",
-  "description": "Traffic Jam 3D is a fast-paced car racing game where precision matters. Master **Perfect Overtakes** at high speed to earn coins, unlock **20 unique cars**, and conquer all **80 Career Mode levels**. Avoid collisions instantly or risk restarting the run!",
+  "title": "Traffic Jam 3D",
+  "description": "Traffic Jam 3D is a fast-paced car racing game where precision matters. Master Perfect Overtakes at high speed to earn coins, unlock 20 unique cars, and conquer all 80 Career Mode levels. Avoid collisions instantly or risk restarting the run!",
   "image": "/assets/traffic-jam-3d/traffic-jam-3d-logo.png", 
   "url": "/traffic-jam-3d" 
 },
 "death-run-3d": {
     "id": "death-run-3d",
-    "title": "Death Run 3D: Ultimate Hardcore Speed Challenge",
-    "description": "Death Run 3D is a **hyper-speed hardcore game** where only **King-level players** survive. Fly through a pipe filled with **moving obstacles**, demanding **super-fast reaction speed** and **calm operation**. Compete for the top spot on the **Global Leaderboard**!",
+    "title": "Death Run 3D",
+    "description": "Death Run 3D is a hyper-speed hardcore game where only King-level players survive. Fly through a pipe filled with moving obstacles demanding super-fast reaction speed and calm operation.Compete for the top spot on the Global Leaderboard!",
     "image": "/assets/death-run-3d/death-run-3d-logo.jpeg",
     "url": "/death-run-3d"
   },
@@ -164,6 +164,13 @@ export const games: Record<string, Game> = {
     "description": "Master Geometry Rash! Learn core game mechanics, jump/dodge tips, and high-score strategies. Discover how Stars unlock new stages and beat the speed challenge.",
     "image": "/assets/geometry-rash/geometry-rash-logo.jpeg",
     "url": "/geometry-rash"
+  },
+  "candy-clicker-2": {
+  "id": "candy-clicker-2",
+  "title": "Candy Clicker 2",
+  "description": "Master Candy Clicker 2! Learn core game mechanics, best upgrade paths, unlock permanent buffs, and maximize your candy production to reach the highest CPS.",
+  "image": "/assets/candy-clicker-2/candy-clicker-2-logo.jpeg",
+  "url": "/candy-clicker-2"
   },
 };
 

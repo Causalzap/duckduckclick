@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { content as defaultContent } from "@/config/content";
 import { theme } from "@/config/theme";
 import { cn } from "@/lib/utils";
@@ -6,7 +7,20 @@ interface FeaturesProps {
   content?: typeof defaultContent;
 }
 
+// 解析文本中的加粗标记
+const parseBoldText = (text: string) => {
+  const parts = text.split(/\*\*(.*?)\*\*/g);
+  return parts.map((part, index) => {
+    if (index % 2 === 1) {
+      return <strong key={index} className="font-semibold">{part}</strong>;
+    }
+    return part;
+  });
+};
+
 export function Features({ content = defaultContent }: FeaturesProps) {
+  const [showAll, setShowAll] = useState(false);
+  
   // 根据图片中的功能项定义颜色和图标
   const colors = [
     "text-blue-600", 
@@ -43,6 +57,13 @@ export function Features({ content = defaultContent }: FeaturesProps) {
     </svg>,
   ];
 
+  // 计算显示的功能项数量
+  const visibleFeatures = showAll 
+    ? content.features.items 
+    : content.features.items.slice(0, 2);
+  
+  const hasMoreFeatures = content.features.items.length > 2;
+
   return (
     <section 
       id="features" 
@@ -56,12 +77,10 @@ export function Features({ content = defaultContent }: FeaturesProps) {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             {content.features.title}
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-          </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
-          {content.features.items.map((feature, index) => {
+          {visibleFeatures.map((feature, index) => {
             // 循环使用颜色和图标，确保所有功能项都有样式
             const colorIndex = index % colors.length;
             const iconIndex = index % icons.length;
@@ -87,15 +106,31 @@ export function Features({ content = defaultContent }: FeaturesProps) {
                 </h3>
                 
                 <p className="text-gray-700 text-left mb-6 flex-grow leading-relaxed">
-                  {feature.description}
+                  {parseBoldText(feature.description)}
                 </p>
               </div>
             );
           })}
         </div>
 
+        {/* 显示更多/更少按钮 */}
+        {hasMoreFeatures && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className={cn(
+                "bg-blue-500 hover:bg-blue-600 text-white",
+                "font-semibold text-lg",
+                "px-6 py-3 rounded-lg",
+                "shadow-md hover:shadow-lg transition-all duration-200",
+                "border-0"
+              )}
+            >
+              {showAll ? "Show Less" : "Show More Features"}
+            </button>
+          </div>
+        )}
       </div>
-
     </section>
   );
 }

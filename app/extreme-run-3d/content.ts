@@ -16,49 +16,20 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title reflecting the new game concept
-    title: "Extreme Run 3D Features - Play Free Online!",
-    items: [
+  "features": {
+    "title": "Extreme Run 3D: Core Mechanics of Speed, Precision, and Zero-Tolerance",
+    "items": [
       {
-        // Highlights the core gameplay with gravity-defying slopes
-        title: "Gravity-Defying Slopes",
-        description: "Experience thrilling speed in Extreme Run 3D with gravity-defying slopes that challenge your skills! The unique gravity effects add a rush of excitement as you race through the challenging courses."
+        "title": "Hardcore Difficulty Mechanism with Predictive Cues",
+        "description": "The appearance of giant red blocks is based on a **pre-set distance and velocity sequence** (not entirely random), coupled with **subtle auditory and visual pre-warnings**. This mechanism rewards high-skill players by allowing for advanced anticipation and optimal path adjustments."
       },
       {
-        // Focuses on the visual appeal with neon 3D graphics
-        title: "Neon 3D Visuals",
-        description: "Dive into a visually stunning world with sleek, modern neon 3D graphics. The bright, bold colors and sharp design elements enhance the immersive experience, making every level feel electrifying."
+        "title": "Complex Path Planning with Gravity Dynamics",
+        "description": "The course features **curved ramps and sharp turns** that demand early deceleration and precise micro-adjustments. Players must actively **manage gravity and inertia** to maintain control—a challenge significantly more complex than simple straight-line parkour."
       },
       {
-        // Emphasizes intuitive controls suitable for all players
-        title: "Simple and Intuitive Controls",
-        description: "Extreme Run 3D offers intuitive single-finger or keyboard controls that are easy for everyone to pick up. Whether you’re a casual gamer or a seasoned pro, you’ll feel right at home controlling your character."
-      },
-      {
-        // Highlights the variety of levels and challenges
-        title: "41 Challenging Levels",
-        description: "With up to 41 different levels, each offering varying degrees of difficulty, Extreme Run 3D keeps players engaged with fresh challenges that test their speed and agility. Prepare for an adrenaline-pumping experience!"
-      },
-      {
-        // Focuses on the audio experience
-        title: "Immersive Sound Effects and Music",
-        description: "The realistic sound effects and rhythm-driven background music add to the intensity of Extreme Run 3D. The energetic soundtrack keeps you motivated as you race through each level."
-      },
-      {
-        // Explains key gameplay mechanics like jumping and movement
-        title: "Jump, Dodge, and Move",
-        description: "Master the basics of jumping and moving left or right to navigate complex maps. Use these core mechanics to overcome obstacles and progress through the game’s increasingly difficult levels."
-      },
-      {
-        // Emphasizes platform compatibility
-        title: "Play Anytime, Anywhere",
-        description: "Extreme Run 3D is fully compatible with both web and mobile platforms. Whether you're on your phone, tablet, or computer, you can enjoy the game anytime, anywhere!"
-      },
-      {
-        // Focuses on replay value through endless mode and rankings
-        title: "Endless Mode and Ranking System",
-        description: "Challenge yourself with the Endless Mode and see how long you can last! The ranking system adds replay value, allowing you to compete with players worldwide for the top spot on the leaderboard."
+        "title": "Sustained Challenge Depth and Diversity",
+        "description": "The **speed increase is stair-stepped and relentless**. After reaching the maximum velocity, the game introduces **new obstacle types and complex combinations**, continuously elevating both the difficulty and the diversity of the challenge."
       }
     ]
   }
@@ -66,14 +37,9 @@ export const futbolLibreContent = {
 ,
   
 whatIs: {
-  // Title clearly defines the game type
-  title: "Extreme Run 3D: The Ultimate Neon Parkour Challenge",
-  
-  // Description based on the gameplay mechanics
-  description: "Extreme Run 3D is an exhilarating parkour game where you control a fast-moving rolling ball through neon-lit, dynamically generated tracks. In this 3D racing game, you must react quickly to dodge massive obstacles and make precise jumps to avoid falling.\n\n" +
-    "The game combines speed, skill, and precise control, offering an intense challenge that tests your reaction time and accuracy. Whether you’re navigating the twisting paths or jumping over sudden hazards, every moment in Extreme Run 3D demands sharp reflexes.\n\n" +
-    "With both an Endless Mode for endless fun and multiple difficulty levels (Easy, Medium, etc.), Extreme Run 3D provides varied gameplay to suit players of all skill levels. Ready to take on the challenge? Play for free and experience the rush of high-speed parkour action!",
-  
+  "title": "Extreme Run 3D — Challenge Extreme Speed and Reaction Limits",
+  "description": "Conquer relentless speed and test the limits of human reaction! \n\n**Extreme Run 3D** delivers an intense, high-difficulty challenge through **extreme-speed parkour and zero-tolerance design**. Your operational precision and path planning will determine your survival distance—a must-play for hardcore gamers!\n\n Click \"**Play Game**\" now to begin the ultimate experience.\n\n**Competitive Advantage Analysis:**\n\n**1. Pure Skill and High Technical Ceiling**\n\nThe game **deliberately eliminates Power-ups and safety nets**, relying purely on operational skill. This stripped-down design ensures a significantly **higher technical ceiling and sense of achievement** for dedicated players.\n\n**2. Maximal Focus Through Minimalist Design**\n\nThe minimalist visual style, featuring a **neon tunnel and stark red giant blocks**, helps players **maximize concentration and enhance reaction speed** by eliminating visual clutter.",
+
   logo: {
     // Image path for the logo
     src: "/assets/extreme-run-3d/extreme-run-3d-logo.webp",
@@ -101,57 +67,78 @@ howToPlay: {
 }
 ,
   
-faq: {
-  // Title updated
-  title: "Extreme Run 3D: Your Questions Answered (Free Online Parkour Game FAQ)",
-  items: [
-    {
-      value: "pricing",
-      question: "Is Extreme Run 3D free to play?",
-      answer: "Yes, Extreme Run 3D is free to download and play! The game contains ads and in-app purchases, but you can enjoy the main gameplay without spending money."
-    },
-    {
-      value: "platforms",
-      question: "Which platforms is Extreme Run 3D available on?",
-      answer: "Extreme Run 3D is available on mobile devices (iOS and Android) and can be played on PC web browsers."
-    },
-    {
-      value: "levels",
-      question: "How many levels are in Extreme Run 3D?",
-      answer: "The game features 41 challenging levels with varying difficulty, plus an Endless Mode for unlimited playtime."
-    },
-    {
-      value: "difficulty",
-      question: "Is Extreme Run 3D hard to play?",
-      answer: "The controls are simple and easy to learn, but the game offers a challenging experience. Players will need quick reflexes and excellent hand-eye coordination to avoid obstacles and complete levels."
-    },
-    {
-      value: "offline-play",
-      question: "Can I play Extreme Run 3D offline?",
-      answer: "Yes, you can play Extreme Run 3D offline. However, when connected to the internet, progress is synced, and ads are displayed."
-    },
-    {
-      value: "controls",
-      question: "What controls are available in Extreme Run 3D?",
-      answer: "Extreme Run 3D supports both keyboard controls (Arrow keys, W, Spacebar) and touch screen controls on mobile devices."
-    },
-    {
-      value: "age-appropriate",
-      question: "Is Extreme Run 3D suitable for all ages?",
-      answer: "Yes! Extreme Run 3D is suitable for a wide range of players who enjoy parkour and reflex-based games. It offers exciting challenges without inappropriate content."
-    },
-    {
-      value: "developer",
-      question: "Who developed Extreme Run 3D?",
-      answer: "Extreme Run 3D was developed by AlienWebGames."
-    },
-    {
-      value: "audio",
-      question: "Does Extreme Run 3D have sound effects and background music?",
-      answer: "Yes, the game features electronic music and sound effects that enhance the fast-paced, thrilling atmosphere of the parkour challenges."
-    }
-  ]
-}
+
+  "faq": {
+    "title": "Extreme Run 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] What is the best long-term strategy to maximize survival distance?",
+        "answer": "**Expert Strategy**: Focus on the **balance between forward path planning** (looking ahead) and **current speed control**. Sustaining this balance is the key to maintaining a run for the maximum distance."
+      },
+      {
+        "value": "avoidance-speed-tradeoff",
+        "question": "[Pacing Strategy] How to balance obstacle avoidance and sprinting speed?",
+        "answer": "**Strategic Balance**: Balance is crucial: running too fast risks an immediate crash, while running too slow prevents achieving high scores. Find the speed that allows **zero-tolerance precision**."
+      },
+      {
+        "value": "efficient-avoidance",
+        "question": "[Avoidance Technique] Which avoidance method is most efficient at high speed (jumping vs. dodging/weaving)?",
+        "answer": "**Efficiency Tip**: **Jumping** consumes the least time and speed at high velocities. Dodging and weaving are comparatively more time-consuming and risk losing horizontal momentum."
+      },
+      {
+        "value": "jump-vs-weave-walls",
+        "question": "[Obstacle Strategy] Jump vs. Weave for continuous giant block walls?",
+        "answer": "**Tactical Choice**: **Weaving (dodging)** is suited for players focused on precise speed control through the wall. **Jumping** is higher risk but may lead to faster overall passage time."
+      },
+      {
+        "value": "advanced-error-correction",
+        "question": "[Advanced Technique] What advanced techniques do top players use to correct errors and prevent loss of momentum?",
+        "answer": "**Elite Skill**: Top players utilize **hidden jump and turning techniques** for micro-adjustments immediately following a near-miss or slight bump. This allows them to correct the trajectory without losing critical forward momentum."
+      },
+      {
+        "value": "speed-jump-threshold",
+        "question": "[Physics Threshold] Is there a physical threshold for speed and jump distance?",
+        "answer": "**Physics Insight**: Yes, there is a physical threshold: **higher speeds allow for longer jump distances**. Mastering speed control is essential for crossing maximal gaps."
+      },
+      {
+        "value": "visual-cue-lines",
+        "question": "[Visual Cues] How to use the neon blue lines on the track as a visual cue?",
+        "answer": "**Reference Point**: The neon blue lines serve as an excellent **visual reference** to help judge the precise distance to upcoming obstacles, aiding in advanced reaction timing."
+      },
+      {
+        "value": "newbie-common-errors",
+        "question": "[Newbie Pain Points] What are the common beginner mistakes?",
+        "answer": "Common errors include **mistimed jumps**, **focusing only on nearby obstacles** (limited field of view), and **lack of sustained concentration** at high speeds."
+      },
+      {
+        "value": "focus-control-training",
+        "question": "[Training Method] How to improve focus and speed control?",
+        "answer": "**Training Tip**: Practice **staring at the furthest visible point** of the track. Combine this with **rhythmic speed control** to keep your body and mind synchronized with the environment's tempo."
+      },
+      {
+        "value": "slope-turn-strategy",
+        "question": "[Pacing Strategy] Strategy for steep slopes and sharp turns?",
+        "answer": "**Stability First**: **Adjust the rhythm and slow down slightly in advance** of steep slopes and sharp turns. Prioritize stability and accurate navigation over maintaining maximal speed to avoid instant failure."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] Solutions for lag and input delay?",
+        "answer": "**Official Solution**: Immediately **close all background programs** and **reduce the graphics quality** setting. This minimizes the load on the CPU's physics calculation pipeline."
+      },
+      {
+        "value": "collision-grazing",
+        "question": "[Collision] Is collision detection precise? Can 'grazing' obstacles be used as an advantage?",
+        "answer": "**Precision Check**: Collision detection is precise. Smart **'edge-grazing'** (barely touching the edge of a block) can be used as an advanced technique to narrowly circumvent obstacles and maintain speed."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Optimization] Recommended control sensitivity?",
+        "answer": "**Optimization Tip**: A **medium sensitivity setting** is recommended. This setting provides the optimal balance between high responsiveness (required for micro-adjustments) and precision (preventing misoperation)."
+      }
+    ]
+  }
+
 
 
 };

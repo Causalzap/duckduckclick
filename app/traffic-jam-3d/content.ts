@@ -1,111 +1,140 @@
-export const trafficJam3DContent = {
-  metadata: {
-    title: "Ultimate Traffic Jam 3D Guide: Best Upgrades & High Score Tips",
-    description:
-      "Complete guide for mastering Traffic Jam 3D with high score strategies, best car upgrades, and tips for passing all 80 career levels.",
-    url: "/traffic-jam-3d",
+import { content as globalContent } from "@/config/content";
+
+export const futbolLibreContent = {
+  // 基础内容继承自全局配置
+  ...globalContent,
+
+  // 游戏区域配置
+  gameSection: {
+    ...globalContent.gameSection,
+    title: "Traffic Jam 3D",
+    game: {
+      url: 'https://azgames.io/traffic-jam-3d.embed',
+      title: "Traffic Jam 3D",
+      externalUrl: '/game/traffic-jam-3d/index.html'
+    }
   },
-  introduction: {
-    title: "Introduction",
-    description:
-      "Traffic Jam 3D is an exciting and challenging game where you must navigate through heavy traffic, perform near-misses, and complete various levels. This guide will help you master the game by providing strategies for earning high scores, upgrading vehicles, and progressing through all 80 career levels.",
-    learningObjectives: [
-      "Understand the core mechanics of earning high scores through near-miss rewards and overtakes",
-      "Learn the best vehicle upgrade strategies for maximizing speed and control",
-      "Master the art of navigating through difficult environments and unlocking all maps",
-      "Conquer all 80 career levels and complete difficult missions",
-    ],
+
+  // 特性部分配置
+  "features": {
+    "title": "Traffic Jam 3D: Core Speed, Precision, and Economy Features",
+    "items": [
+      {
+        "title": "Core Speed Challenge & Performance Synergy",
+        "description": "Vehicle performance upgrades and player reaction speed work synergistically. Upgrades provide superior **handling and braking capabilities**, crucial for players to maintain an advantage during high-speed collision avoidance and weave through tight traffic gaps."
+      },
+      {
+        "title": "Diverse Mission Economy and High-Yield Farming",
+        "description": "Different modes offer differentiated rewards. The **Score Mode** often yields the highest revenue, making it ideal for rapidly accumulating currency to unlock and purchase high-performance vehicles, driving mid-game progression."
+      },
+      {
+        "title": "High Risk, High Reward Collision Mechanics",
+        "description": "Crashing incurs severe penalties, including **significant time loss and mission progress resets**. This high-risk environment encourages the mastery of **extreme 'near-miss' techniques**, rewarding precise driving with both high revenue and high difficulty achievement."
+      }
+    ]
   },
-  gameMechanics: {
-    title: "Game Mechanics and High Score Maximization",
-    content: [
-      "The key to maximizing your points in Traffic Jam 3D is mastering the near-miss rewards. This mechanic rewards you for avoiding collisions at high speeds, earning you valuable points and coins.",
-      "Execute Perfect Overtakes: The closer you come to another vehicle without crashing, the more points you earn. Aim for high-speed overtakes in dense traffic to rake in the maximum bonus.",
-      "Near-Miss Multipliers: To increase your score, use near-miss maneuvers strategically. The faster you go, the more multipliers you get for every avoided collision.",
-      "Avoid Collisions for the Win: Complete runs without crashing to earn the highest rewards. Even slight contact with another vehicle can dramatically reduce your score.",
-    ],
-    image: {
-      url: "/assets/traffic-jam-3d/traffic-jam-3d-level1.png",
-      alt: "Traffic Jam 3D level completion screen showing level 1 completed, bonus earned, and total money earned. The statistics include distance, speeding, overtakes, opposite lane usage, and mission completion status."
-    },
+  
+  "whatIs": {
+    "title": "Traffic Jam 3D — The Extreme Speed Challenge of Navigating Bumper-to-Bumper Traffic",
+    "description": "Weave through dense traffic like a pro, and experience the ultimate adrenaline-fueled driving!\n\n**Traffic Jam 3D** delivers a deep experience of **high-speed collision avoidance and precise handling**. Face diverse missions with tight time limits, testing your reaction time and strategy.\n\n Click \"**Play Game**\" now to begin your thrilling driving journey!\n\n**Competitive Advantage Analysis:**\n\n**1. High-Stakes 'Severe Crash Consequence' Mechanism**\n\nOur **'Severe Crash Consequence' mechanism** goes beyond the minor penalties of typical casual games, increasing the sense of tension and demanding a high degree of operational precision. This drives players to continuously hone their driving skills.\n\n**2. Diverse Mission Structure for High Replayability**\n\nThe **diverse mission types** (Checkpoints, Score Objectives, Distance Targets) enrich the gameplay and challenge, extending the replay value. This ensures every run is filled with fresh strategy and variability.",
+  
+      logo: {
+      // Image path unchanged
+      src: "/assets/traffic-jam-3d/traffic-jam-3d-logo.png",
+      // Alt text updated for the new game concept and keywords
+      "alt": "Traffic Jam 3D Free Online Unblocked High-Speed Driving Game Logo"
+    }
   },
-  failureConditions: {
-    title: "Failure Conditions and High-Risk Environments",
-    content: [
-      "Instant Penalties: A single collision can instantly end your run. Avoid hitting other cars at all costs, especially when navigating through heavy traffic.",
-      "Traffic Density: As the density of traffic increases, the risks rise. Always stay alert and prepare for the unexpected as cars move unpredictably.",
-      "Two-Way Traffic Modes: In these scenarios, lane switching becomes essential. High precision is required to avoid accidents.",
-      "Night Settings: Reduced visibility during night-time driving makes it harder to see traffic, adding another layer of difficulty.",
-    ],
+
+  
+  howToPlay: {
+    // Title reflecting the drifting gameplay
+    title: "How to Play Drift Hunters Online Free: Master the Art of Drifting!",
+    // Description focused on drifting mechanics
+    description: "Playing Drift Hunters online is all about mastering the art of drifting! Use your keyboard (arrow keys or WASD) to steer, accelerate, and brake your car. Press the spacebar to use the handbrake and initiate thrilling drifts.\n\n" +
+      "To take your drifting to the next level, shift gears manually using the left Shift and left Ctrl keys. Perfect the balance between throttle and steering to maintain long drift combos and earn more points. Switch between different camera angles with the C key for the best view of your car’s performance.\n\n" +
+      "Upgrade your car’s tuning to improve drifting performance and handle more challenging tracks. Practice on various tracks to refine your skills and master the art of drifting in Drift Hunters. With persistence and practice, you'll become a drift king in no time!",
+    // Image path unchanged - I am keeping the placeholder you had. If you have a more relevant image for a drifting game, you'd update this path.
+    image: "/assets/drift-hunters/drift-hunters.jpg",
+    // Alt text updated
+    imageAlt: "Drift Hunters Online Game Guide - Free Drifting Controls & Tips"
   },
-  moneyAndCoins: {
-    title: "Money & Coins Usage: Unlocking and Customizing",
-    content: [
-      "Money and coins in Traffic Jam 3D are vital for unlocking new vehicles and upgrading your cars. Here's how to make the most of them:",
-      "Vehicle Collection: There are 20 cars to unlock using in-game currency. Prioritize unlocking the cars that suit your playstyle and the tracks you're currently racing on.",
-      "Track Expansion: Use coins to unlock new racing environments like Desert and City tracks. These new tracks offer more challenges and better rewards.",
-      "Key Upgrade Stats: Spend your coins wisely on improving vehicle stats like speed, handling, brakes, gear ratio, and camber. These upgrades can make a big difference in your performance.",
-    ],
-  },
-  vehicleUpgrades: {
-    title: "Vehicle Upgrades and the Best Upgrade Path",
-    content: [
-      "The right upgrades can make or break your performance in Traffic Jam 3D. Here’s how to optimize your upgrades:",
-      "Maximize Speed First: Speed should be your primary focus. The faster you go, the higher your score potential, especially when combined with perfect overtakes and near-miss maneuvers.",
-      "Secondary Focus on Handling and Brakes: After speed, prioritize handling and braking upgrades. These improvements allow you to make sharper turns and stop faster, which is crucial when navigating dense traffic.",
-      "Fine-Tuning with Gear Ratio and Camber: Gear ratio adjustments will optimize your car’s performance on different track types. For high-speed highways, adjust your gear ratios for maximum speed. For tracks with sharp turns like the City track, focus on camber for better cornering.",
-    ],
-  },
-  levelsAndMissions: {
-    title: "Levels, Missions, and Conquering Difficult Tasks",
-    content: [
-      "Career Mode is the heart of Traffic Jam 3D, offering 80 levels of progressively increasing difficulty. Each level features unique challenges that test your skill and speed.",
-      "Mission Types:",
-      "Timed Checkpoints: Reach checkpoints within specific time limits.",
-      "Point Accumulation: Perform drifts, overtakes, and near-misses to accumulate points.",
-      "Distance/Time: Complete a set distance within the time constraints.",
-    ],
-  },
-  earlyGameBlockers: {
-    title: "Early Game Blockers",
-    content: [
-      "Levels like Level 4, which require 5000 points in 75 seconds, can be difficult. Use initial coin farming strategies to build up your resources early on.",
-    ],
-  },
-  environmentChallenges: {
-    title: "Environment Challenges",
-    content: [
-      "High-Density Traffic: Higher traffic density increases the difficulty, especially on unlocked maps like Highway and City.",
-      "Night Mode: The night mode drastically reduces visibility, adding a new layer of difficulty to already challenging levels.",
-    ],
-  },
-  mapUnlockConditions: {
-    title: "Map Unlock Conditions",
-    content: [
-      "Default Map: Highway is the first map you unlock and provides a solid base for learning the game mechanics.",
-      "Unlocking New Maps: The Desert and City tracks are unlocked as you progress through Career Mode and by spending in-game currency. These tracks provide more complex environments and increased difficulty.",
-    ],
-  },
-  faq: [
-    {
-      question: "How do I quickly earn money/coins?",
-      answer:
-        "To earn coins fast, focus on executing perfect overtakes and maintaining high speeds. Completing missions efficiently and watching ads for bonus coins can also help.",
-    },
-    {
-      question: "Can I remove ads in Traffic Jam 3D?",
-      answer:
-        "Currently, there’s no official way to remove ads. Players are seeking paid or premium versions to provide an ad-free experience.",
-    },
-    {
-      question: "Are there any known bugs in the game?",
-      answer:
-        "Yes, some players report progression resets or glitches where vehicles become stuck, affecting race results.",
-    },
-  ],
-  conclusion: {
-    title: "Conclusion: Traffic Jam 3D - Conquer the Challenge",
-    content:
-      "Traffic Jam 3D is a thrilling and challenging game that tests your skills in handling traffic, performing stunts, and upgrading your vehicles. Maximize your score with smart upgrades, unlock all 20 cars, and conquer all 80 levels. Good luck, and enjoy the ride! Drive safely and strategically!",
-  },
+  
+
+  
+    "faq": {
+      "title": "Traffic Jam 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+      "items": [
+        {
+          "value": "long-term-strategy-efficiency",
+          "question": "[Long-Term Strategy] To maximize mission completion rate and unlock top-tier cars, what should be the focus of upgrades?",
+          "answer": "**Expert Strategy**: Focus investment equally on both **Engine Acceleration** and **Brake Handling** upgrades. Acceleration is key for reaching targets quickly, while precise braking is non-negotiable for zero-tolerance collision avoidance at high speeds."
+        },
+        {
+          "value": "new-car-investment",
+          "question": "[Investment Threshold] Once currency accumulates past a certain threshold, should I continue upgrading the old car or purchase the next-tier top vehicle?",
+          "answer": "**Investment Rule**: Once coin accumulation reaches the threshold to purchase the **next-tier top vehicle**, immediately stop upgrading the old car and invest in the new vehicle. Top-tier cars offer inherently superior handling and collision physics, which is more beneficial than marginal upgrades to an older model."
+        },
+        {
+          "value": "checkpoint-mode-pacing",
+          "question": "[Mode Strategy] How to balance speed and safety in 'Checkpoint' mode?",
+          "answer": "**Pacing Guide**: In 'Checkpoint' mode, the goal is to **maintain a steady, reasonable average speed**. Avoid unnecessary full-speed bursts and focus on smooth, safe maneuvering to ensure you consistently meet the time limit without risking a costly, time-consuming crash."
+        },
+        {
+          "value": "score-mode-multiplier",
+          "question": "[Mode Strategy] How to utilize the 'Score' mode to maximize the score multiplier?",
+          "answer": "**Multiplier Technique**: In 'Score' mode, maximize the multiplier by executing **continuous, extreme 'near-misses' (or 'grazes')**. The effectiveness of the score multiplier increases significantly with each consecutive close call, rewarding high-risk, precise driving."
+        },
+        {
+          "value": "advanced-weaving-technique",
+          "question": "[Advanced Technique] What advanced weaving techniques do top players master to navigate traffic?",
+          "answer": "**Elite Skill**: Top players utilize **AI vehicle anticipation**. They study the traffic's predictable movement patterns to identify and preemptively target the gaps that are about to open, effectively creating their own safe path through the dense flow."
+        },
+        {
+          "value": "micro-correction-skill",
+          "question": "[Handling Skill] How to proficiently use micro-corrections to correct high-speed skids and preserve momentum?",
+          "answer": "**Micro-Correction**: Skids are inevitable at high speed. Use **quick, minimal counter-steering taps** (micro-corrections) combined with **slight throttle modulation** to regain control without losing significant speed or direction. Over-correcting is the primary cause of momentum loss."
+        },
+        {
+          "value": "top-car-performance",
+          "question": "[Vehicle Performance] How do top-tier vehicles' performance and handling compare to initial vehicles?",
+          "answer": "**Performance Gap**: Top-tier vehicles feature significantly **superior handling stability, acceleration, and braking**, but they also have **better collision physics**. They are much more forgiving, making controlled near-misses easier and safer than with starter cars."
+        },
+        {
+          "value": "newbie-common-errors",
+          "question": "[Newbie Pain Points] What are the common beginner errors that cause frequent crashes?",
+          "answer": "Common errors include **driving too close to the edge/barriers**, **frequent, abrupt lane changes** (which limit reaction time), and **insufficient anticipation** of multi-lane traffic flow."
+        },
+        {
+          "value": "traffic-flow-training",
+          "question": "[Training Method] How should new players practice predicting the movement of traffic flow?",
+          "answer": "**Training Tip**: Focus your attention on **multi-lane traffic patterns** (3-4 cars ahead). Practice anticipating their line of motion and potential lane changes. This trains your brain to process the dynamic environment faster than your hands react."
+        },
+        {
+          "value": "speed-safety-training",
+          "question": "[Training Method] How to combine time pressure control with quick reaction training?",
+          "answer": "**Combined Training**: Use **Time Pressure Missions** (like Checkpoint) to force rapid decision-making. Simultaneously focus on **line memory and quick reaction training**—practice driving the same challenging section repeatedly to build muscle memory for optimal, safe lines."
+        },
+        {
+          "value": "technical-lag-solutions",
+          "question": "[Technical Troubleshooting] What are the common solutions for lag and input delay?",
+          "answer": "**Quick Fix**: **Close all unnecessary background programs**, **reduce the graphics quality settings** (especially resolution and shadows), and ensure your device's operating system is up-to-date to maintain performance for fast-paced action."
+        },
+        {
+          "value": "progress-sync-issue",
+          "question": "[Data Integrity] How to handle unlock or progress synchronization issues?",
+          "answer": "**Sync Check**: Always ensure you have a **stable network connection**. If a synchronization issue occurs, try **refreshing the game** or clearing your browser's cache to force a new sync with the server."
+        },
+        {
+          "value": "brake-sensitivity-config",
+          "question": "[Control Optimization] Is brake sensitivity configuration important? What is the recommended setting?",
+          "answer": "**Crucial Configuration**: Brake sensitivity is vital for high-speed precision. Adjust it to a **medium setting**. This configuration offers enough responsiveness for sudden stops while preventing over-braking or skids during minor adjustments."
+        }
+      ]
+    }
+  
+  
+
 };
+
+

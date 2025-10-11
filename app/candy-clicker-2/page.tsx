@@ -6,18 +6,19 @@ import { futbolLibreContent } from "./content";
 
 // SEO配置
 export const metadata: Metadata = {
-  title: "Mastering Geometry Rash: Core Mechanics, High Score Secrets, and Guide",
+  title: "Ultimate Candy Clicker 2 Strategy Guide: Maximize Clicking Power, Unlock Permanent Buffs, & Boost Your Candy Production",
   description: 
-  "Master Geometry Rash! Learn core game mechanics, jump/dodge tips, and high-score strategies. Discover how Stars unlock new stages and beat the speed challenge.",
-  alternates: { canonical: 'https://www.duckduckclick.com/geometry-rash' },
+  "A complete Candy Clicker 2 guide to maximize your candy production, unlock permanent buffs, and achieve the highest CPS.",
+  alternates: { canonical: 'https://www.duckduckclick.com/candy-clicker-2' },
   openGraph: {
-    title: "Mastering Geometry Rash Guide",
-    description: "Struggling with Geometry Rash? Get the ultimate guide to overcoming spikes, blades, and high speed. Find out how to get free access and improve your reflexes.",
-    url: "https://www.duckduckclick.com/geometry-rash",
+    title: "Ultimate Candy Clicker 2 Strategy Guide: Maximize Clicking Power, Unlock Permanent Buffs, & Boost Your Candy Production",
+    description: 
+    "A complete Candy Clicker 2 guide to maximize your candy production, unlock permanent buffs, and achieve the highest CPS.",
+    url: "https://www.duckduckclick.com/candy-clicker-2",
     siteName: "Duck Duck Click",
     images: [
       {
-        url: "/assets/geometry-rash/geometry-rash-logo.jpeg",
+        url: "/assets/candy-clicker-2/candy-clicker-2-logo.jpeg",
         width: 1200,
         height: 630,
         alt: "Geometry Rash Game Guide"
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Mastering Geometry Rash: Core Mechanics, High Score Secrets, and Guide",
     description: "Struggling with Geometry Rash? Get the ultimate guide to overcoming spikes, blades, and high speed. Find out how to get free access and improve your reflexes.",
-    images: ['/assets/geometry-rash/geometry-rash-logo.jpeg'],
+    images: ['/assets/candy-clicker-2/candy-clicker-2-logo.jpeg'],
   },
   robots: {
     index: true,
@@ -45,11 +46,13 @@ export const metadata: Metadata = {
   },
 };
 
+// Game Page Configuration
 const gameConfig = {
   metadata: {
-    title: "Mastering Geometry Rash: Core Mechanics, High Score Secrets, and Guide",
-    description: "Struggling with Geometry Rash? Get the ultimate guide to overcoming spikes, blades, and high speed. Find out how to get free access and improve your reflexes.",
-    url: "/geometry-rash"
+    title: "Ultimate Candy Clicker 2 Strategy Guide: Maximize Clicking Power, Unlock Permanent Buffs, & Boost Your Candy Production",
+    description: 
+    "A complete Candy Clicker 2 guide to maximize your candy production, unlock permanent buffs, and achieve the highest CPS.",
+    url: "/candy-clicker-2"
   },
   content: futbolLibreContent
 };

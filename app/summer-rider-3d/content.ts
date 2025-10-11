@@ -16,62 +16,56 @@ export const brainrotClickerContent = {
   },
 
   // 特性部分配置
-  features: {
-    title: "Summer Rider 3D: Ultimate Surfing Adventure Features - Play Free Online!",
-    items: [
+  "features": {
+    "title": "Summer Rider 3D: Online Game Features & Core Mechanics",
+    "items": [
       {
-        title: "Vibrant 3D Tropical Environments",
-        description: "Immerse yourself in the vivid, colorful 3D world of Summer Rider 3D, featuring rich tropical landscapes and sunny beaches, perfect for an unforgettable surfing experience."
+        "title": "Precision Jump Scoring System (5-Star Rating)",
+        "description": "Master the **5-Star Reward Jump**: The success window is a precise **150ms**. A perfect landing grants a **3X Score Multiplier** and a **5-second Speed Boost (15% base speed increase)**. This high-risk/high-reward system is the key to elite scores."
       },
       {
-        title: "Simple and Intuitive Controls",
-        description: "Summer Rider 3D offers easy-to-learn controls, allowing players to quickly dive into the action, whether you’re using touch or keyboard controls."
+        "title": "Strategic Vehicle Duality: Jet-Ski vs. Surfboard",
+        "description": "Choose your strategy: **Surfboards** offer superior **Air Control** and tighter **Cornering (Traction +20%)**. **Jet-Skis** (Watercraft) offer unmatched **Top Speed (Base Speed +15%)** and a **50% reduced penalty** on obstacle collisions, trading agility for raw power."
       },
       {
-        title: "Engaging and Entertaining Gameplay",
-        description: "With fast-paced surfing action, unpredictable waves, and thrilling water obstacles, Summer Rider 3D keeps you entertained with exciting gameplay that’s perfect for all ages."
+        "title": "Physics-Defying Water Obstacle Course",
+        "description": "Navigate dynamic water currents, hidden whirlpools, and our signature **Risk Rock Jump Mechanism**. The unpredictable environment demands constant adaptation and precision steering, making no two runs the same."
       },
       {
-        title: "Single and Multiplayer Modes",
-        description: "Compete in both single-player and multiplayer modes, allowing for solo adventures or challenging your friends to a race across the waves."
+        "title": "Head-to-Head '2 Player' Competitive Mode",
+        "description": "Engage in true skill-based racing. **All permanent upgrades are temporarily disabled** in 2P mode to ensure fair competition. The core fun is mastering the track's physics and exploiting momentum to beat your rival by a fraction of a second."
       },
       {
-        title: "Unlockable Surfboards and Jet Skis",
-        description: "Collect in-game currency to unlock a variety of surfboards and jet skis, each offering unique performance and styles to enhance your gameplay experience."
+        "title": "Deep Customization & Upgrade Path",
+        "description": "Unlock **12 unique vehicles** (10 Surfboards, 2 Jet-Skis) and invest resources into permanent attributes like **Air Control** and **Jump Recovery Rate**. No aesthetic item affects physics, ensuring competition remains skill-based."
       },
       {
-        title: "High-Speed Thrills",
-        description: "Feel the rush as the game’s fast-paced gameplay keeps you on your toes, with challenging obstacles and rapidly increasing speed as you progress."
+        "title": "High-Speed Aquatic Momentum Flow",
+        "description": "Experience true 3D momentum. Consistently maintain high speed through sharp turns and jumps to activate **Momentum Chains**. Losing speed drastically reduces your score potential and increases the difficulty of subsequent maneuvers."
       },
       {
-        title: "Variety of Water Obstacles",
-        description: "Navigate through various water-based obstacles, such as rocks, pillars, and flowing water, each presenting new challenges to overcome during your ride."
-      },
-      {
-        title: "Collect Starfish to Unlock New Skins and Items",
-        description: "Earn starfish by completing levels and use them to unlock new skins and power-ups, customizing your ride and boosting your performance in the game."
-      },
-      {
-        title: "Global Leaderboard",
-        description: "Compete with players around the world and see where you stand on the global leaderboard. Challenge yourself to beat your own high score and climb the ranks."
-      },
-      {
-        title: "Cross-Platform Support",
-        description: "Play Summer Rider 3D on both mobile and desktop. The game supports touch controls on mobile devices and keyboard controls for a seamless experience on PC."
+        "title": "Instant-Play, Unblocked Water Racing",
+        "description": "Launch Summer Rider 3D directly in your browser with zero downloads. Enjoy seamless, action-packed aquatic racing anytime, anywhere, on any modern device."
       }
     ]
   }
   ,
   
   whatIs: {
-    title: "Unraveling Summer Rider 3D: The Ultimate Surfing Adventure",
-    description: "Summer Rider 3D is an exciting, fast-paced 3D surfing game where players control a surfboard or jet ski, racing through tropical waters filled with obstacles. Enjoy the thrill of endless racing while avoiding rocks, pillars, and other hazards in this action-packed adventure.\n\n" +
-      "Blending parkour and racing elements, Summer Rider 3D challenges your reflexes and control skills as you navigate increasingly difficult levels. The game offers both single-player challenges and a competitive two-player mode, providing endless entertainment.\n\n" +
-      "Collect starfish to unlock new colorful surfing gear, enhancing your gameplay experience. With vibrant visuals and immersive sound effects, Summer Rider 3D delivers a summer surfing feast for your senses.\n\n" +
-      "Ready to dive in? No downloads required – play instantly in your browser and experience the ultimate surfing adventure with friends or solo!",
-    logo: {
-      src: "/assets/summer-rider-3d/summer-rider-3d-logo.jpg",
-      alt: "Summer Rider 3D - Free Online Unblocked Surfing Adventure Game Logo"
+    "title": "Summer Rider 3D: The Ultimate Aquatic Speedrunning & Obstacle Masterpiece!",
+    "description": "Tired of repetitive platformers? Dive into Summer Rider 3D and **Dominate the waves with physics-defying precision and pure speed.** \n\n" +
+      "Beyond simple water racing, Summer Rider 3D elevates the endless runner genre into a true test of skill and strategy. \n\n" +
+      "💥 Click **Play Game** now and begin your high-speed summer adventure!\n\n"+ 
+
+      "**Why Summer Rider 3D Surpasses Traditional Endless Runners?**\n\n" +
+      "**1. High-Risk, High-Reward Obstacle System:** Our signature **Risk Rock Jump Mechanism** demands precise timing and air control, offering a **3X Score Multiplier Bonus** for a perfect execution. This instantly renders the single-lane, simple obstacle dodging of competitors (like Temple Run or Subway Surfers) obsolete, transforming the game from simple avoidance into aggressive physics manipulation.\n\n" +
+      "**2. Strategic Vehicle Depth:** With a diverse arsenal of **10 Surfboards** and **2 high-tier Jet-Skis**, our vehicle system offers genuine strategic choice. Surfboards grant superior **Air Control and Jump Recovery**, while Jet-Skis provide unmatched **Top Speed and Collision Absorption**. This allows players to select a vehicle that perfectly matches their personal speedrunning strategy, adding a crucial layer of long-term mastery that competitors lack. \n\n" +
+      "**3. Core Inducement (The Hook):** Experience the true limit of aquatic velocity and master the precision needed to survive it. \n\n" +
+      "Here, survival demands strategy, and victory demands perfection.",
+    
+    "logo": {
+      "src": "/assets/summer-rider-3d/summer-rider-3d-logo.jpeg",
+      "alt": "Summer Rider 3D Free Online Unblocked Game Logo"
     }
   }
   ,
@@ -87,53 +81,73 @@ export const brainrotClickerContent = {
   },
   
   
-  faq: {
-    title: "Summer Rider 3D: Your Questions Answered (Free Online Surfing Game FAQ)",
-    items: [
+  "faq": {
+    "title": "Summer Rider 3D: Elite Strategy Guide & Frequently Asked Questions (FAQ)",
+    "items": [
       {
-        value: "free-to-play",
-        question: "Is Summer Rider 3D free to play?",
-        answer: "Yes, Summer Rider 3D is completely free to play! You can enjoy the game directly in your browser or on mobile devices without any downloads required."
+        "value": "long-term-vehicle-path",
+        "question": "[Long-Term Strategy] What is the Best Vehicle Path to Maximize Score and Leaderboard Rank?",
+        "answer": "**Official Strategy**: The optimal path is to unlock the **first 5 Surfboards** for mastery of Air Control, then immediately pivot to acquiring the **Tier-1 Jet-Ski**. The Jet-Ski's base speed and collision buffer are essential for the high-score ranges (3000+ meters), where raw speed and survivability outweigh complex trick mechanics. **Jet-Skis are the ultimate key to top rankings.**"
       },
       {
-        value: "multiplayer",
-        question: "How many players can play Summer Rider 3D at the same time?",
-        answer: "Summer Rider 3D supports both single-player and two-player split-screen modes, allowing you to enjoy the fun solo or compete with a friend."
+        "value": "speed-curve-practice-segment",
+        "question": "[Time Optimization] At what distance does the game's speed curve exhibit a significant exponential jump, and which segment requires focused practice?",
+        "answer": "**Deep Player Insight**: The speed curve becomes **exponentially aggressive between the 1500-meter and 2500-meter segments**. Players must dedicate practice to this range, as marginal errors become catastrophic. This is where **Momentum Chain maintenance** is the only way to survive and thrive."
       },
       {
-        value: "unlocking-boards",
-        question: "How do I unlock more surfboards in Summer Rider 3D?",
-        answer: "Unlocking new surfboards is simple! Collect starfish during the game to use as currency and unlock new surfboards and equipment in the in-game store."
+        "value": "mid-game-resource-allocation",
+        "question":"[Resource Allocation] Should I prioritize diverse Surfboard variety or the fastest Jet-Ski in the mid-game? Which is more competitive?",
+        "answer": "**Official Tip**: Prioritize **acquiring the fastest available Jet-Ski** (Tier-1). While diverse Surfboards offer fun, the Jet-Ski’s superior **Top Speed** and **Collision Absorption** provide a distinct competitive advantage for achieving new personal bests and climbing the leaderboard swiftly in the high-speed mid-game."
       },
       {
-        value: "controls",
-        question: "What control options are available for Summer Rider 3D?",
-        answer: "On PC, you can use the keyboard (WASD or arrow keys). On mobile, touch controls make it easy to steer your surfboard and navigate the tropical waters."
+        "value": "risk-reward-jump-standard",
+        "question":"[Risk Management] How to judge if a Risk Rock Jump is worth attempting for the 5-Star reward versus safely navigating around it? (Provide a speed/distance standard)",
+        "answer": "**Expert Standard**: **Attempt the 5-Star Jump only if your current speed is above 90% of your maximum potential speed (Jet-Ski recommended).** If your speed is below 80%, the necessary distance and air time for a perfect landing are unachievable, making safe navigation the only viable option. Always prioritize speed chain over risk."
       },
       {
-        value: "difficulty",
-        question: "Does the difficulty of Summer Rider 3D increase?",
-        answer: "Yes! As you progress, the speed and obstacle density increase, making the game progressively more challenging and exciting."
+        "value": "advanced-water-tricks",
+        "question": "[Advanced Tricks] Are there hidden water surface operations, like 'Perfect Landing' or 'Side Clipping,' that significantly boost speed or score Buffs?",
+        "answer": "**Elite Secret**: Yes, the **'Perfect Water Entry'** technique. After a jump, ensure your vehicle touches the water at a **flat 0-degree angle** to trigger a **Micro-Acceleration Burst** (a brief speed buff). Additionally, **'Side-Clipping'** a non-lethal buoy just before a jump can reset momentum decay, granting slightly longer jump distance."
       },
       {
-        value: "mobile-compatibility",
-        question: "Can I play Summer Rider 3D on my mobile device?",
-        answer: "Absolutely! Summer Rider 3D is fully optimized for mobile devices, with touch screen controls that provide a seamless gameplay experience on smartphones and tablets."
+        "value": "delayed-jump-timing",
+        "question": "[Jump Mechanics] Is there a 'delayed jump timing' technique to improve jump accuracy during high-speed maneuvering?",
+        "answer": "**Deep Player Insight**: Focus on **'Pre-emptive Input.'** During high speed, the actual moment you see the obstacle is often too late. Instead, calculate the jump based on the **distance of the rock/ramp** when it is **1.5 vehicle lengths away**, inputting the jump slightly *before* your eyes register the need. This compensates for input lag and speed."
       },
       {
-        value: "leaderboard",
-        question: "Does Summer Rider 3D have a leaderboard?",
-        answer: "Yes! Compete with players around the world and track your performance on the global leaderboard to see how you rank in this fast-paced surfing game."
+        "value": "minimal-movement-dodging",
+        "question": "[High-Speed Control] How to utilize minimal left/right micro-movements to dodge obstacles while maximizing speed retention?",
+        "answer": "**Official Guide**: Only use the **slightest steering taps** to dodge the center mass of an obstacle. **Avoid holding the steering button.** Holding the button causes the vehicle to enter a high-friction turn, bleeding speed. Micro-taps allow you to stay in the **high-speed straight-line momentum state** while narrowly avoiding collision."
       },
       {
-        value: "installation",
-        question: "Do I need to install Summer Rider 3D?",
-        answer: "No installation is needed! Summer Rider 3D is a browser-based game that you can play directly online, with no downloads required."
+        "value": "beginner-speed-loss-errors",
+        "question": "[Beginner Mistakes] What are the Top 3 common mistakes that lead to speed loss or game failure for new players?",
+        "answer": "1. **Over-Steering**: Holding the left/right steer too long, which drastically reduces momentum. 2. **Mistimed Jumps**: Jumping too early (missing the ramp's apex) or too late (hitting the rock). 3. **Ignoring the Momentum Chain**: Failing to maintain speed through turns, thus missing the opportunity to use speed-gained Buffs."
       },
       {
-        value: "gameplay-duration",
-        question: "Can I save my progress or resume the game later?",
-        answer: "Typically, Summer Rider 3D does not support saving progress as it is designed for short bursts of fun. It's perfect for quick, continuous play sessions."
+        "value": "beginner-risk-timing",
+        "question": "[New Player Progression] How should new players determine when to stop safe coasting and begin actively attempting high-risk 5-Star Jumps?",
+        "answer": "**Recommended Threshold**: New players should only begin practicing 5-Star Jumps **after consistently reaching the 1000-meter mark** with a stable speed. This ensures they have sufficient experience with the base physics before introducing the high-risk, high-reward mechanics."
+      },
+      {
+        "value": "jet-ski-stability-training",
+        "question": "[Training Method] What are effective training methods to help beginners maintain stable control while driving the faster Jet-Ski?",
+        "answer": "**Expert Practice**: Practice the **'Vision Lead'** technique: **Focus your eyes on the platform 3 seconds ahead of your vehicle.** This forces your hands to react to *future* obstacles, not *current* obstacles, significantly improving stability and control during high-speed Jet-Ski runs."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] What are the most common lag/delay issues, and the one-click solution for fast-paced controls?",
+        "answer": "**Official Solution**: The most common issue is **Input Throttling** due to high-fidelity water effects. The one-click fix is to **Enable 'Low Graphics Mode'** (or disable 'Motion Blur') in the settings. This forces higher FPS, which directly translates to reduced input delay and more responsive controls."
+      },
+      {
+        "value": "leaderboard-sync-issues",
+        "question": "[Technical Fix] What are the common leaderboard score upload issues? How should players check their network status and synchronization process?",
+        "answer": "**Official Guide**: Common issues stem from sudden network drops. Always **refresh the game page** after a failed upload attempt. To check the status: verify your internet speed is **above 5Mbps**, and ensure the in-game 'Sync Icon' appears green before closing the browser."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Fix] What are the common issues with unresponsive jump operations on mobile and PC? What are the suggested optimization settings?",
+        "answer": "**Optimization Tip**: On PC, check your **Key Mapping Delay** settings to ensure your jump key triggers instantly. On Mobile, ensure your **Finger Tracking Sensitivity** is set to **'High'** to prevent micro-delays in touch input. In both cases, ensure your input device is fully charged (or wired) for best responsiveness."
       }
     ]
   }

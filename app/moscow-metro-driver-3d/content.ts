@@ -16,73 +16,30 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title reflecting the new game concept
-    title: "Moscow Metro Driver 3D: Realistic Subway Train Simulator - Play Free Online!",
-    items: [
+  "features": {
+    "title": "Moscow Metro Driver 3D: Core Simulation Features & Realism",
+    "items": [
       {
-        // Highlights the authenticity of the game with real train models
-        title: "Realistic Train Models",
-        description: "Drive authentic Moscow metro train models, including the Nomernoy 81-717/714, Oka 81-760/761, and more. Experience the true feel of Moscow's subway system in stunning 3D detail."
+        "title": "Authentic Driving Physics Depth & Gear Control",
+        "description": "Master realistic train dynamics with detailed gear settings (X1 to X4 for acceleration, T1 to T3 for braking). Each setting features authentic differences in **energy consumption, acceleration/deceleration rate, and crucial braking distance**. Players must precisely control the gears for smooth stops and efficient cruising."
       },
       {
-        // Explains the immersive station exploration
-        title: "Explore Iconic Stations",
-        description: "Navigate detailed stations along the Kalininskaya Line (Line 8), such as Tretyakovskaya and Marksistskaya, for an immersive Moscow metro experience."
+        "title": "Immersive Moscow Metro Atmosphere",
+        "description": "Experience unparalleled submersion. The game includes **iconic stations** like Circle Line and Red Square, featuring **classic carriage announcements** and detailed ambient environmental soundscapes. This combination recreates the authentic, bustling atmosphere of the Moscow Metro."
       },
       {
-        // Focuses on the game modes and difficulty levels
-        title: "Two Game Modes: Training & Driver",
-        description: "Choose between Training Mode for beginners with step-by-step guidance and Driver Mode for full control, offering a challenge for both new and experienced players."
-      },
-      {
-        // Highlights the realistic controls and mechanics
-        title: "Realistic Train Operations",
-        description: "Control speed, braking, doors, camera switches, headlights, and horn with multiple levels of control, simulating the real experience of being a subway driver."
-      },
-      {
-        // Emphasizes immersive sound and visual design
-        title: "High-Quality 3D Graphics & Sound",
-        description: "Enjoy high-quality 3D graphics with realistic onboard announcements and immersive sound effects that replicate the real Moscow metro experience."
-      },
-      {
-        // Encourages exploration of stations outside the train
-        title: "Station Exploration",
-        description: "Walk off and explore the stations at your own pace with WASD and camera mouse controls, then reboard the trains for a fully immersive experience."
-      },
-      {
-        // Focuses on the challenge of balancing speed, timing, and passenger safety
-        title: "Balancing Precision & Timing",
-        description: "Perfect your driving skills by balancing speed, stopping schedules, and ensuring passenger safety as you navigate through busy metro routes."
-      },
-      {
-        // Explains the availability across different platforms
-        title: "Available on Multiple Platforms",
-        description: "Play Moscow Metro Driver 3D on desktop browsers, iOS, Android, and tablet platforms for ultimate convenience."
-      },
-      {
-        // Mentions the game being free to play
-        title: "Free-to-Play with No Microtransactions",
-        description: "Enjoy the full experience with no in-game purchases required. Free-to-play and accessible to all players."
-      },
-      {
-        // Focuses on the single-player experience
-        title: "Single-Player Focused Gameplay",
-        description: "Immerse yourself in a single-player experience focused on precision, timing, and the true feel of being a Moscow metro driver."
+        "title": "Station Exploration & Interactive Elements",
+        "description": "Go beyond the cab: The game supports **driver disembarkation** for walking exploration. Beyond mere sightseeing, stations hide **side missions and collectible elements**, enriching game content and adding a layer of unique exploration and discovery."
       }
     ]
-}
+  }
 ,
   
 whatIs: {
   // Title clearly defines the game type
-  title: "Unraveling Moscow Metro Driver 3D: The Ultimate Subway Train Simulation Game",
-  
-  // Description based on the subway train simulation game info
-  description: "Moscow Metro Driver 3D is an immersive subway train driving simulator that lets you experience the thrill of driving authentic Moscow metro trains. Navigate iconic lines like the Kalininskaya Line and manage passenger safety while making precise stops. Designed for train enthusiasts and simulator fans, this game challenges you to master the art of subway driving.\n\n" +
-    "Drive real-life Moscow metro train models, such as the Nomernoy 81-717 and Oka 81-760, while experiencing high-quality 3D graphics and realistic sound design. Explore detailed stations, control your speed, and ensure timely stops as you embark on this realistic and engaging metro driving experience.\n\n" +
-    "Ready to step into the shoes of a Moscow metro driver? Play for free, no downloads required, and dive into a world of precision, timing, and public transport management in this unique simulation game!",
-  
+  "title": "Moscow Metro Driver 3D — Professional Driving, Immersive Underground World",
+  "description": "Master authentic subway driving skills and explore the extreme detail of Moscow's underground city!\n\nLeaping beyond typical simulations, experience the perfect combination of **precise dispatch and driving control**. Command classic trains, witness iconic stations, and hear authentic broadcasts, immersing yourself in every moment of the Moscow Metro.\n\n Click \"**Play Game**\" now to start your professional driver journey!\n\n**Competitive Advantage Analysis:**\n\n**1. Unmatched Realism and Physics Engine**\n\nOur **authentic subway models and detailed routes** surpass ordinary simulations. We feature an advanced physics engine that accurately reflects **real train dynamics and visual details**, recreating the most lifelike driving experience.\n\n**2. Clear Skill Progression Path**\n\nGain practical skills through **'Driver Mode'** and solidify fundamental operations in **'Training Mode'**. This provides a clear path for growth, helping players progressively enhance their driving proficiency and professionalism.",
+
   logo: {
     // Image path unchanged
     src: "/assets/moscow-metro-driver-3d/moscow-metro-driver-3d-logo.jpg",
@@ -109,52 +66,78 @@ howToPlay: {
 }
 ,
   
-faq: {
-  // Title updated
-  title: "Moscow Metro Driver 3D: Your Questions Answered (Subway Train Simulator FAQ)",
-  items: [
-    {
-      value: "free-to-play",
-      question: "Is Moscow Metro Driver 3D free to play?",
-      answer: "Yes, Moscow Metro Driver 3D is completely free to play on supported platforms, with no in-app purchases required. Enjoy the full subway train simulation experience without any costs!"
-    },
-    {
-      value: "platforms",
-      question: "What platforms support Moscow Metro Driver 3D?",
-      answer: "You can play Moscow Metro Driver 3D on desktop browsers, iOS, Android, and tablets. Experience the thrilling subway driving simulation on your preferred device!"
-    },
-    {
-      value: "realism",
-      question: "Does Moscow Metro Driver 3D include real Moscow metro features?",
-      answer: "Yes! The game offers an authentic Moscow metro experience with real-life trains, station layouts, and onboard announcements, providing a true-to-life subway simulation."
-    },
-    {
-      value: "train-variety",
-      question: "Are there different trains to drive in Moscow Metro Driver 3D?",
-      answer: "Absolutely! Moscow Metro Driver 3D includes several authentic Moscow metro train models like Nomernoy 81-717/714, Oka 81-760/761, and more, each with unique characteristics for a dynamic driving experience."
-    },
-    {
-      value: "training-mode",
-      question: "Is there a training mode in Moscow Metro Driver 3D?",
-      answer: "Yes, Moscow Metro Driver 3D features a Training Mode designed for beginners. Learn the game’s controls and basic metro operations before diving into the full experience in Driver Mode."
-    },
-    {
-      value: "explore-stations",
-      question: "Can I explore subway stations in Moscow Metro Driver 3D?",
-      answer: "Yes! You can walk around the stations, explore platforms, and interact with the environment during train stops. Use WASD controls to move and the mouse to navigate the camera."
-    },
-    {
-      value: "game-mode",
-      question: "Is Moscow Metro Driver 3D multiplayer or single-player?",
-      answer: "Moscow Metro Driver 3D is a single-player game, focusing on precision driving, skill mastery, and realistic simulation. Test your abilities as a metro driver in this immersive experience."
-    },
-    {
-      value: "microtransactions",
-      question: "Does Moscow Metro Driver 3D have microtransactions?",
-      answer: "No, Moscow Metro Driver 3D is entirely free with no microtransactions. Enjoy the complete subway simulation experience without additional costs."
-    }
-  ]
-}
+
+  "faq": {
+    "title": "Moscow Metro Driver 3D: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+    "items": [
+      {
+        "value": "long-term-strategy-efficiency",
+        "question": "[Long-Term Strategy] How to maximize punctuality and passenger satisfaction?",
+        "answer": "**Official Strategy**: Prioritize **precise station stops** (Perfect Stop) and maintain a **consistent, reasonable cruising speed** between stations. Punctuality and smooth driving are the dual keys to high passenger satisfaction."
+      },
+      {
+        "value": "perfect-stop-criteria",
+        "question": "[Driving Goal] How is a 'Perfect Stop' determined?",
+        "answer": "**Expert Standard**: A 'Perfect Stop' is achieved when the train stops **within 3 meters of the designated platform marker**. The system rewards this precision with a high rating score and a bonus multiplier."
+      },
+      {
+        "value": "resource-allocation-training",
+        "question": "[Resource Allocation] How to allocate time between 'Driver Mode' and 'Training Mode'?",
+        "answer": "**Official Tip**: In the **early game**, heavily emphasize **Training Mode** to build fundamental operational skills (braking, acceleration). Gradually transition to **Driver Mode** for real-world application and challenging scenario practice as your proficiency increases."
+      },
+      {
+        "value": "speed-brake-management",
+        "question": "[Driving Skill] How to manage speed and braking for long-distance runs?",
+        "answer": "**Advanced Technique**: Use **phased deceleration**. Begin braking early and use **T1/T2 gears** for a sustained, steady reduction in speed, avoiding abrupt stops. This technique saves time and energy while ensuring a smooth ride."
+      },
+      {
+        "value": "hidden-control-tricks",
+        "question": "[Advanced Control] What are the hidden train control techniques?",
+        "answer": "**Elite Secret**: Master **gear anticipation**. Use the neutral (N) or low acceleration gears (X1) to predict overspeed and use **gliding/coasting** to correct minor speed errors without engaging the main brake, maximizing energy efficiency."
+      },
+      {
+        "value": "announcement-siren-reward",
+        "question": "[Interaction] Do announcements and horn usage provide rewards or penalties?",
+        "answer": "**Game Mechanics**: **Judicious use** of announcements at key moments improves passenger responsiveness (e.g., getting them to hurry), potentially leading to a small score bonus. **Abuse** of the horn or excessive announcements may result in a penalty for noise pollution."
+      },
+      {
+        "value": "precise-stop-aids",
+        "question": "[Stopping Aid] What visual/audio aids assist with precise stops?",
+        "answer": "**Training Tip**: Combine **visual markers** on the platform wall (which indicate your cabin position) with the **in-cab auditory cue** that triggers a few seconds before the ideal braking point. Anticipate these two signals simultaneously to brake accurately."
+      },
+      {
+        "value": "beginner-common-mistakes",
+        "question": "[Beginner Mistakes] What are the common mistakes made by new drivers?",
+        "answer": "Typical errors include: **Incorrect gear usage** (e.g., accelerating too aggressively), **excessive speed on approach to the station**, and **neglecting the door/announcement buttons** after stopping, causing delays."
+      },
+      {
+        "value": "multi-task-training",
+        "question": "[Skill Training] How to simultaneously manage speed, door operation, and announcements?",
+        "answer": "**Training Method**: Use **phased practice**. First, master the speed control. Second, integrate the **door/announcement sequence** (open doors, announce, close doors) *only* after achieving a perfect stop. Build multi-tasking habits step-by-step."
+      },
+      {
+        "value": "deceleration-markers",
+        "question": "[Route Awareness] How to accurately identify the station entry markers for deceleration?",
+        "answer": "**Expert Practice**: **Path Memorization**. Repeatedly run the same route, focusing less on the speedometer and more on the **unique environmental landmarks** (e.g., tunnels, lights, track side objects) that signal the start of the required deceleration zone. This builds reliable route memory."
+      },
+      {
+        "value": "technical-lag-solutions",
+        "question": "[Troubleshooting] How to resolve lag and physics delay issues?",
+        "answer": "**Official Solution**: Immediately **lower the graphics quality** in settings, ensure you are running the **latest version of your browser**, and **close any unnecessary background programs** to dedicate maximum resources to the simulation."
+      },
+      {
+        "value": "save-progress-fix",
+        "question": "[Technical Fix] What causes progress save issues?",
+        "answer": "**Official Tip**: Progress saving issues are often linked to **unstable network connection** or **browser cache failure**. Regularly **backup your save file** and utilize the official in-game save export/import tools if available to ensure data integrity."
+      },
+      {
+        "value": "input-sensitivity-fix",
+        "question": "[Control Fix] What causes unresponsiveness when disembarking or returning to the cab?",
+        "answer": "**Optimization Tip**: Unresponsiveness is often due to low **Control Sensitivity** settings or minor game pathing errors. Adjust the **control sensitivity** to a higher level and ensure the **driver's path is completely clear** before attempting to exit or re-enter the cab."
+      }
+    ]
+  }
+
 
 };
 

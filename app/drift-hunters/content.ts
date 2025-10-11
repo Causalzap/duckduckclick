@@ -16,61 +16,29 @@ export const futbolLibreContent = {
   },
 
   // 特性部分配置
-  features: {
-    // Title reflecting the unique features of Drift Hunters game
-    title: "Drift Hunters Features - Free Online 3D Car Drifting Game!",
-    items: [
+  "features": {
+    "title": "Drift Hunters: Core Drifting Mechanics & Expert Tuning",
+    "items": [
       {
-        // Highlights the core gameplay of 3D drifting
-        title: "Realistic 3D Drifting with Unity Engine",
-        description: "Experience the thrill of realistic 3D car drifting in Drift Hunters, powered by the Unity engine. Control high-performance cars on multiple tracks for the ultimate drifting experience."
+        "title": "High-Reward Drift Multiplier Mechanism",
+        "description": "The **Drift Multiplier** is accumulated through continuous and precise drifting actions. Crucially, **colliding or stopping the drift** results in the multiplier being instantly reset, forcing players to restart accumulation. This mechanism strongly emphasizes perfect operation for maximal score reward."
       },
       {
-        // Focuses on car customization options
-        title: "Over 25 Customizable Cars",
-        description: "Choose from over 25 unique cars and customize them with upgrades for turbo, brakes, engine, and gearbox. Fine-tune every detail to enhance performance and style."
+        "title": "Fine-Tuning Impact & Brake Precision",
+        "description": "Among the detailed tuning settings (Camber, Offset, Brake Pressure, etc.), **Brake Pressure** has the most significant impact on extending the drift angle and maintaining speed. **Optimizing brake application** is vital for achieving seamless, high-speed drifting fluidity."
       },
       {
-        // Highlights the variety of tracks available
-        title: "Multiple Tracks with Unique Layouts",
-        description: "Drift through iconic tracks like Emashi, Forest, and Tsukuba, each offering unique challenges and layouts to test your drifting skills."
-      },
-      {
-        // Focuses on car tuning and painting options
-        title: "Full Car Tuning & Painting Customization",
-        description: "Personalize your car with full tuning options and custom paint jobs. Make your car truly your own with endless customization possibilities."
-      },
-      {
-        // Emphasizes the gameplay experience and camera features
-        title: "Various Camera Views for Enhanced Gameplay",
-        description: "Switch between different camera views to enhance your gameplay experience. Choose the perspective that suits your drifting style and control preferences."
-      },
-      {
-        // Highlights smooth controls optimized for multiple platforms
-        title: "Smooth Controls for PC & Mobile",
-        description: "Enjoy smooth, responsive controls optimized for both PC and mobile devices. Whether you're playing on desktop or mobile, Drift Hunters offers a seamless drifting experience."
-      },
-      {
-        // Focuses on skill-based mechanics
-        title: "Skill-Based Drifting Mechanics",
-        description: "Master skill-based drifting mechanics that emphasize combos, precision, and style. Perfect your drifting skills and rack up points to show off your skills."
-      },
-      {
-        // Emphasizes the game’s free-to-play model
-        title: "Free-to-Play with Optional In-App Purchases",
-        description: "Drift Hunters is completely free to play, with optional in-app purchases for additional upgrades and customizations. Jump in and start drifting without any cost!"
+        "title": "Ultimate Content Unlock Advantage",
+        "description": "Top-tier vehicles, such as the **Porsche 911 GT**, boast superior base drifting performance and greater modification potential. Their higher unlock requirements establish them as the **ultimate goal and choice** for high-score chasers and expert players."
       }
     ]
   },
   
-  whatIs: {
-    // Title clearly defines the game type
-    title: "Drift Hunters: The Ultimate Free Online Drifting Simulation Game",
-    // Description based on the drifting simulation game info
-    description: "Drift Hunters is an exciting free online drifting simulation game developed by Studionum43 (Ilya Kaminetsky). In this game, players take control of high-performance cars and perform drifts on realistic tracks to earn points for style and distance.\n\n" +
-      "With true-to-life drifting physics, Drift Hunters offers an immersive experience, where players can enjoy extensive car customization and tuning options. Whether you're perfecting your drifting techniques or upgrading your car's performance, Drift Hunters provides endless fun for fans of racing and drifting games.\n\n" +
-      "Available across multiple platforms, including browsers, iOS, and Android, Drift Hunters allows players to enjoy thrilling drifting action anywhere, anytime, for free. Customize your car, master the tracks, and challenge your drifting skills in this exhilarating game.",
-    logo: {
+  "whatIs": {
+    "title": "Drift Hunters — Master the Art of Drifting, Build Your Custom Performance Monster",
+    "description": "Experience the ultimate 3D drifting thrill and challenge the highest score multipliers!\n\n**Drift Hunters** offers professional-grade tuning and performance upgrades, allowing you to feel the excitement of extreme-speed drifting in a realistic physics environment. **Customize 26 unique vehicles** to achieve your exclusive style and ultimate control. \n\nClick \"**Play Game**\" now to start your path to drifting royalty!\n\n**Competitive Advantage Analysis:**\n\n**1. Professional-Grade Tuning System**\n\nOur professional-grade tuning system (Camber, Offset, Brake Balance, etc.) surpasses the simplified settings of casual drifting games. It provides **authentic physical feedback** and **high degree of control freedom**, satisfying the hardcore player's pursuit of detail.\n\n**2. Extensive Customization and Roster**\n\nThe rich roster of **26 customizable cars** far exceeds the fixed models of competitors, giving players stronger **personalization expression** and long-term motivation for growth.",
+  
+      logo: {
       // Image path unchanged
       src: "/assets/drift-hunters/drift-hunters-logo.jpeg",
       // Alt text updated for the new game concept and keywords
@@ -92,52 +60,79 @@ export const futbolLibreContent = {
     imageAlt: "Drift Hunters Online Game Guide - Free Drifting Controls & Tips"
   },
   
-  faq: {
-    // Title updated
-    title: "Drift Hunters: Your Questions Answered (Free Online Drifting Game FAQ)",
-    items: [
-      {
-        value: "free-to-play",
-        question: "Is Drift Hunters free to play?",
-        answer: "Yes, Drift Hunters is free to play with optional in-app purchases for additional upgrades and customizations. Enjoy drifting without any cost!"
-      },
-      {
-        value: "platforms",
-        question: "Which platforms support Drift Hunters?",
-        answer: "Drift Hunters is available on browsers (PC), iOS, and Android, allowing you to enjoy the game across multiple platforms at your convenience."
-      },
-      {
-        value: "controls",
-        question: "How do you control the car in Drift Hunters?",
-        answer: "Use the arrow keys or WASD to steer, accelerate, and brake your car. Press the spacebar to use the handbrake and initiate exciting drifts for style and points."
-      },
-      {
-        value: "customization",
-        question: "Can I customize my car in Drift Hunters?",
-        answer: "Yes! Drift Hunters offers extensive customization options. You can upgrade your car’s engine, brakes, turbo, paint, and rims to enhance performance and style."
-      },
-      {
-        value: "upgrades",
-        question: "Are upgrades necessary in Drift Hunters?",
-        answer: "Upgrades can improve your car’s performance, but skillful drifting and mastering the tracks remain the key to success in Drift Hunters."
-      },
-      {
-        value: "multiplayer",
-        question: "Does Drift Hunters have multiplayer?",
-        answer: "Drift Hunters is primarily a single-player game, but some versions may offer limited multiplayer features for a more competitive experience."
-      },
-      {
-        value: "mobile",
-        question: "Is there a mobile version of Drift Hunters?",
-        answer: "Yes, Drift Hunters is available on both iOS and Android platforms, letting you enjoy the game on the go with smooth controls and performance."
-      },
-      {
-        value: "scoring",
-        question: "How do I score more points in Drift Hunters?",
-        answer: "To score more points, focus on maintaining long, smooth drifts and combos. The more stylish and continuous your drifts, the higher your score!"
-      }
-    ]
-  },
+
+  
+    "faq": {
+      "title": "Drift Hunters: Ultimate Strategy & Frequently Asked Questions (FAQ)",
+      "items": [
+        {
+          "value": "long-term-strategy-efficiency",
+          "question": "[Long-Term Strategy] How to maximize the score multiplier and car purchase efficiency?",
+          "answer": "**Expert Strategy**: Prioritize investing in **Engine & Turbo Upgrades** first for maximum power output and speed. Immediately follow this by adjusting **Weight Reduction & Brake Balance** to achieve the highest handling limits, ensuring drift fluidity."
+        },
+        {
+          "value": "high-end-car-investment",
+          "question": "[Investment Threshold] At what score should I start investing money into high-performance luxury cars?",
+          "answer": "**Official Guidance**: Once you consistently achieve scores of approximately **8500 points (or higher)**, it signals your control technique is mature. At this point, invest funds into high-performance luxury cars, like the Porsche 911 GT, as they have higher base drift potential and a **higher score multiplier ceiling**."
+        },
+        {
+          "value": "resource-allocation-midgame",
+          "question": "[Resource Allocation] How should resources be split between upgrading existing cars and buying new cars in the mid-game?",
+          "answer": "**Official Tip**: We recommend a split of $\\mathbf{60\\%}$ towards **upgrading your existing primary car** (Street to Pro level) and $\\mathbf{40\\%}$ towards **purchasing new lower-tier models**. This balances performance upgrades for your main car with expanding your vehicle selection for different tracks."
+        },
+        {
+          "value": "track-selection-purpose",
+          "question": "[Track Selection] Which tracks are best for maximizing the score multiplier, and which are best for skill training?",
+          "answer": "**Track Analysis**: **Emashi and Forest Tracks** are best for **maximizing the score multiplier** due to their long, sweeping corners. **Tyshen and Stadium Tracks** feature more complex, tighter bends, making them ideal for **skill training and pushing handling limits**."
+        },
+        {
+          "value": "advanced-drift-techniques",
+          "question": "[Advanced Techniques] What advanced drifting techniques do top players use to maintain the multiplier and accumulate scores quickly?",
+          "answer": "**Elite Techniques**: Top players master **'Inertia Drifting'** (using momentum to glide through long straights) and **'Consecutive Reverse Entry Drifting'** (quickly snapping the car from one direction to the opposite) to ensure the drift action never stops, maximizing multiplier accumulation."
+        },
+        {
+          "value": "throttle-control",
+          "question": "[Throttle Control] How to extend the drift duration through subtle accelerator adjustments?",
+          "answer": "**Precision Control**: **Judicious use of the throttle** is key; do not hold the accelerator down constantly during the drift. By making **micro-adjustments to acceleration** (feathering the gas), you balance the drift angle and speed, preventing a spin-out from overspeeding or a loss of drift from being too slow, thereby extending the drift time."
+        },
+        {
+          "value": "visual-mods-impact",
+          "question": "[Modification Effect] Do visual modifications affect the car's physical performance?",
+          "answer": "**Game Mechanics**: Visual modifications such as paint, rims, etc., **do not affect** the car's physical performance (power, handling, braking). Their only function is to **enhance the driving experience and personalized expression**, allowing you to create a unique drift monster."
+        },
+        {
+          "value": "beginner-common-mistakes",
+          "question": "[Beginner Mistakes] What are the common errors that lead to drift interruption for new players?",
+          "answer": "Common errors include: **Improper drift initiation timing** (turning in too late), **over-steering leading to a spin-out** (excessive counter-steer angle), and **incorrect E-brake usage** (the E-brake should primarily be used for initiation, not held throughout the drift)."
+        },
+        {
+          "value": "brake-vs-e-brake",
+          "question": "[Braking Usage] What are the respective roles of the regular brake and E-brake in drifting?",
+          "answer": "**Control Guide**: The **Regular Brake** is primarily used for **speed adjustment and pre-corner deceleration**. The **E-brake (Handbrake)** is specifically used for **initiating the drift** and **correcting extreme drift angles** mid-drift."
+        },
+        {
+          "value": "side-to-side-training",
+          "question": "[Training Method] How to practice 'Side-to-Side' consecutive drifting to maintain the multiplier?",
+          "answer": "**Training Technique**: Practice on **wide straights or broad S-curves**. The key is **alternating control of the throttle and direction**: As the drift ends, quickly snap the wheel in the opposite direction and tap the E-brake to initiate the next reverse drift. Maintain this rhythmic switching to hold a stable multiplier."
+        },
+        {
+          "value": "technical-lag-solutions",
+          "question": "[Troubleshooting] What is the source of common lag issues, and how to resolve them?",
+          "answer": "**Official Solution**: Lag mainly stems from **high physics calculation load**. It is recommended to **close unnecessary background programs** and **optimize graphics settings** within the game (e.g., lower shadow quality and resolution) to reduce GPU strain."
+        },
+        {
+          "value": "tuning-save-issues",
+          "question": "[Technical Fix] How to handle tuning setup save/load failures?",
+          "answer": "**Official Guidance**: To prevent data loss, **always use the in-game backup tool** and regularly **export your tuning configuration files** to a local drive. If loading fails, try clearing the browser cache and re-importing your backup data."
+        },
+        {
+          "value": "input-sensitivity-fix",
+          "question": "[Control Optimization] How to optimize when the controller or keyboard operations feel unresponsive or imprecise?",
+          "answer": "**Optimization Suggestion**: Adjust the **Control Sensitivity Settings**. It is recommended to use **medium sensitivity** (instead of the highest or lowest) to balance precision during the drift with rapid responsiveness when counter-steering. Ensure your device drivers are up to date."
+        }
+      ]
+    }
+  
 
 };
 

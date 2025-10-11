@@ -1,11 +1,8 @@
-import { Metadata } from 'next';
-import { Header } from "@/components/layout/Header";
-import { GameSection } from "@/components/game-section/GameSection";
-import { OtherGames } from "@/components/other-games/OtherGames";
-import { TrafficJam3DContent } from '@/components/content/TrafficJam3DContent';
-import { Footer } from "@/components/layout/Footer";
-import { getOtherGames } from "@/app/games/game-data";
-import { generateGameSchema } from "@/app/schema";
+// app/blood-money/page.tsx
+import { Metadata } from "next";
+import { siteConfig } from "@/config/site";
+import { GamePageTemplate } from "@/components/templates/GamePageTemplate";
+import { futbolLibreContent } from "./content";
 
 // SEO配置
 export const metadata: Metadata = {
@@ -13,18 +10,18 @@ export const metadata: Metadata = {
   description: "Master Traffic Jam 3D! Get the complete guide for perfect overtakes, the best car upgrade stats (speed, handling, brakes), and pro tips to conquer all 80 Career Mode levels. Click now!",
   alternates: { canonical: 'https://www.duckduckclick.com/traffic-jam-3d' },
   openGraph: {
-    title: "Traffic Jam 3D Ultimate Strategy Guide",
-    description: "Maximize Your Score and Master the Game with Pro Tips and Best Car Upgrades",
+    title: "Ultimate Traffic Jam 3D Guide: Best Upgrades & High Score Tips",
+    description: "Master Traffic Jam 3D! Get the complete guide for perfect overtakes, the best car upgrade stats (speed, handling, brakes), and pro tips to conquer all 80 Career Mode levels. Click now!",
     url: 'https://www.duckduckclick.com/traffic-jam-3d',
     siteName: 'Duck Duck Click',
-    images: [{ url: '/assets/traffic-jam-3d/traffic-jam-3d-logo.png', width: 1200, height: 630, alt: 'Traffic Jam 3D Game Guide' }],
+    images: [{ url: '/assets/traffic-jam-3d/traffic-jam-3d-logo.png', width: 1200, height: 630, alt: 'BLOODMONEY! Game Guide' }],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Traffic Jam 3D Ultimate Strategy Guide",
-    description: "Maximize Your Score and Master the Game with Pro Tips and Best Car Upgrades",
+    title: "Ultimate Traffic Jam 3D Guide: Best Upgrades & High Score Tips",
+    description: "Master Traffic Jam 3D! Get the complete guide for perfect overtakes, the best car upgrade stats (speed, handling, brakes), and pro tips to conquer all 80 Career Mode levels. Click now!",
     images: ['/assets/traffic-jam-3d/traffic-jam-3d-logo.png'],
   },
   robots: {
@@ -40,93 +37,18 @@ export const metadata: Metadata = {
   },
 };
 
-// 游戏配置（保持与 defaultContent 结构一致，允许为空值覆盖）
+// Game Page Configuration
 const gameConfig = {
   metadata: {
-    title: "Traffic Jam 3D Ultimate Guide",
-    description: "Maximize your high score and learn the best car upgrades and strategies to conquer all 80 career levels.",
+    title: "Ultimate Traffic Jam 3D Guide: Best Upgrades & High Score Tips",
+    description: "Master Traffic Jam 3D! Get the complete guide for perfect overtakes, the best car upgrade stats (speed, handling, brakes), and pro tips to conquer all 80 Career Mode levels. Click now!",
     url: "/traffic-jam-3d"
   },
-  content: {
-    header: {
-      title: "Traffic Jam 3D",
-      search: {
-        placeholder: "Find your next favorite game...",
-        ariaLabel: "Search games",
-        buttonAriaLabel: "Search",
-      },
-      navigation: { links: [] },
-    },
-    footer: {
-      about: { title: "", description: "" },
-      quickLinks: { title: "", links: [] },
-      games: { title: "", links: [] },
-      social: { title: "", links: [] },
-      legal: { title: "", links: [] },
-      copyright: { text: "", subText: "" },
-    },
-    rating: {
-      title: "Rate Traffic Jam 3D",
-      votes: "votes",
-      initialRating: 0,
-      initialVotes: 0,
-    },
-    gameSection: {
-      title: "Traffic Jam 3D: Master the Game with High Scores",
-      game: {
-        url: "https://azgames.io/traffic-jam-3d.embed",
-        title: "Traffic Jam 3D: Ultimate Challenge",
-        externalUrl: "/traffic-jam-3d/index.html",
-      },
-    },
-    otherGames: {
-      title: "Other Games",
-      cardLabels: { playButton: "Play Now" },
-    },
-    features: { title: "Features", items: [] },
-    howToPlay: { title: "", description: "", image: "", imageAlt: "" },
-    whatIs: { title: "", description: "", logo: { src: "", alt: "" } },
-    faq: { title: "FAQ", items: [] },
-  },
-} as const;
+  content: futbolLibreContent
+};
 
-export default function TrafficJam3DPage() {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      {/* Header */}
-      <Header />
-      
-      {/* 游戏区域 */}
-      <div className="container mx-auto px-4 py-8">
-        <GameSection content={gameConfig.content} />
-      </div>
-      
-      {/* 其他游戏推荐 */}
-      <div className="container mx-auto px-4 pb-8">
-        <OtherGames games={getOtherGames()} onGameSelect={() => {}} />
-      </div>
 
-      {/* Content from TrafficJam3DContent */}
-      <div className="max-w-6xl mx-auto px-4 pb-8">
-        <TrafficJam3DContent /> {/* Render the TrafficJam3DContent component here */}
-      </div>
 
-      {/* Footer */}
-      <Footer />
-
-      {/* Schema标记 */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            generateGameSchema({
-              title: gameConfig.metadata.title,
-              description: gameConfig.metadata.description,
-              url: gameConfig.metadata.url,
-            })
-          ),
-        }}
-      />
-    </div>
-  );
+export default function FutbolLibrePage() {
+  return <GamePageTemplate gameConfig={gameConfig} />;
 }

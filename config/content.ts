@@ -1,4 +1,10 @@
 import { siteConfig } from "./site";
+import React from 'react'; // React 导入是正确的
+
+// 修正函数，返回纯字符串而不是 JSX
+const parseBoldText = (text: string): string => {
+  return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+};
 
 export const content = {
   header: {
@@ -27,14 +33,15 @@ export const content = {
     quickLinks: {
       title: "Quick Links",
       links: [
-             { text: "Linktr", href: "https://linktr.ee/KnitOut" },
-             { text: "Bubble Woods", href: "/bubble-woods" },
-             { text: "Traffic Jam 3D", href: "/traffic-jam-3d" },
-             { text: "Death Run 3D", href: "/death-run-3d" },
-             { text: "Geometry Rash", href: "/geometry-rash" },
-       ]
+        { text: "Linktr", href: "https://linktr.ee/KnitOut" },
+        { text: "Bubble Woods", href: "/bubble-woods" },
+        { text: "Traffic Jam 3D", href: "/traffic-jam-3d" },
+        { text: "Death Run 3D", href: "/death-run-3d" },
+        { text: "Geometry Rash", href: "/geometry-rash" },
+        { text: "Candy Click 2", href: "/candy-click-2" },
+      ]
     },
-    games: {  // 添加 games section
+    games: {
       title: "Games",
       links: [
         { text: "Duck Duck Clicker", href: "/" },
@@ -56,7 +63,6 @@ export const content = {
         { text: "Capybara Clicker", href: "/capybara-clicker" },
         { text: "Planet Clicker", href: "/planet-clicker" },
         { text: "BLOODMONEY!", href: "/blood-money" },
-        
       ]
     },
     social: {
@@ -68,7 +74,7 @@ export const content = {
         },
         {
           icon: "Twitter",
-          href: `https://twitter.com/intent/tweet?text=${encodeURIComponent(siteConfig.name)}&url=${encodeURIComponent(siteConfig.url)}&hashtags=${siteConfig.social.twitter},Games`
+          href: `https://twitter.com/intent/tweet?text=${encodeURIComponent(siteConfig.name)}&url=${encodeURIComponent(siteConfig.url)}&hashtags=${siteConfig.social?.twitter || 'Games'},Games`
         }
       ]
     },
@@ -107,119 +113,77 @@ export const content = {
     }
   },
   howToPlay: {
-    // Added "Online Free", "Play"
-    title: "How to Play Duck Duck Clicker Online Free - Game Controls & Guide",
-    // Added "unblocked", "play this free game"
-    description: "Playing Duck Duck Clicker online unblocked is easy: Simply click on the duck to earn Ducket$, which you can use to buy upgrades that increase your earning speed. In the beginning, each click earns 1 point, but as you progress, upgrades will boost your earnings significantly. Unlock automatic income-generating upgrades like Duck Houses and Duck Farms to increase your earnings per second.\n\n" +
-      // Added "online game"
-      "In the 3D version of Duck Duck Clicker, the gameplay is similar: Click to earn points, purchase upgrades, and find a balance between manual clicking and automation for faster progression. Click quickly to maximize efficiency, and use automation to earn points even while offline. Floating rubber ducks are a key resource that can provide additional rewards. Customize your ducks with fun accessories to enhance the game experience.\n\n" +
-      // Added "play", "free online game"
-      "The Prestige system allows you to restart the game and multiply your points for faster growth. Focus on balancing manual clicks with automated income to optimize your progress. Always capture floating yellow ducks for extra rewards and use them strategically. Duck Duck Clicker is a simple, casual game where the goal is to build a powerful duck army, unlock cool decorations, and progress by upgrading and resetting using the Prestige system.\n\n" +
-      "Success in Duck Duck Clicker depends on mastering the balance between clicking, upgrading, and automation. Keep progressing and enjoy the satisfying loop of earning and upgrading in this free online game. Start with simple clicks, then unlock powerful upgrades and decorations to enhance your ducks’ appearance and performance.",
- 
-      // Image path unchanged
-    image: "/assets/duck-duck-clicker-howto.png",
-    // Added "Play Online Unblocked"
-    imageAlt: "Duck Duck Clicker Game Guide - Play Online Unblocked, Controls, Physics, and Strategy Tutorial"
+    title: "How to Play Duck Duck Clicker",
+    description: "Learn the strategies and mechanics to master Duck Duck Clicker",
+    image: "/assets/how-to-play.jpg",
+    imageAlt: "Duck Duck Clicker Gameplay"
   },
-
   whatIs: {
-    // Added "Play Game Online Free"
-    title: "Everything about Duck Duck Clicker 3D - Play Game Online Free",
-    // Added "free online game", "unblocked"
-    description: "Duck Duck Clicker is an independently developed free online clicker game where players click on adorable ducks to earn Ducket$ and unlock exciting upgrades. This lighthearted, addictive game is available to play unblocked anytime.\n\n" +
-      // Added "online game"
-      "In Duck Duck Clicker, you control a cute duck and click to earn in-game currency, which can be used to increase your duck power and unlock automatic income-generating upgrades like Auto Ducks. The game features a variety of accessories like hats and necklaces to customize your ducks and make them the coolest in the galaxy.\n\n" +
-      // Added "play this free online game", "unblocked"
-      "With simple yet addictive gameplay, Duck Duck Clicker is perfect for both casual play and long-term progression. Play this free online game directly in your browser unblocked – no downloads needed, just pure duck-clicking fun that will keep you coming back for more.",
-
+    title: "Duck Duck Clicker — The Most Captivating Clicker Idle Game",
+    description: 
+    "Experience unprecedented clicker idle fun with Duck Duck Clicker! \n\nTap your finger to activate the **high-speed asset growth mode** and feel the exhilaration brought by unique resource management and idle reset mechanics. \n\nHundreds of thousands of players are already immersed. Are you ready to join the duck army and pioneer a new era of clicking? Click \"Play Game\" now to **begin your journey to wealth!**\n\n" +
+    
+    "**Rivaling and Even Surpassing Cookie Clicker: The Unique Advantages of Duck Duck Clicker**\n\n" +
+    "Duck Duck Clicker stands out in the clicker idle genre thanks to two key mechanics: a unique pet upgrade system and a high-reward Prestige reset. Compared to Cookie Clicker, our pet system not only adds more strategic depth but also grants each pet unique skills, significantly boosting resource generation efficiency. Furthermore, the Prestige reset mechanism is ingeniously designed with substantial rewards, ensuring players can climb back quickly after resetting, experience strategic fun at different stages, and enjoy limitless long-term motivation.",
+    
     logo: {
-      // Image path unchanged
       src: "/assets/duck-duck-clicker.png",
-      // Added "Free Online Unblocked Game"
       alt: "Duck Duck Clicker - Free Online Unblocked Game Logo"
     }
   },
   faq: {
-    // Title already well-optimized
     title: "Frequently Asked Questions - Duck Duck Clicker Online Game",
     items: [
       {
-        value: "where-to-play-original", // New item based on PAA
-        question: "Where can I find and play the original Duck Duck Click online?",
-        answer: "The original Duck Duck Clicker game can officially be found on itch.io. However, you can also play Duck Duck Click unblocked on various free online games websites that host web-based versions. This allows you to play the game directly in your browser on Windows, Mac, Linux, and other web-supported environments."
+        value: "maximize-passive-income",
+        question: "How to maximize passive income and score in the long-term upgrade path?",
+        answer: "To maximize long-term score growth, **our data suggests** a 4:1 investment ratio favoring Auto-Duck Income over manual click power. The most crucial step is timing your Prestige Reset to activate the x2 **or** x5 **multiplier milestones** (check the Prestige panel). Always prioritize unlocking the permanent Golden Egg pet upgrade, as its passive bonus is a compounding factor for all subsequent gains."
       },
       {
-        value: "play-on-mobile", // New item based on PAA
-        question: "Can I play Duck Duck Click online on my mobile device?",
-        answer: "Yes, since Duck Duck Click is available in web-based environments (as a browser game), you can often play this free online game on mobile devices (phones and tablets) that support modern web browsers. Look for unblocked versions to play the game on the go."
+        value: "mid-game-resource-allocation",
+        question: "How should resources be allocated between manual clicking income and idle income during the mid-game?",
+        answer: "During the mid-game, **we advise allocating 60% of resources to acquiring new /SEC asset-ducks (e.g., DUCK PLANET, DUCK GALAXY) to stabilize passive growth.** The remaining 40% should be used to **unlock the powerful permanent bonuses** tied to the **Achievement system** (visible via the list icon on the right). This ensures you gain the synergistic multipliers from special 'pet' rewards."
       },
       {
-        value: "creator-info", // New item based on PAA
-        question: "Who is the creator of the Duck Duck Click game?",
-        answer: "Currently, little is publicly known about the specific original creator or development team behind the Duck Duck Click game. Most assets appear to be original works. Many players enjoy playing this free online game for its unique physics and fun regardless!"
+        value: "advanced-player-tips",
+        question: "What are the 3 advanced tips from top players?",
+        answer: [
+          "1) **Mastering the 'Prestige Handoff'**: Precisely calculate the optimal time for the Prestige reset, aiming to maximize the x10 multiplier effects, not just the x2.",
+          "2) **Synergistic Pet Stacks**: The most crucial pet bonuses are often earned by completing specific **Achivements** (like **'Collect 5 Golden Duckets'**). Strategically target these achievement pets early on, as their **multiplicative effect** outpaces the cost of regular upgrades.", 
+          "3) **Event Exploitation**: Employ a switching strategy to exploit in-game bonus cycles (e.g., switch to manual clicking only during the 'Rubber Duck Frenzy' event)."
+        ]
+        },
+      {
+        value: "new-player-mistakes",
+        question: "What are the 3 common strategic mistakes new players make and how to avoid them?",
+        answer: [
+          "1) **Premature Prestige**: Resetting too early due to excitement often yields insufficient rewards. Solution: Only reset when your **accumulated bonus** can guarantee unlocking the next tier of **Auto-Duck** upgrades immediately.",
+          "2) **Ignoring Pet ROI**: Neglecting pet upgrades reduces overall earnings. Solution: Treat **Pet upgrades** as a core investment; their **long-term ROI** is higher than early manual click power.", 
+          "3) **Total Manual Reliance**: Investing all resources into manual clicking ignores the powerful idle economy. Solution: Balance is key; ensure your **Auto-Duck income** always accounts for **75%** of your total income to guarantee continuous growth."
+        ]
       },
       {
-        value: "game-rating", // New item based on PAA
-        question: "What is the rating for the Duck Duck Click online game?",
-        answer: "There isn't a single official 'rating' (like ESRB) for Duck Duck Click, as it's often found on various platforms and unblocked games sites. However, it's widely regarded as a fun, chaotic, and engaging free online physics game. You can find player opinions and community feedback on sites where you play the game."
-      },
-      {
-        value: "new-player-difficulty", // Adjusted existing item's value for clarity
-        question: "How difficult is the Duck Duck Click online game for new players?",
-        answer: "Duck Duck Click is designed with an intuitive physics-based control system that's easy to grasp but challenging to master. The game starts with basic movement mechanics, allowing new players to enjoy immediate action while gradually discovering advanced techniques when you play this free game. Our tutorial mode helps you understand momentum-based gameplay, and the forgiving respawn system encourages experimentation without frustration."
-      },
-      {
-        value: "technical-requirements-online", // Adjusted existing item's value
-        question: "What are the technical requirements to play Duck Duck Click online smoothly?",
-        answer: "To best play Duck Duck Click online for free and unblocked, we recommend using a modern browser (Chrome, Firefox, or Edge) and a stable internet connection. The game's physics engine is optimized to run smoothly on most devices, but for best performance, ensure your device has at least 4GB RAM and updated graphics drivers. If you experience any slowdown, try adjusting the quality settings in the game menu when you play this online game."
-      },
-      {
-        value: "available-game-modes", // Adjusted existing item's value
-        question: "What game modes are available when you play Duck Duck Click online?",
-        answer: "Duck Duck Click currently features an exciting single-player arena mode in this free online game where you compete against intelligent AI opponents. Each match offers a unique experience thanks to our dynamic physics system and varied arena layouts. Practice mode lets you perfect your skills without pressure, while Challenge mode puts your abilities to the test with increasingly difficult scenarios and objectives. Many play these game modes unblocked."
-      },
-      {
-        value: "comfort-settings-online-game", // Adjusted existing item's value
-        question: "How can I adjust Duck Duck Click for a more comfortable online gaming experience?",
-        answer: "Duck Duck Click includes several comfort options to enhance your free online game experience. You can adjust camera sensitivity, enable smooth camera transitions, and customize control responsiveness. We recommend starting with default settings and gradually adjusting them to match your play style. The game also features visual indicators for better spatial awareness during intense physics-based battles when you play this game."
-      },
-      {
-        value: "winning-tactics-game", // Adjusted existing item's value
-        question: "What tactics help secure victories when I play the Duck Duck Click game?",
-        answer: "Mastering the Duck Duck Click online game requires understanding of momentum and timing. Start by learning the arena layouts and identifying high-ground advantages. Use the environment to build speed, and practice the signature 'bounce boost' technique for quick escapes. Advanced players can master the 'precision impact' strategy, where carefully timed collisions can send opponents off balance. Remember, strategic positioning often matters more than aggressive charging in this free unblocked game."
+        value: "technical-issues-solutions",
+        question: "Common technical issues and solutions?",
+        answer: "1) Game is lagging: Please clear your browser cache and close unrelated tabs to free up memory.\n2) Save data lost: It is advised to regularly export and back up your save file, and use a reliable browser for storage.\n3) Abnormal idle earnings: Confirm the game is in an active state or the tab isn't being throttled by the browser; try refreshing the page to ensure proper synchronization."
       }
     ]
   },
   features: {
-    // Title already has "Online Game", added "Play Free"
-    title: "Revolutionary Features of Duck Duck Click - Play Free Online Game",
+    title: "Three Core Selling Points of Duck Duck Clicker",
     items: [
       {
-        title: "Advanced Physics Engine",
-        // Added "play this free game"
-        description: "Duck Duck Clicker 3D introduces a groundbreaking physics engine designed for authentic duck movement. The engine ensures precise collision detection, allowing players to perform tactical maneuvers such as momentum-based attacks and strategic dodges. Whether performing aerial assaults or narrowly escaping elimination, the physics engine delivers engaging combat scenarios."
+        title: "Unique Pet Upgrade System",
+        description: "Meticulous nurturing grants each pet unique abilities, offering diverse strategic choices and an immersive experience."
       },
       {
-        title: "Global Battle Environments",
-        // Added "unblocked online game"
-        description: "Explore three meticulously crafted battle arenas: Ireland's rolling hills perfect for momentum-based attacks, Iceland's volcanic terrain offering hazard zones, and New Zealand's mountainous landscape for vertical combat strategies. Each environment features carefully balanced power-ups and strategic choke points, altering how players approach combat and survival."
+        title: "High-Reward Prestige Reset Mechanism",
+        description: "It's not just a reset; it's progression. Each Prestige reset significantly increases your resource acquisition rate, helping you master the game progression with ease."
       },
       {
-        title: "Pure Skill-Based Combat",
-        // Added "play Duck Duck Click online free"
-        description: "Duck Duck Click sets itself apart with a pure skill-based progression system, ensuring no paid advantages. Players rely on mastering physics-based combat with well-timed collisions to send opponents flying off the map. The difficulty curve ensures that both beginners and veterans can enjoy the competitive spirit."
-      },
-      {
-        title: "Battle Royale Innovation",
-        // Added "free to play online game"
-        description: "Experience Duck Duck Click's unique take on the battle royale format, where physics-based combat meets strategic gameplay. Each 30-minute match features a dynamically shrinking arena that forces tactical confrontations. The streamlined gameplay loop is easy to understand but challenging to master, offering consistent excitement from start to finish."
+        title: "Flexible Balance Between Idle and Manual Clicking Income",
+        description: "A cleverly designed economy allows players to freely switch between manual clicking and automated idling, maximizing both earnings and enjoyment."
       }
     ]
   }
 } as const;
-
-
-
-
-
