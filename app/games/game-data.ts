@@ -172,6 +172,13 @@ export const games: Record<string, Game> = {
   "image": "/assets/candy-clicker-2/candy-clicker-2-logo.jpeg",
   "url": "/candy-clicker-2"
   },
+  "bubble-woods": {
+  "id": "bubble-woods",
+  "title": "Bubble Woods",
+  "description": "Bubble Woods Strategy Guide: Maximize your high score in the 60-second challenge. Master bouncing shots and use boosts to clear big clusters fast!",
+  "image": "/assets/bubble-woods/bubble-woods-logo.jpg",
+  "url": "/bubble-woods"
+  },
 };
 
 // 获取其他游戏列表
