@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Princess Run 3D | Free Endless Running Game",
+    title1: "Princess Run 3D",
     description: "Play Princess Run 3D - a fun, fast-paced endless running game with a stylish princess theme. Collect outfits, dodge obstacles, and enjoy the adventure in your browser. No downloads required.",
     url: "/princess-run-3d"
   },
-  content: basketballBrosUnblockedContent
+  content: basketballBrosUnblockedContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.jop.princessrun3dgp",
+    appleStoreUrl: "https://apps.apple.com/jp/app/princess-run-3d/id1621255733",
+  }
 };
 
 

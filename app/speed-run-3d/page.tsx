@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Speed Run 3D",
+    title1: "Speed Run 3D",
     description: "Play Speed Run 3D - a free, fast-paced parkour action game right in your browser. No downloads required.",
     url: "/speed-run-3d"
   },
-  content: cheeseChompersContent
+  content: cheeseChompersContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.gamehox.speedrun",
+    appleStoreUrl: "",
+  }
 };
 
 export default function CheeseChompers3DPage() {

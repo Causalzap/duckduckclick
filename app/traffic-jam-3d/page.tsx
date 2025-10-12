@@ -41,10 +41,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Ultimate Traffic Jam 3D Guide: Best Upgrades & High Score Tips",
+    title1: "Traffic Jam 3D",
     description: "Master Traffic Jam 3D! Get the complete guide for perfect overtakes, the best car upgrade stats (speed, handling, brakes), and pro tips to conquer all 80 Career Mode levels. Click now!",
     url: "/traffic-jam-3d"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 

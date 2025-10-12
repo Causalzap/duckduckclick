@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Extreme Run 3D",
+    title1:"Extreme Run 3D",
     description: "Play Extreme Run 3D – an intense parkour game that challenges your reflexes as you control a rolling ball through neon tracks. No downloads required.",
     url: "/extreme-run-3d"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.extreme.run",
+    appleStoreUrl: "",
+  }
 };
 
 

@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Rolling Ball 3D",
+    title1: "Rolling Ball 3D",
     description: "Play Rolling Ball 3D – a fun and challenging 3D endless runner ball game. Steer the ball, dodge obstacles, and collect diamonds to unlock new balls and power-ups. Free to play, no downloads required.",
     url: "/rolling-ball-3d"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.addpgames.rollingball3d",
+    appleStoreUrl: "https://apps.apple.com/us/app/rolling-ball-3d/id1531556502",
+  }
 };
 
 export default function FutbolLibrePage() {

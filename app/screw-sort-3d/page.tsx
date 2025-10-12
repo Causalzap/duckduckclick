@@ -34,11 +34,16 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Screw Sort 3D: Screw Puzzle - Play Free Online Puzzle Game",
+    title1: "Screw Sort 3D: Screw Puzzle",
     description: "Play Screw Sort 3D: Screw Puzzle, a challenging and relaxing 3D puzzle game. Unscrew and organize colorful screws to complete levels. Enjoy this free game in your browser with no downloads required.",
     url: "/screw-sort-3d"
 }
 ,
-  content: sprunkiIncrediboxContent
+  content: sprunkiIncrediboxContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=screw.sort.match.jam.puzzle",
+    appleStoreUrl: "https://apps.apple.com/jp/app/screw-sort-3d-pin-puzzle-game/id6633425539?l=en-US",
+  }
 };
 
 export default function SprunkiIncrediboxPage() {

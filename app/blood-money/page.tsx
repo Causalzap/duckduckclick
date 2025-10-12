@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
     url: 'https://www.duckduckclick.com/blood-money',
     siteName: 'Duck Duck Click',
-    images: [{ url: '/images/blood-money-og.jpg', width: 1200, height: 630, alt: 'BLOODMONEY! Game Guide' }],
+    images: [{ url: '/assets/blood-money/blood-money-logo.jpeg', width: 1200, height: 630, alt: 'BLOODMONEY! Game Guide' }],
     locale: 'en_US',
     type: 'website',
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "BLOODMONEY! Ultimate Guide",
     description: "Unlock All Endings, Maximize Upgrades, and Navigate Moral Choices",
-    images: ['/images/blood-money-twitter.jpg'],
+    images: ['/assets/blood-money/blood-money-logo.jpeg'],
   },
   robots: {
     index: true,
@@ -41,10 +41,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "BLOODMONEY! Ultimate Guide: Unlock All Endings, Maximize Upgrades",
+    title1:"BLOODMONEY!",
     description: "Complete guide to unlock all three endings, maximize ROI with strategic upgrades, and navigate moral choices in BLOODMONEY! dark clicker game",
     url: "/blood-money"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 export default function FutbolLibrePage() {

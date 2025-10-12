@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Capybara Clicker",
+    title1:"Capybara Clicker",
     description: "Play Capybara Clicker – an idle clicker game where you generate capybaras, upgrade your click power, and unlock skins. Enjoy fun and relaxing gameplay. No downloads required.",
     url: "/capybara-clicker"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.CrazyGames.CapybaraClicker",
+    appleStoreUrl: "",
+  }
 };
 
 

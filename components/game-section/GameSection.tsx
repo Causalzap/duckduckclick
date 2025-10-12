@@ -187,9 +187,9 @@ function GameOverlay({
       
       {/* 游戏标题和描述 */}
       <div className="mb-8">
-        <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
           {title}
-        </h2>
+        </h1>
         <p className="text-lg md:text-xl text-black/90 max-w-2xl leading-relaxed">
           {description}
         </p>

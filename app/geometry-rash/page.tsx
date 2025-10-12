@@ -48,10 +48,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Mastering Geometry Rash: Core Mechanics, High Score Secrets, and Guide",
+    title1: "Geometry Rash",
     description: "Struggling with Geometry Rash? Get the ultimate guide to overcoming spikes, blades, and high speed. Find out how to get free access and improve your reflexes.",
     url: "/geometry-rash"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 export default function FutbolLibrePage() {

@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Planet Clicker",
+    title1: "Planet Clicker",
     description: "Play Planet Clicker – an idle clicker game where you generate energy, unlock planets, and use upgrades to automate your energy production. Enjoy fun and relaxing gameplay with no downloads required.",
     url: "/planet-clicker"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.petrica.PlanetClicker",
+    appleStoreUrl: "https://apps.apple.com/jp/app/planet-clicker/id1635239939",
+  }
 };
 
 export default function FutbolLibrePage() {

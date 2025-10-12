@@ -50,11 +50,20 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Death Run 3D Ultimate High Score Strategy & Obstacle Mastery Guide",
+    title1:"Death Run 3D",
     description:
     "Master Death Run 3D! Learn advanced scoring strategies, multiplier combos, obstacle survival tactics, and tips to dominate the global leaderboard. Click now!",
-    url: "/death-run-3d"
+    url: "/death-run-3d",
+    downloadUrl: {
+      googlePlayUrl: "https://play.google.com/store/apps/details?id=com.kevin.deathrun3d",
+      appleStoreUrl: "https://apps.apple.com/jp/app/death-run-3d/id1422633546",
+    }
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 export default function FutbolLibrePage() {

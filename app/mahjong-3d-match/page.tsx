@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Mahjong 3D Match",
+    title1:"Mahjong 3D Match",
     description: "Play Mahjong 3D Match – a relaxing 3D puzzle game. Match tiles and solve puzzles. No downloads required.",
     url: "/mahjong-3d-match"
   },
-  content: crazyChickenContent
+  content: crazyChickenContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=and.lihuhu.mahjong3d",
+    appleStoreUrl: "https://apps.apple.com/jp/app/mahjong-3d-triple-match-tile/id1663738542",
+  }
 };
 
 

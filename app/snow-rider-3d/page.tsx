@@ -3,6 +3,7 @@ import { siteConfig } from "@/config/site";
 import { GamePageTemplate } from "@/components/templates/GamePageTemplate";
 import { snowRiderContent } from "./content";  // 引入Snow Rider 3D的内容
 
+
 export const metadata: Metadata = {
   title: `Snow Rider 3D | Play Unblocked Free Game`,
   description: "Play Snow Rider 3D online for free! Control a wild cow in this fun, chaotic 3D action game. No download required, just play in your browser!",
@@ -34,10 +35,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Snow Rider 3D",
+    title1: "Snow Rider 3D",
     description: "Play Snow Rider 3D - a free physics-based battle game right in your browser. No downloads required.",
     url: "/snow-rider-3d"
   },
-  content: snowRiderContent
+  content: snowRiderContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.games.snowrider3d&hl=en_US",
+    appleStoreUrl: "https://apps.apple.com/us/app/snow-rider-3d/id6472928555",
+  }
 };
 
 export default function SnowRider3DPage() {

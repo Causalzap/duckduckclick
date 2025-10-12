@@ -12,15 +12,23 @@ import { OtherGames } from "@/components/other-games/OtherGames";
 import { Footer } from "@/components/layout/Footer";
 import { getOtherGames } from "@/app/games/game-data";
 import { generateGameSchema } from "@/app/schema";
+import  DownloadSection from "@/components/download/DownloadSection"; // 假设你有一个下载组件
+
+
 
 interface GamePageTemplateProps {
   gameConfig: {
     metadata: {
       title: string;
+      title1: string;
       description: string;
       url: string;
     };
     content: any;
+    downloadUrl: {
+      googlePlayUrl: string;
+      appleStoreUrl: string;
+    };
   };
 }
 
@@ -59,6 +67,13 @@ export function GamePageTemplate({ gameConfig }: GamePageTemplateProps) {
             <FAQ content={gameConfig.content} />
           </>
         )}
+        
+        {/* 下载链接 */}
+        <DownloadSection
+          appName={gameConfig.metadata.title1}
+          googlePlayUrl={gameConfig.downloadUrl.googlePlayUrl}
+          appleStoreUrl={gameConfig.downloadUrl.appleStoreUrl}
+        />
 
         {/* 其他游戏推荐 */}
         <OtherGames

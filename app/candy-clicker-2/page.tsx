@@ -50,11 +50,16 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Ultimate Candy Clicker 2 Strategy Guide: Maximize Clicking Power, Unlock Permanent Buffs, & Boost Your Candy Production",
+    title1:"Candy Clicker 2",
     description: 
     "A complete Candy Clicker 2 guide to maximize your candy production, unlock permanent buffs, and achieve the highest CPS.",
     url: "/candy-clicker-2"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 export default function FutbolLibrePage() {

@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Hexa Sort 3D",
+    title1: "Hexa Sort 3D",
     description: "Play Hexa Sort 3D – a fun color-matching puzzle game where you stack hexagonal blocks in 3D. Use strategy and power-ups to solve challenges. No downloads required.",
     url: "/hexa-sort-3d"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.gamebrain.hexasort",
+    appleStoreUrl: "https://apps.apple.com/jp/app/hexa-sort/id6463127238",
+  }
 };
 
 

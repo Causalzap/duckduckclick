@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Moscow Metro Driver 3D",
+    title1: "Moscow Metro Driver 3D",
     description: "Play Moscow Metro Driver 3D – control a metro train, navigate through tunnels, and manage stations in this free 3D simulator. No downloads required.",
     url: "/moscow-metro-driver-3d"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 

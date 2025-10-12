@@ -35,10 +35,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Stickman Hook",
+    title1: "Stickman Hook",
     description: "Play Stickman Hook - a fun and addictive swinging game right in your browser. No downloads required.",
     url: "/stickman-hook"
   },
-  content: cheeseChompersContent 
+  content: cheeseChompersContent ,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.mindy.grap1",
+    appleStoreUrl: "https://apps.apple.com/us/app/stickman-hook/id1435807944",
+  }
 };
 
 

@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Summer Rider 3D",
+    title1: "Summer Rider 3D",
     description: "Play Summer Rider 3D – a thrilling 3D racing game where you dodge obstacles and race through snowy tracks. No downloads required.",
     url: "/summer-rider-3d"
   },
-  content: brainrotClickerContent
+  content: brainrotClickerContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "",
+  }
 };
 
 export default function BrainrotClickerPage() {

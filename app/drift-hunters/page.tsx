@@ -34,10 +34,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Drift Hunters",
+    title1:"Drift Hunters",
     description: "Play Drift Hunters – a fun and challenging 3D drifting simulation game. Customize your car, master different tracks, and drift your way to the top. No downloads required.",
     url: "/drift-hunters"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.studionum43.drift_hunters_car_tuning",
+    appleStoreUrl: "https://apps.apple.com/jp/app/drift-hunters/id1222331362",
+  }
 };
 
 

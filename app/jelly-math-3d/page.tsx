@@ -34,11 +34,16 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Jelly Math 3D",
+    title1:"Jelly Math 3D",
     description: "Play Jelly Math 3D – a fun and educational math puzzle game that helps improve your arithmetic skills while solving colorful challenges. No downloads required.",
     url: "/jelly-math-3d"
   }
   ,
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "",
+    appleStoreUrl: "https://apps.apple.com/sa/app/jelly-math/id6502281441",
+  }
 };
 
 export default function FutbolLibrePage() {

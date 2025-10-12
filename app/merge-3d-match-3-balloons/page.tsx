@@ -34,10 +34,15 @@ export const metadata: Metadata = {
   const gameConfig = {
     metadata: {
       title: "Merge 3D - Match 3 Balloons",
+      title1:"Merge 3D - Match 3 Balloons",
       description: "Play Merge 3D - Match 3 Balloons online for free! Merge and match balloons in this 3D puzzle game. No downloads required.",
       url: "/merge-3d-match-3-balloons"
     },
-    content: futbolLibreContent
+    content: futbolLibreContent,
+    downloadUrl: {
+      googlePlayUrl: "https://play.google.com/store/apps/details?id=com.funspace.triplerotate",
+      appleStoreUrl: "https://apps.apple.com/us/app/balloon-triple-match-match-3d/id6475767221",
+    }
   };
   
 export default function FutbolLibrePage() {

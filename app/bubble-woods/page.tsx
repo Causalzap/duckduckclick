@@ -41,10 +41,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Bubble Woods Strategy Guide: Maximize Score & Boosts",
+    title1:"Bubble Woods",
     description: "Bubble Woods Strategy Guide: Maximize your high score in the 60-second challenge. Master bouncing shots and use boosts to clear big clusters fast!",
     url: "/bubble-woods"
   },
-  content: futbolLibreContent
+  content: futbolLibreContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.famobi.bubblewoods",
+    appleStoreUrl: "",
+  }
 };
 
 export default function FutbolLibrePage() {

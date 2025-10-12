@@ -33,10 +33,15 @@ export const metadata: Metadata = {
 const gameConfig = {
   metadata: {
     title: "Traffic Cop 3D",
+    title1: "Traffic Cop 3D",
     description: "Experience the thrill of being a traffic cop in this free online 3D police simulator. Enforce laws, chase criminals, and make moral choices in a dynamic city environment.",
     url: "/traffic-cop-3d"
   },
-  content: pokemonGammaEmeraldContent
+  content: pokemonGammaEmeraldContent,
+  downloadUrl: {
+    googlePlayUrl: "https://play.google.com/store/apps/details?id=com.sunsetgames.copcarscan",
+    appleStoreUrl: "https://apps.apple.com/us/app/traffic-cop-3d/id1579072255",
+  }
 };
 
 
