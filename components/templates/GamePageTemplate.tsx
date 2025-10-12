@@ -197,7 +197,7 @@ function generateSoftwareAppSchema(metadata: any, downloadUrl: any, logoUrl?: st
       "@type": "Offer",
       "url": metadata.url,
       "priceCurrency": "USD", 
-      "price": "Free" 
+      "price": "0" 
     }
   };
 }
